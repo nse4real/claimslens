@@ -1,13 +1,11 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1092-494
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-Loss date: 2024-06-16
-Notification date: 2024-06-30
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: EUR 129770.55
+| Field | Value |
+| --- | --- |
+| Date of loss | 16/06/2024 |
+| Claim reference | FCL-GN-1092-494 |
+| Territory or country | Fictional South Territory |
+| Peril or cause | Storm |
+| Loss location | Rook Lane, Example District |
+| Sender name | Casey Clark |
+| Cedent notes | Initial estimate; engineering review is pending. |
+| Paid to date | EUR 129770.55 |

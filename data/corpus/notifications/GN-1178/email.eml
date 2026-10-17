@@ -1,7 +1,7 @@
-From: Blake Bell <blake.bell@example.test>
+From: blake.bell@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sat, 28 Sep 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1178-309
+Subject: Loss notification
 Message-ID: <GN-1178@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,21 +11,17 @@ Dear Claims Team
 
 Please record this fictional loss notification.
 
-Cedent: Example Cedent D Ltd (fictional)
-Treaty reference: FICT-FAC-002
-Loss date: 2024-08-25
-Notification date: 2024-09-28
+Ced.: Example Cedent D Ltd (fictional)
+Treaty ref: FICT-FAC-002
+Date of loss: 2024-08-25
+Date notified: 2024-09-28
 Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss: GBP 4322712.73
-Claim reference: FCL-GN-1178-309
+Est. loss: GBP 4322712.73
 Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
 Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
 Cedent notes: Preliminary advice; reserve review is scheduled.
 
 Attachment: loss_advice.txt
 
 Regards
-Blake Bell
 Claims technician

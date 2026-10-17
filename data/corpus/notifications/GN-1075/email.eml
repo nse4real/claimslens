@@ -1,7 +1,7 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sun, 23 Jun 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1075-891
+Subject: Loss notification
 Message-ID: <GN-1075@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,24 +11,18 @@ Dear Claims Team
 
 I am writing to proivde an initial fictional loss advice.
 
-Ced.: Example Cedent B Ltd (fictional)
-Trty.: FICT-TRT-004
-DOL: 11 Jun 2024
-Notice dt.: 23 Jun 2024
-Desc.: Fictional storm damage to two insured storage buildings.
-Est. loss: EUR 3559562.18
-Claim reference: FCL-GN-1075-891
+From cedent: Example Cedent B Ltd (fictional)
+Trty.: fict-trt-004 (FICT-TRT-004)
+Loss date: June 11, 2024
+Est. loss: EUR 3 559 562.18 (EUR 3559562.18)
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: USD 2135737.31
 
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
 Claims technician
 Claims Coordinator
 Second signature: Morgan Lake

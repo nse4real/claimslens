@@ -1,13 +1,11 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1194-354
-Cedent: Example Cedent Z Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2025-10-11
-Notification date: 2025-10-15
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: GBP 2699332.43
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Flood
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
+| Field | Value |
+| --- | --- |
+| Cedant | Example Cedent Z Ltd (fictional) |
+| Contract reference | FICT-TRT-001 |
+| Date loss occurred | 2025-10-11 |
+| Description of loss | Fictional fire damage to one insured production building. |
+| Est. loss | GBP 2699332.43 |
+| Original insured | Briar Foundry Group (fictional) |
+| Sender name | Devon Dale |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |

@@ -1,13 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1007-646
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-05-10
-Notification date: 2025-05-18
-Loss description: Fictional fire damage to one insured production building.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 2568884.90
+
+Loss details
+From cedent is Example Cedent A Ltd (fictional).
+Contract reference is FICT-TRT-002.
+Date of loss is 2025-05-10.
+Notice dt. is 2025-05-18.
+Description of loss is Fictional fire damage to one insured production building.
+Claim reference is FCL-GN-1007-646.
+Original insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional North Territory.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Blake Bell.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.

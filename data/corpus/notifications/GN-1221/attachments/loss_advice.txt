@@ -1,14 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1221-693
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-007
-Loss date: 2024-11-05
-Notification date: 2024-11-28
-Loss description: Fictional computer-system incident at a named insured office.
+Cedant: Example Cedent C Ltd (fictional)
+DOL: 2024-11-05
+Notice dt.: 2024-11-28
+Desc.: Fictional computer-system incident at a named insured office.
 Estimated loss amount: GBP 2646489.25
+Claim reference: FCL-GN-1221-693
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Flood
 Loss location: Rook Lane, Example District
-Cedent notes: Early notification; supporting documents are being gathered.
-Outstanding reserve: GBP 1587893.55
+Sender name: Casey Clark
+Sender role: Reinsurance adjuster

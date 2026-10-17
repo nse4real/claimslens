@@ -1,7 +1,7 @@
 From: Casey Clark <casey.clark@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Mon, 18 Mar 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1166-651
+Subject: Loss notification
 Message-ID: <GN-1166@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,13 @@ Dear Claims Team
 
 I am writing to provide an initial fictional loss advice.
 
-Cedent: Example Cedent B Ltd (fictional)
-Treaty reference: Primary FICT-TRT-003; secondary FICT-TRT-004
-Loss date: 2024-03-11
+Ceding company: Example Cedent B Ltd (fictional)
+Treaty references: FICT-TRT-003 and FICT-TRT-004
 Notification date: 2024-03-18
-Loss description: Fictional storm damage to two insured storage buildings.
+Nature of loss: Fictional storm damage to two insured storage buildings.
 Estimated loss: USD 3725242.39
-Claim reference: FCL-GN-1166-651
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional South Territory
-Peril or cause: Storm
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Preliminary advice; reserve review is scheduled.
 Outstanding reserve: GBP 2235145.43

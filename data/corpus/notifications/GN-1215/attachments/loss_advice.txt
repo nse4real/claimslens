@@ -1,12 +1,17 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1002-984
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-001
-Loss date: 2024-04-12
-Notification date: 2024-04-23
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Dear Claims Team,
+
+Section: Notification facts
+Contract reference is FICT-FAC-001.
+Loss date is 2024-04-12.
+Advised on is 2024-04-23.
+Desc. is Fictional computer-system incident at a named insured office.
+Original insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Sender name is Alex Avery.
+Sender role is Reinsurance adjuster.
+Cedent notes is Preliminary advice; reserve review is scheduled.
+
+Yours faithfully
+Claims Intake

@@ -1,7 +1,7 @@
 From: Alex Avery <alex.avery@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Sun, 19 May 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1123-128
+Subject: Loss notification
 Message-ID: <GN-1123@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,11 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent D Ltd (fictional)
+From cedent: Example Cedent D Ltd (fictional)
 Treaty reference: FICT-FAC-002
-Loss date: 2024-05-19
-Notification date: 2024-05-19
 Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss: GBP 1156036.10
-Claim reference: FCL-GN-1123-128
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
+Loss estimate: GBP 1156036.10
 Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: EUR 693621.66
 
 Attachment: loss_advice.txt
 

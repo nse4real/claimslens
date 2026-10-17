@@ -1,13 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1131-470
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2024-12-16
-Notification date: 2024-12-25
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Rook Lane, Example District
-Cedent notes: Early notification; supporting documents are being gathered.
-Outstanding reserve: EUR 2183031.32
+
+Dear Claims Team,
+
+Section: Notification facts
+From cedent is Example Cedent A Ltd (fictional).
+Treaty no. is FICT-TRT-005.
+Date loss occurred is 2024-12-16.
+Claim reference is FCL-GN-1131-470.
+Original insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Loss location is Rook Lane, Example District.
+Sender name is Devon Dale.
+Cedent notes is Early notification; supporting documents are being gathered.
+Outstanding reserve is EUR 2183031.32.
+
+Yours faithfully
+Claims Intake

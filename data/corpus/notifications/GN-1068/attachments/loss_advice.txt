@@ -1,13 +1,20 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1068-901
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-09-26
-Notification date: 2025-10-02
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Unauthorised access
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 130958.81
+
+Dear Claims Team,
+
+Section: Notification facts
+Cedant is Example Cedent A Ltd (fictional).
+Loss date is September 26, 2025.
+Notification date is 02/10/2025.
+Loss description is Fictional flood damage to insured stock and equipment.
+Original insured is Aster Orchard Cooperative (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Unauthorised access.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Alex Avery.
+Sender role is Reinsurance adjuster.
+Cedent notes is Initial estimate; engineering review is pending.
+Outstanding reserve is USD 130 958.81 (USD 130958.81).
+
+Yours faithfully
+Claims Intake

@@ -1,13 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1189-119
-Cedent: Example Cedent Z Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-01-08
-Notification date: 2024-02-03
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: GBP 3445989.78
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
+
+Dear Claims Team,
+
+Section: Notification facts
+Cedent is Example Cedent Z Ltd (fictional).
+Trty. is FICT-TRT-003.
+Notification date is 2024-02-03.
+Loss estimate is GBP 3445989.78.
+Territory or country is Fictional South Territory.
+Peril or cause is Fire.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Alex Avery.
+Sender role is Reinsurance adjuster.
+Cedent notes is Early notification; supporting documents are being gathered.
+
+Yours faithfully
+Claims Intake

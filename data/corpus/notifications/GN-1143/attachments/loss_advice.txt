@@ -1,12 +1,10 @@
 Loss Advice (fictional)
+Date of loss: 2024-06-04
+Notice dt.: 2024-06-27
 Claim reference: FCL-GN-1143-360
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-06-04
-Notification date: 2024-06-27
-Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Unauthorised access
 Loss location: Sable Quay, Example Region
+Sender role: Claims technician
 Cedent notes: Early notification; supporting documents are being gathered.
 Outstanding reserve: GBP 1239758.54

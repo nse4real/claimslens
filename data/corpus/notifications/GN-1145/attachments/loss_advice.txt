@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1145-921
-Cedent: Example Cedent A Ltd (fictional)
-Loss date: 2025-08-16
-Notification date: 2025-08-18
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: GBP 619471.34
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: GBP 371682.80
+| Field | Value |
+| --- | --- |
+| Date notified | 2025-08-18 |
+| Nature of loss | Fictional fire damage to one insured production building. |
+| Est. loss | GBP 619471.34 |
+| Claim reference | FCL-GN-1145-921 |
+| Original insured | Dovetail Storage Mutual (fictional) |
+| Territory or country | Fictional North Territory |
+| Peril or cause | Unauthorised access |
+| Loss location | Sable Quay, Example Region |
+| Sender name | Blake Bell |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |
+| Outstanding reserve | GBP 371682.80 |

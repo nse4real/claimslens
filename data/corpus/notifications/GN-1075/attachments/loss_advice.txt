@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1075-891
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-06-11
-Notification date: 2024-06-23
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: USD 2135737.31
+
+Loss details
+Trty. is FICT-TRT-004.
+Date notified is 2024-06-23.
+Loss description is Fictional storm damage to two insured storage buildings.
+Claim reference is FCL-GN-1075-891.
+Original insured is Briar Foundry Group (fictional).
+Peril or cause is Fire.
+Loss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Claims technician.
+Cedent notes is Preliminary advice; reserve review is scheduled.
+Outstanding reserve is USD 2.14m (USD 2135737.31).

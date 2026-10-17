@@ -1,14 +1,12 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1155-454
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Secondary treaty reference: FICT-TRT-002
-Loss date: 2025-02-08
-Notification date: 2025-02-17
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: GBP 2261117.01
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
+
+Loss details
+Cedent is Example Cedent A Ltd (fictional).
+Treaty no. is FICT-TRT-001; FICT-TRT-002.
+Date notified is 2025-02-17.
+Desc. is Fictional computer-system incident at a named insured office.
+Estimated loss amount is GBP 2261117.01.
+Territory or country is Fictional North Territory.
+Peril or cause is Flood.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.

@@ -1,13 +1,10 @@
 Loss Advice (fictional)
+Ceding company: Example Cedent B Ltd (fictional)
 Claim reference: FCL-GN-1088-610
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-006
-Loss date: 2024-11-19
-Notification date: 2024-11-25
-Loss description: Fictional computer-system incident at a named insured office.
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Unauthorised access
-Loss location: Kestrel Wharf, Example Province
+Sender name: Casey Clark
+Sender role: Reinsurance adjuster
 Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 183393.89
+Paid to date: USD 183,393.89 (USD 183393.89)

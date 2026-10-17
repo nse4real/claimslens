@@ -1,13 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1065-739
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-09-02
-Notification date: 2024-09-13
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: GBP 476408.34
+| Field | Value |
+| --- | --- |
+| Ced. | Example Cedent B Ltd (fictional) |
+| Treaty ref | FICT-TRT-003 |
+| Description of loss | Fictional storm damage to two insured storage buildings. |
+| Claim reference | FCL-GN-1065-739 |
+| Territory or country | Fictional North Territory |
+| Peril or cause | Storm |
+| Loss location | Kestrel Wharf, Example Province |
+| Sender name | Blake Bell |
+| Sender role | Reinsurance adjuster |
+| Paid to date | GBP 476,408.34 (GBP 476408.34) |

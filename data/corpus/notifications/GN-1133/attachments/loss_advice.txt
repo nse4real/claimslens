@@ -1,12 +1,10 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1133-701
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: USD 4795893.36
+Ceding company: Example Cedent A Ltd (fictional)
+Trty.: FICT-TRT-002
+Description of loss: Fictional fire damage to one insured production building.
+Estimated loss: USD 4795893.36
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional North Territory
-Peril or cause: Storm
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Initial estimate; engineering review is pending.
 Outstanding reserve: USD 2877536.02

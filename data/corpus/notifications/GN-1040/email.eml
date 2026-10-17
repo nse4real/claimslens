@@ -1,4 +1,4 @@
-From: Casey Clark <casey.clark@example.test>
+From: casey.clark@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Mon, 03 Jun 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1040-799
@@ -11,12 +11,9 @@ Dear Claims Team
 
 Please record this fictional loss notification.
 
-Cedent: Example Cedent C Ltd (fictional)
-Treaty reference: FICT-TRT-008
-Loss date: 2024-05-14
-Notification date: 2024-06-03
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: GBP 3992240.69
+From cedent: Example Cedent C Ltd (fictional)
+DOL: 2024-05-14
+Notice dt.: 2024-06-03
 Claim reference: FCL-GN-1040-799
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional South Territory
@@ -29,5 +26,3 @@ Outstanding reserve: GBP 2395344.41
 Attachment: loss_advice.txt
 
 Regards
-Casey Clark
-Claims technician

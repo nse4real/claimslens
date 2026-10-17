@@ -1,14 +1,13 @@
 Loss Advice (fictional)
+Treaty reference: FICT-TRT-002
+Date loss occurred: 03/06/2024
+Date notified: June 3, 2024
+Desc.: Fictional computer-system incident at a named insured office.
+Est. loss: USD 2653865.69
 Claim reference: FCL-GN-1099-460
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2024-06-03
-Notification date: 2024-06-03
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: USD 2653865.69
 Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
 Peril or cause: Fire
-Loss location: Sable Quay, Example Region
+Sender name: Blake Bell
+Sender role: Claims analyst
 Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 1592319.41
+Outstanding reserve: USD 1.59m (USD 1592319.41)

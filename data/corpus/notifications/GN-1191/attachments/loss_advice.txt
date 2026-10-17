@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1191-246
-Cedent: Example Cedent Z Ltd (fictional)
-Primary treaty reference: FICT-TRT-008
-Loss date: 2024-03-20
-Notification date: 2024-05-09
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: GBP 648183.76
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Flood
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
+
+Loss details
+Ceding company is Example Cedent Z Ltd (fictional).
+Treaty reference is FICT-TRT-008.
+Date notified is 2024-05-09.
+Desc. is Fictional computer-system incident at a named insured office.
+Estimated loss amount is GBP 648183.76.
+Original insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional South Territory.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Blake Bell.
+Sender role is Claims analyst.
+Cedent notes is Initial estimate; engineering review is pending.

@@ -1,13 +1,11 @@
 Loss Advice (fictional)
+From cedent: Example Cedent D Ltd (fictional)
+Contract reference: FICT-FAC-002
+Date loss occurred: July 9, 2024
 Claim reference: FCL-GN-1067-598
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-Loss date: 2024-07-09
-Notification date: 2024-07-20
-Loss description: Fictional fire damage to one insured production building.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
 Peril or cause: Storm
 Loss location: Rook Lane, Example District
+Sender name: Alex Avery
+Sender role: Reinsurance adjuster
 Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: EUR 1558746.00
+Outstanding reserve: EUR 1.56m (EUR 1558746.00)

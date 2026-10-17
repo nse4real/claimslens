@@ -1,16 +1,14 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1110-976
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-008
-L0ss date: 2024-08-31
-N0tification date: 2024-09-28
-L0ss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: GBP 270092.26
-0riginal insured: Cedar Ferry Consortium (fictional)
-Territory or
-country: Fictional South Territory
-Peril or cause: Fire
-L0ss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 27009.23
-Outstanding reserve: GBP 162055.36
+
+L0ss details
+L0ss date is 31 Aug 2024.
+N0tification date is September 28, 2024.
+Desc. is Fictional storm damage to two insured storage buildings.
+Estimated loss amount is GBP 270092.26.
+0riginal insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Fire.
+L0ss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Reinsurance adjuster.
+Cedent notes is Preliminary advice; reserve review is scheduled.

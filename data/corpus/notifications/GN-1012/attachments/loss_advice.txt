@@ -1,15 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1012-692
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2025-11-13
-Notification date: 2025-11-21
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: EUR 3798880.40
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: EUR 379888.04
-Outstanding reserve: EUR 2279328.24
+
+Dear Claims Team,
+
+Section: Notification facts
+Treaty no. is FICT-TRT-005.
+Loss date is 2025-11-13.
+Date notified is 2025-11-21.
+Loss estimate is EUR 3798880.40.
+Territory or country is Fictional North Territory.
+Loss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Claims analyst.
+Paid to date is EUR 379888.04.
+Outstanding reserve is EUR 2279328.24.
+
+Yours faithfully
+Claims Intake

@@ -1,4 +1,4 @@
-From: Devon Dale <devon.dale@example.test>
+From: devon.dale@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Fri, 21 Feb 2025 09:00:00 +0000
 Subject: Loss notification FCL-GN-1076-740
@@ -11,24 +11,19 @@ Dear Claims Team
 
 Please record this fictional loss notifcation.
 
-Ced.: Example Cedent A Ltd (fictional)
-Trty.: FICT-TRT-005
-DOL: 2025/02/11
-Notice dt.: 2025/02/21
-Desc.: Fictional storm damage to two insured storage buildings.
-Est. loss: EUR 177168.88
+Cedent: Example Cedent A Ltd (fictional)
+Date loss occurred: February 11, 2025
+Notification date: February 21, 2025
+Est. loss: EUR 177,168.88 (EUR 177168.88)
 Claim reference: FCL-GN-1076-740
 Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: EUR 17716.89
+Paid to date: EUR 17,716.89 (EUR 17716.89)
 
 Attachment: loss_advice.txt
 
 Regards
-Devon Dale
-Reinsurance adjuster
 Claims Coordinator
 Second signature: Morgan Lake

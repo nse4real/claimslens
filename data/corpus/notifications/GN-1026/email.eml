@@ -1,4 +1,4 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Wed, 11 Dec 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1026-521
@@ -11,23 +11,18 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent B Ltd (fictional)
+Cedant: Example Cedent B Ltd (fictional)
 Treaty reference: FICT-TRT-004
-Loss date: 2024-11-13
-Notification date: 2024-12-11
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss: EUR 4277020.02
+Date loss occurred: 2024-11-13
+Nature of loss: Fictional flood damage to insured stock and equipment.
+Estimated loss amount: EUR 4277020.02
 Claim reference: FCL-GN-1026-521
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional South Territory
-Peril or cause: Flood
-Loss location: Rook Lane, Example District
 Cedent notes: Initial estimate; engineering review is pending.
 Paid to date: USD 427702.00
-Outstanding reserve: USD 2566212.01
 
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
 Claims analyst

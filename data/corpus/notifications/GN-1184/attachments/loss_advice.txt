@@ -1,14 +1,20 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1184-367
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2024-04-09
-Notification date: 2024-05-16
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: USD 4708731.89
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 470873.19
+
+Dear Claims Team,
+
+Section: Notification facts
+Ceding company is Example Cedent A Ltd (fictional).
+Trty. is FICT-TRT-002.
+Notice dt. is 2024-05-16.
+Description of loss is Fictional flood damage to insured stock and equipment.
+Claim reference is FCL-GN-1184-367.
+Territory or country is Fictional North Territory.
+Peril or cause is Storm.
+Loss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.
+Paid to date is USD 470873.19.
+
+Yours faithfully
+Claims Intake

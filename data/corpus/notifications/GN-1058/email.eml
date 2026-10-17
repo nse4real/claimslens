@@ -1,4 +1,4 @@
-From: Devon Dale <devon.dale@example.test>
+From: devon.dale@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Tue, 09 Apr 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1058-667
@@ -11,25 +11,23 @@ Dear Claims Team
 
 I am writing to proivde an initial fictional loss advice.
 
-Ced.: Example Cedent B Ltd (fictional)
-Trty.: FICT-TRT-006
-DOL: 19/03/2024
-Notice dt.: 09/04/2024
-Desc.: Fictional fire damage to one insured production building.
-Est. loss: EUR 936456.26
+Ceding company: Example Cedent B Ltd (fictional)
+Treaty ref: fict-trt-006 (FICT-TRT-006)
+Date loss occurred: March 19, 2024
+Notification date: April 9, 2024
+Description of loss: Fictional fire damage to one insured production building.
+Est. loss: EUR 936 456.26 (EUR 936456.26)
 Claim reference: FCL-GN-1058-667
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 93645.63
-Outstanding reserve: USD 561873.76
+Paid to date: USD 0.09m (USD 93645.63)
 
 Attachment: loss_advice.txt
 
 Regards
-Devon Dale
 Claims analyst
 Claims Coordinator
 Second signature: Morgan Lake

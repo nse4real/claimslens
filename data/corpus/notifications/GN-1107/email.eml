@@ -1,4 +1,4 @@
-From: Devon Dale <devon.dale@example.test>
+From: devon.dale@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Wed, 05 Nov 2025 09:00:00 +0000
 Subject: Loss notification FCL-GN-1107-263
@@ -11,22 +11,18 @@ Dear Claims Team
 
 I am writing to provide an initial fictional loss advice.
 
-Cedent: Example Cedent A Ltd (fictional)
-Treaty reference: FICT-TRT-001
-Loss date: 2025-10-22
-Notification date: 2025-11-05
+Cedant: Example Cedent A Ltd (fictional)
+Trty.: FICT-TRT-001
+Date of loss: 22/10/2025
+Date notified: 05/11/2025
 Loss description: Fictional fire damage to one insured production building.
-Estimated loss: GBP 3616408.06
+Loss estimate: GBP 3616408.06
 Claim reference: FCL-GN-1107-263
-Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Unauthorised access
 Loss location: Rook Lane, Example District
 Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: GBP 2169844.84
 
 Attachment: loss_advice.txt
 
 Regards
-Devon Dale
-Reinsurance adjuster

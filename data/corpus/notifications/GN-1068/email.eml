@@ -1,4 +1,4 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Thu, 02 Oct 2025 09:00:00 +0000
 Subject: Loss notification FCL-GN-1068-901
@@ -11,24 +11,20 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Ced.: Example Cedent A Ltd (fictional)
-Trty.: FICT-TRT-002
-DOL: 2025/09/26
-Notice dt.: 2025/10/02
-Desc.: Fictional flood damage to insured stock and equipment.
-Est. loss: EUR 218264.68
+Cedant: Example Cedent A Ltd (fictional)
+Treaty ref: fict-trt-002 (FICT-TRT-002)
+Loss description: Fictional flood damage to insured stock and equipment.
+Loss estimate: EUR 0.22m (EUR 218264.68)
 Claim reference: FCL-GN-1068-901
-Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Unauthorised access
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 130958.81
+Outstanding reserve: USD 130 958.81 (USD 130958.81)
 
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
 Reinsurance adjuster
 Claims Coordinator
 Second signature: Morgan Lake

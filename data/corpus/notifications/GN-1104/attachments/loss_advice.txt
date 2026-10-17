@@ -1,13 +1,12 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1104-400
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-006
-Loss date: 2024-08-15
-Notification date: 2024-09-02
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 288709.15
+| Field | Value |
+| --- | --- |
+| Ced. | Example Cedent B Ltd (fictional) |
+| Treaty no. | FICT-TRT-006 |
+| Date loss occurred | 2024-08-15 |
+| Description of loss | Fictional storm damage to two insured storage buildings. |
+| Claim reference | FCL-GN-1104-400 |
+| Original insured | Briar Foundry Group (fictional) |
+| Loss location | Kestrel Wharf, Example Province |
+| Sender name | Devon Dale |
+| Paid to date | USD 288,709.15 (USD 288709.15) |

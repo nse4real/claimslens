@@ -1,15 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1081-207
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2025-09-27
-Notification date: 2025-10-07
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: EUR 3617619.47
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: EUR 361761.95
-Outstanding reserve: EUR 2170571.68
+
+Loss details
+Cedant is Example Cedent A Ltd (fictional).
+Treaty no. is FICT-TRT-005.
+Date of loss is 2025-09-27.
+Notification date is 2025-10-07.
+Desc. is Fictional flood damage to insured stock and equipment.
+Estimated loss is EUR 3.62m (EUR 3617619.47).
+Claim reference is FCL-GN-1081-207.
+Original insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Storm.
+Sender role is Reinsurance adjuster.
+Paid to date is EUR 361,761.95 (EUR 361761.95).

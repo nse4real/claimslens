@@ -1,15 +1,11 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1165-768
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Secondary treaty reference: FICT-TRT-002
-Loss date: 2024-08-12
-Notification date: 2024-09-07
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: GBP 4246774.91
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 424677.49
+| Field | Value |
+| --- | --- |
+| Ced. | Example Cedent A Ltd (fictional) |
+| Treaty no. | FICT-TRT-001; FICT-TRT-002 |
+| Date of loss | 2024-08-12 |
+| Loss estimate | GBP 4246774.91 |
+| Claim reference | FCL-GN-1165-768 |
+| Loss location | Sable Quay, Example Region |
+| Sender name | Blake Bell |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |

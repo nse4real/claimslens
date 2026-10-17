@@ -21,7 +21,11 @@ PROMPT_VERSION = "baseline-regex-v1"
 HOLDOUT_MESSAGE = "holdout is not scored by the baseline runner"
 
 
-def run_baseline(split: str = "dev", out_dir: Path | str | None = None) -> Path:
+def run_baseline(
+    split: str = "dev",
+    out_dir: Path | str | None = None,
+    prompt_version: str = PROMPT_VERSION,
+) -> Path:
     if split != "dev":
         raise ValueError(HOLDOUT_MESSAGE)
     out = Path(out_dir) if out_dir is not None else DEFAULT_OUT_DIR
@@ -48,7 +52,7 @@ def run_baseline(split: str = "dev", out_dir: Path | str | None = None) -> Path:
 
     metrics = {mode: score_records(pairs, mode) for mode in ("exact", "fuzzy")}
     report = {
-        "prompt_version": PROMPT_VERSION,
+        "prompt_version": prompt_version,
         "model_identifier": "none",
         "extractor": EXTRACTOR_VERSION,
         "dataset_version": f"gold-schema-{schema_version}__corpus-seed-{manifest['seed']}",
@@ -67,6 +71,6 @@ def run_baseline(split: str = "dev", out_dir: Path | str | None = None) -> Path:
     }
 
     out.mkdir(parents=True, exist_ok=True)
-    out_path = out / f"{PROMPT_VERSION}__{split}.json"
+    out_path = out / f"{prompt_version}__{split}.json"
     out_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return out_path

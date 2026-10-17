@@ -1,12 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1139-846
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-04-10
-Notification date: 2024-04-16
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 32001.62
+| Field | Value |
+| --- | --- |
+| Ceding company | Example Cedent B Ltd (fictional) |
+| Treaty reference | FICT-TRT-003 |
+| Loss date | 2024-04-10 |
+| Date notified | 2024-04-16 |
+| Claim reference | FCL-GN-1139-846 |
+| Original insured | Briar Foundry Group (fictional) |
+| Territory or country | Fictional North Territory |
+| Loss location | Rook Lane, Example District |
+| Sender name | Blake Bell |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |
+| Paid to date | GBP 32001.62 |

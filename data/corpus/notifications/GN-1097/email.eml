@@ -7,39 +7,28 @@ Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 MIME-Version: 1.0
 
----------- Earlier message 1 ----------
-From: Alex Avery <alex.avery@example.test>
-Date: 2024-03-31
-
-Can you review the incoming advice?
-
----------- Earlier message 2 ----------
-From: Blake Bell <blake.bell@example.test>
-Date: 2024-04-01
-
-Adding the claims mailbox for handling.
-
----------- Forwarded loss notification ----------
 Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent B Ltd (fictional)
+Ceding company: Example Cedent B Ltd (fictional)
 Treaty reference: FICT-TRT-003
-Loss date: 2024-04-01
-Notification date: 2024-04-02
+Date of loss: 2024-04-01
+Notice dt.: April 2, 2024
 Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: USD 4577758.44
+Loss estimate: USD 4 577 758.44 (USD 4577758.44)
 Claim reference: FCL-GN-1097-472
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 457775.84
 
 Attachment: loss_advice.txt
 
 Regards
 Blake Bell
-Claims analyst
+
+---------- Earlier quoted message ----------
+On 25 Mar 2024 09:00 +0000, Morgan Lake <morgan.lake@example.test> wrote:
+
+Can you review the incoming advice before it reaches the claims mailbox?

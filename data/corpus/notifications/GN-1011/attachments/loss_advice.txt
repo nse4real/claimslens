@@ -1,14 +1,16 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1011-295
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-03-19
-Notification date: 2024-03-20
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: GBP 4438923.49
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 443892.35
+| Field | Value |
+| --- | --- |
+| Ceding company | Example Cedent A Ltd (fictional) |
+| Treaty reference | FICT-TRT-001 |
+| Date of loss | 2024-03-19 |
+| Date notified | 2024-03-20 |
+| Description of loss | Fictional fire damage to one insured production building. |
+| Loss estimate | GBP 4438923.49 |
+| Original insured | Briar Foundry Group (fictional) |
+| Territory or country | Fictional South Territory |
+| Peril or cause | Storm |
+| Sender name | Blake Bell |
+| Sender role | Claims analyst |
+| Cedent notes | Initial estimate; engineering review is pending. |
+| Paid to date | GBP 443892.35 |

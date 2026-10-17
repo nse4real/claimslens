@@ -1,14 +1,13 @@
 L0ss Adv1ce (fictional)
+Ced.: Example Cedent C Ltd (fictional)
+N0tification date: August 26, 2024
+Nature of loss: Fictional computer-system incident at a named insured office.
 Claim reference: FCL-GN-1112-114
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-007
-L0ss date: 2024-08-23
-N0tification date: 2024-08-26
-L0ss description: Fictional computer-system incident at a named insured office.
 0riginal insured: Dovetail Storage Mutual (fictional)
 Territory or
 country: Fictional South Territory
-Peril or cause: Flood
 L0ss location: Sable Quay, Example Region
+Sender name: Alex Avery
+Sender role: Reinsurance adjuster
 Cedent notes: Initial estimate; engineering review is pending.
 Outstanding reserve: GBP 2424495.06

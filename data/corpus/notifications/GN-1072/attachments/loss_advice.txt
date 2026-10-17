@@ -1,13 +1,12 @@
 Loss Advice (fictional)
+Cedant: Example Cedent C Ltd (fictional)
+Treaty ref: FICT-TRT-008
+Date notified: 5 Nov 2024
+Desc.: Fictional fire damage to one insured production building.
+Loss estimate: GBP 1.81m (GBP 1810664.55)
 Claim reference: FCL-GN-1072-692
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-008
-Loss date: 2024-10-28
-Notification date: 2024-11-05
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: GBP 1810664.55
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
+Sender name: Blake Bell
 Cedent notes: Initial estimate; engineering review is pending.

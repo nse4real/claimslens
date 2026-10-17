@@ -1,14 +1,17 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1172-581
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2024-06-29
-Notification date: 2024-08-07
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: USD 4625393.19
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 2775235.91
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent A Ltd (fictional) |
+| Treaty no. | FICT-TRT-002 |
+| Loss date | 2024-06-29 |
+| Advised on | 2024-08-07 |
+| Nature of loss | Fictional flood damage to insured stock and equipment. |
+| Est. loss | USD 4625393.19 |
+| Claim reference | FCL-GN-1172-581 |
+| Original insured | Dovetail Storage Mutual (fictional) |
+| Territory or country | Fictional North Territory |
+| Loss location | Kestrel Wharf, Example Province |
+| Sender name | Alex Avery |
+| Sender role | Claims analyst |
+| Cedent notes | Initial estimate; engineering review is pending. |
+| Outstanding reserve | USD 2775235.91 |

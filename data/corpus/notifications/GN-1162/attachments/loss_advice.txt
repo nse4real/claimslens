@@ -1,15 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1162-445
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Secondary treaty reference: FICT-TRT-006
-Loss date: 2024-09-12
-Notification date: 2024-10-26
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 77139.15
-Outstanding reserve: GBP 462834.92
+
+Loss details
+Treaty ref is FICT-TRT-003; FICT-TRT-006.
+Loss date is 2024-09-12.
+Notice dt. is 2024-10-26.
+Nature of loss is Fictional storm damage to two insured storage buildings.
+Claim reference is FCL-GN-1162-445.
+Original insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Loss location is Rook Lane, Example District.
+Sender name is Alex Avery.
+Sender role is Claims technician.
+Paid to date is GBP 77139.15.
+Outstanding reserve is GBP 462834.92.

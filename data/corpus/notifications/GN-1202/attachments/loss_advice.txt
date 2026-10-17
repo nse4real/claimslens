@@ -1,14 +1,16 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1202-385
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-007
-Loss date: 2024-07-16
-Notification date: 2024-07-16
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: GBP 465918.41
-Outstanding reserve: GBP 2795510.46
+| Field | Value |
+| --- | --- |
+| Ced. | Example Cedent C Ltd (fictional) |
+| DOL | 2024-07-16 |
+| Notice dt. | 2024-07-16 |
+| Loss description | Fictional computer-system incident at a named insured office. |
+| Claim reference | FCL-GN-1202-385 |
+| Original insured | Aster Orchard Cooperative (fictional) |
+| Peril or cause | Unauthorised access |
+| Loss location | Sable Quay, Example Region |
+| Sender name | Casey Clark |
+| Sender role | Claims technician |
+| Cedent notes | Early notification; supporting documents are being gathered. |
+| Paid to date | GBP 465918.41 |
+| Outstanding reserve | GBP 2795510.46 |

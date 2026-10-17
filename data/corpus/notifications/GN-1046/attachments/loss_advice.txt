@@ -1,13 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1046-561
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-07-10
-Notification date: 2024-08-12
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 70695.72
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent B Ltd (fictional) |
+| Treaty no. | FICT-TRT-003 |
+| Loss date | 10 Jul 2024 |
+| Advised on | 12 Aug 2024 |
+| Nature of loss | Fictional flood damage to insured stock and equipment. |
+| Claim reference | FCL-GN-1046-561 |
+| Territory or country | Fictional North Territory |
+| Peril or cause | Unauthorised access |
+| Loss location | Rook Lane, Example District |
+| Sender role | Claims technician |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |
+| Paid to date | GBP 70695.72 |

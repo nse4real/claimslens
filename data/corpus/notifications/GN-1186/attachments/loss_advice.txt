@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1186-847
-Cedent: Example Cedent Z Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2024-03-26
-Notification date: 2024-04-14
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: EUR 1767843.40
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Loss details
+Treaty no. is FICT-TRT-005.
+DOL is 2024-03-26.
+Notification date is 2024-04-14.
+Description of loss is Fictional storm damage to two insured storage buildings.
+Est. loss is EUR 1767843.40.
+Claim reference is FCL-GN-1186-847.
+Original insured is Briar Foundry Group (fictional).
+Territory or country is Fictional North Territory.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Alex Avery.
+Sender role is Claims technician.

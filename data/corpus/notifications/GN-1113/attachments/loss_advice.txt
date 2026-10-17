@@ -1,15 +1,18 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1113-260
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-001
-L0ss date: 2024-01-12
-N0tification date: 2024-01-26
-L0ss description: Fictional computer-system incident at a named insured office.
-0riginal insured: Aster Orchard Cooperative (fictional)
-Territory or
-country: Fictional South Territory
-Peril or cause: Flood
-L0ss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 370751.25
-Outstanding reserve: USD 2224507.51
+
+Dear Claims Team,
+
+Section: N0tification facts
+Cedent is Example Cedent D Ltd (fictional).
+Trty. is FICT-FAC-001.
+DOL is 2024-01-12.
+L0ss description is Fictional computer-system incident at a named insured office.
+Claim reference is FCL-GN-1113-260.
+Territory or country is Fictional South Territory.
+Peril or cause is Flood.
+L0ss location is Sable Quay, Example Region.
+Paid to date is USD 370751.25.
+Outstanding reserve is USD 2224507.51.
+
+Yours faithfully
+Claims Intake

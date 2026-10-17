@@ -1,14 +1,15 @@
 Loss Advice (fictional)
+Cedant: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-004
+Date loss occurred: 2024-11-13
+Advised on: 2024-12-11
 Claim reference: FCL-GN-1026-521
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-11-13
-Notification date: 2024-12-11
-Loss description: Fictional flood damage to insured stock and equipment.
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Flood
 Loss location: Rook Lane, Example District
+Sender name: Alex Avery
+Sender role: Claims analyst
 Cedent notes: Initial estimate; engineering review is pending.
 Paid to date: USD 427702.00
 Outstanding reserve: USD 2566212.01

@@ -1,14 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1079-194
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-001
-Loss date: 2024-06-12
-Notification date: 2024-07-07
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Fire
-Loss location: Rook Lane, Example District
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 112093.37
-Outstanding reserve: USD 672560.20
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent D Ltd (fictional) |
+| Treaty ref | FICT-FAC-001 |
+| Notification date | July 7, 2024 |
+| Nature of loss | Fictional computer-system incident at a named insured office. |
+| Claim reference | FCL-GN-1079-194 |
+| Peril or cause | Fire |
+| Loss location | Rook Lane, Example District |
+| Sender name | Blake Bell |
+| Sender role | Claims analyst |
+| Cedent notes | Early notification; supporting documents are being gathered. |

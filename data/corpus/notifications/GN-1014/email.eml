@@ -1,4 +1,4 @@
-From: Casey Clark <casey.clark@example.test>
+From: casey.clark@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sun, 13 Oct 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1014-986
@@ -11,12 +11,12 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent B Ltd (fictional)
-Treaty reference: FICT-TRT-004
-Loss date: 2024-10-06
-Notification date: 2024-10-13
+Cedant: Example Cedent B Ltd (fictional)
+Treaty ref: FICT-TRT-004
+DOL: 2024-10-06
+Advised on: 2024-10-13
 Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss: EUR 3107764.65
+Estimated loss amount: EUR 3107764.65
 Claim reference: FCL-GN-1014-986
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional North Territory
@@ -24,10 +24,8 @@ Peril or cause: Flood
 Loss location: Sable Quay, Example Region
 Cedent notes: Initial estimate; engineering review is pending.
 Paid to date: USD 310776.46
-Outstanding reserve: USD 1864658.79
 
 Attachment: loss_advice.txt
 
 Regards
-Casey Clark
 Claims technician

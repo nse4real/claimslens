@@ -1,13 +1,20 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1016-679
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-12-14
-Notification date: 2024-12-20
-Loss description: Fictional fire damage to one insured production building.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 54260.20
+
+Dear Claims Team,
+
+Section: Notification facts
+Treaty reference is FICT-TRT-004.
+Loss date is 2024-12-14.
+Date notified is 2024-12-20.
+Nature of loss is Fictional fire damage to one insured production building.
+Claim reference is FCL-GN-1016-679.
+Original insured is Briar Foundry Group (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Storm.
+Loss location is Sable Quay, Example Region.
+Sender role is Claims technician.
+Cedent notes is Early notification; supporting documents are being gathered.
+Paid to date is USD 54260.20.
+
+Yours faithfully
+Claims Intake

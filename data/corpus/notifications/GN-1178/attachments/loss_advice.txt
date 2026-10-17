@@ -1,12 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1178-309
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-Loss date: 2024-08-25
-Notification date: 2024-09-28
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Loss details
+Ced. is Example Cedent D Ltd (fictional).
+Treaty ref is FICT-FAC-002.
+Date of loss is 2024-08-25.
+Claim reference is FCL-GN-1178-309.
+Territory or country is Fictional North Territory.
+Peril or cause is Fire.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Blake Bell.
+Sender role is Claims technician.
+Cedent notes is Preliminary advice; reserve review is scheduled.

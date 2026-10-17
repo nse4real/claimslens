@@ -1,4 +1,4 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sat, 20 Apr 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1108-788
@@ -11,22 +11,17 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent D Ltd (fictional)
-Treaty reference: FICT-FAC-001
-Loss date: 2024-03-29
-Notification date: 2024-04-20
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss: EUR 118369.65
+Ceding company: Example Cedent D Ltd (fictional)
+Loss date: March 29, 2024
+Nature of loss: Fictional computer-system incident at a named insured office.
+Loss estimate: EUR 118369.65
 Claim reference: FCL-GN-1108-788
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Unauthorised access
 Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
 Paid to date: USD 11836.96
 
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
-Claims technician

@@ -1,7 +1,7 @@
 From: Devon Dale <devon.dale@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Fri, 01 Mar 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1201-154
+Subject: Loss notification
 Message-ID: <GN-1201@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,9 @@ Dear Claims Team
 I am writing to provide an initial fictional loss advice.
 
 Cedent: Example Cedent D Ltd (fictional)
-Treaty reference: FICT-FAC-002
-Loss date: 2024-02-12
-Notification date: 2024-03-01
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss: GBP 1870471.37
-Claim reference: FCL-GN-1201-154
+Treaty no.: FICT-FAC-002
+Advised on: 2024-03-01
+Estimated loss amount: GBP 1870471.37
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Fire
@@ -28,4 +25,3 @@ Attachment: loss_advice.txt
 
 Regards
 Devon Dale
-Claims analyst

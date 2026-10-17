@@ -1,12 +1,10 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1175-537
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-03-30
-Notification date: 2025-04-30
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
+| Field | Value |
+| --- | --- |
+| Ceding company | Example Cedent A Ltd (fictional) |
+| Claim reference | FCL-GN-1175-537 |
+| Original insured | Cedar Ferry Consortium (fictional) |
+| Peril or cause | Flood |
+| Sender name | Casey Clark |
+| Sender role | Claims technician |
+| Cedent notes | Initial estimate; engineering review is pending. |

@@ -1,15 +1,22 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1107-263
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-L0ss date: 2025-10-22
-N0tification date: 2025-11-05
-L0ss description: Fictional fire damage to one insured production building.
-Estimated loss amount: GBP 3616408.06
-0riginal insured: Briar Foundry Group (fictional)
-Territory or
-country: Fictional North Territory
-Peril or cause: Unauthorised access
-L0ss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: GBP 2169844.84
+
+Dear Claims Team,
+
+Section: N0tification facts
+Cedant is Example Cedent A Ltd (fictional).
+Trty. is FICT-TRT-001.
+Date notified is 05/11/2025.
+L0ss description is Fictional fire damage to one insured production building.
+L0ss estimate is GBP 3616408.06.
+Claim reference is FCL-GN-1107-263.
+0riginal insured is Briar Foundry Group (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Unauthorised access.
+L0ss location is Rook Lane, Example District.
+Sender name is Devon Dale.
+Sender role is Reinsurance adjuster.
+Cedent notes is Initial estimate; engineering review is pending.
+Outstanding reserve is GBP 2169844.84.
+
+Yours faithfully
+Claims Intake

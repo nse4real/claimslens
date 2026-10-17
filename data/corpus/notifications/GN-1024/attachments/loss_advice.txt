@@ -1,14 +1,19 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1024-630
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-11-01
-Notification date: 2024-11-03
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: GBP 2924397.75
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: GBP 292439.78
+
+Dear Claims Team,
+
+Section: Notification facts
+Date loss occurred is 2024-11-01.
+Loss description is Fictional fire damage to one insured production building.
+Estimated loss amount is GBP 2924397.75.
+Claim reference is FCL-GN-1024-630.
+Original insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Flood.
+Loss location is Sable Quay, Example Region.
+Sender role is Claims technician.
+Cedent notes is Early notification; supporting documents are being gathered.
+Paid to date is GBP 292439.78.
+
+Yours faithfully
+Claims Intake

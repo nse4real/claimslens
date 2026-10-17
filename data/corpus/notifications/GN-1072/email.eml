@@ -1,7 +1,7 @@
 From: Blake Bell <blake.bell@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Tue, 05 Nov 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1072-692
+Subject: Loss notification
 Message-ID: <GN-1072@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,12 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Ced.: Example Cedent C Ltd (fictional)
-Trty.: FICT-TRT-008
-DOL: 2024/10/28
-Notice dt.: 2024/11/05
+Cedant: Example Cedent C Ltd (fictional)
+Treaty ref: FICT-TRT-008
+DOL: 28/10/2024
+Date notified: 5 Nov 2024
 Desc.: Fictional fire damage to one insured production building.
-Est. loss: GBP 1810664.55
-Claim reference: FCL-GN-1072-692
+Loss estimate: GBP 1.81m (GBP 1810664.55)
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Fire

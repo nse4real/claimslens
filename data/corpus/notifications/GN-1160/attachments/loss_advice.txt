@@ -1,15 +1,19 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1160-220
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-007
-Secondary treaty reference: FICT-TRT-008
-Loss date: 2024-10-23
-Notification date: 2024-11-18
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: GBP 62719.88
-Outstanding reserve: GBP 376319.26
+
+Dear Claims Team,
+
+Section: Notification facts
+Cedant is Example Cedent C Ltd (fictional).
+Treaty reference is FICT-TRT-007; FICT-TRT-008.
+Notification date is 2024-11-18.
+Nature of loss is Fictional computer-system incident at a named insured office.
+Original insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Fire.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Casey Clark.
+Sender role is Claims technician.
+Outstanding reserve is GBP 376319.26.
+
+Yours faithfully
+Claims Intake

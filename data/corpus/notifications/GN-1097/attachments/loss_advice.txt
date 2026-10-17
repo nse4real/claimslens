@@ -1,13 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1097-472
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-04-01
-Notification date: 2024-04-02
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 457775.84
+
+Dear Claims Team,
+
+Section: Notification facts
+Ceding company is Example Cedent B Ltd (fictional).
+Treaty reference is FICT-TRT-003.
+Date of loss is 2024-04-01.
+Notice dt. is April 2, 2024.
+Loss description is Fictional storm damage to two insured storage buildings.
+Claim reference is FCL-GN-1097-472.
+Original insured is Aster Orchard Cooperative (fictional).
+Sender role is Claims analyst.
+Cedent notes is Initial estimate; engineering review is pending.
+Paid to date is GBP 0.46m (GBP 457775.84).
+
+Yours faithfully
+Claims Intake

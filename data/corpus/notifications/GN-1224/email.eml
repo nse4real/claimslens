@@ -11,15 +11,14 @@ Dear Claims Team
 
 Please change the treaty terms below. This treaty administration request is outside claims handling.
 
-Cedent: Example Cedent B Ltd (fictional)
-Treaty reference: FICT-TRT-006
-Loss date: 2024-07-24
-Notification date: 2024-08-01
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: USD 1732934.42
+Ced.: Example Cedent B Ltd (fictional)
+Contract reference: FICT-TRT-006
+DOL: 2024-07-24
+Date notified: 2024-08-01
+Desc.: Fictional storm damage to two insured storage buildings.
+Loss estimate: USD 1732934.42
 Claim reference: FCL-GN-1224-662
 Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Sable Quay, Example Region
 Cedent notes: Initial estimate; engineering review is pending.
@@ -30,4 +29,3 @@ Attachment: loss_advice.txt
 
 Regards
 Blake Bell
-Claims technician

@@ -1,14 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1009-300
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-Loss date: 2024-08-05
-Notification date: 2024-08-17
-Loss description: Fictional fire damage to one insured production building.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Rook Lane, Example District
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: EUR 428983.06
-Outstanding reserve: EUR 2573898.37
+
+Loss details
+Ced. is Example Cedent D Ltd (fictional).
+Trty. is FICT-FAC-002.
+Date of loss is 2024-08-05.
+Date notified is 2024-08-17.
+Nature of loss is Fictional fire damage to one insured production building.
+Claim reference is FCL-GN-1009-300.
+Territory or country is Fictional North Territory.
+Peril or cause is Unauthorised access.
+Sender role is Claims analyst.
+Paid to date is EUR 428983.06.

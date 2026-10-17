@@ -1,13 +1,11 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1044-962
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-06-21
-Notification date: 2024-06-29
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 110344.30
+
+Loss details
+Treaty ref is FICT-TRT-003.
+Date of loss is 2024-06-21.
+Notice dt. is 2024-06-29.
+Original insured is Dovetail Storage Mutual (fictional).
+Loss location is Rook Lane, Example District.
+Sender role is Claims technician.
+Cedent notes is Preliminary advice; reserve review is scheduled.
+Paid to date is GBP 110344.30.

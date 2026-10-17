@@ -1,15 +1,13 @@
 Loss Advice (fictional)
+Treaty reference: FICT-TRT-004
+Date notified: 2024-03-26
+Description of loss: Fictional storm damage to two insured storage buildings.
 Claim reference: FCL-GN-1220-282
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-03-24
-Notification date: 2024-03-26
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: USD 2457641.25
-Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Sable Quay, Example Region
+Sender name: Blake Bell
+Sender role: Claims analyst
 Cedent notes: Initial estimate; engineering review is pending.
 Paid to date: USD 245764.12
 Outstanding reserve: USD 1474584.75

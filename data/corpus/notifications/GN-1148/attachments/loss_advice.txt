@@ -1,13 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1148-144
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2024-09-06
-Notification date: 2024-09-07
-Estimated loss amount: USD 3364631.61
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: USD 2018778.97
+
+Dear Claims Team,
+
+Section: Notification facts
+Ced. is Example Cedent A Ltd (fictional).
+Treaty reference is FICT-TRT-002.
+Loss date is 2024-09-06.
+Notification date is 2024-09-07.
+Est. loss is USD 3364631.61.
+Original insured is Aster Orchard Cooperative (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Unauthorised access.
+Cedent notes is Preliminary advice; reserve review is scheduled.
+Outstanding reserve is USD 2018778.97.
+
+Yours faithfully
+Claims Intake

@@ -1,7 +1,7 @@
 From: Alex Avery <alex.avery@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Thu, 14 Nov 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1174-451
+Subject: Loss notification
 Message-ID: <GN-1174@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,17 @@ Dear Claims Team
 
 Please record this fictional loss notification.
 
-Cedent: Example Cedent A Ltd (fictional)
-Treaty reference: FICT-TRT-001
-Loss date: 2024-10-10
+Cedant: Example Cedent A Ltd (fictional)
+Contract reference: FICT-TRT-001
+Date of loss: 2024-10-10
 Notification date: 2024-11-14
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss: GBP 859953.46
-Claim reference: FCL-GN-1174-451
+Desc.: Fictional computer-system incident at a named insured office.
+Loss estimate: GBP 859953.46
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Rook Lane, Example District
 Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 85995.35
 
 Attachment: loss_advice.txt
 

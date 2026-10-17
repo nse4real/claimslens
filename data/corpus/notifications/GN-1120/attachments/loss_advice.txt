@@ -1,15 +1,17 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1120-527
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-L0ss date: 2024-09-14
-N0tification date: 2024-09-21
-L0ss description: Fictional fire damage to one insured production building.
-0riginal insured: Dovetail Storage Mutual (fictional)
-Territory or
-country: Fictional North Territory
-Peril or cause: Flood
-L0ss location: Rook Lane, Example District
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 417502.46
-Outstanding reserve: USD 2505014.79
+
+L0ss details
+Cedant is Example Cedent B Ltd (fictional).
+Treaty ref is FICT-TRT-004.
+L0ss date is 14/09/2024.
+Advised on is 2024-09-21.
+Nature of loss is Fictional fire damage to one insured production building.
+Claim reference is FCL-GN-1120-527.
+0riginal insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Flood.
+L0ss location is Rook Lane, Example District.
+Sender name is Alex Avery.
+Sender role is Claims analyst.
+Paid to date is USD 417502.46.
+Outstanding reserve is USD 2505014.79.

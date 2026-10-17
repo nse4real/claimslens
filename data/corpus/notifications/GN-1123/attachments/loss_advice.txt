@@ -1,14 +1,21 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1123-128
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-L0ss date: 2024-05-19
-N0tification date: 2024-05-19
-L0ss description: Fictional flood damage to insured stock and equipment.
-0riginal insured: Dovetail Storage Mutual (fictional)
-Territory or
-country: Fictional North Territory
-Peril or cause: Unauthorised access
-L0ss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: EUR 693621.66
+
+Dear Claims Team,
+
+Section: N0tification facts
+From cedent is Example Cedent D Ltd (fictional).
+Date of loss is 19/05/2024.
+N0tification date is May 19, 2024.
+L0ss description is Fictional flood damage to insured stock and equipment.
+Claim reference is FCL-GN-1123-128.
+0riginal insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Unauthorised access.
+L0ss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.
+Outstanding reserve is EUR 693621.66.
+
+Yours faithfully
+Claims Intake

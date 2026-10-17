@@ -1,13 +1,12 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1042-557
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2024-01-01
-Notification date: 2024-01-22
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: USD 1817324.78
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
+| Field | Value |
+| --- | --- |
+| Cedent | Example Cedent A Ltd (fictional) |
+| Contract reference | FICT-TRT-002 |
+| Date loss occurred | 2024-01-01 |
+| Advised on | 2024-01-22 |
+| Description of loss | Fictional computer-system incident at a named insured office. |
+| Loss estimate | USD 1817324.78 |
+| Original insured | Briar Foundry Group (fictional) |
+| Territory or country | Fictional South Territory |
+| Loss location | Sable Quay, Example Region |

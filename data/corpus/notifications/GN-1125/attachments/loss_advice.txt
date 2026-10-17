@@ -1,16 +1,23 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1125-399
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-L0ss date: 2024-05-21
-N0tification date: 2024-05-26
-L0ss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: USD 2353089.03
-0riginal insured: Dovetail Storage Mutual (fictional)
-Territory or
-country: Fictional South Territory
-Peril or cause: Fire
-L0ss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 235308.90
-Outstanding reserve: USD 1411853.42
+
+Dear Claims Team,
+
+Section: N0tification facts
+From cedent is Example Cedent A Ltd (fictional).
+Date loss occurred is 2024-05-21.
+Date notified is 2024-05-26.
+Desc. is Fictional computer-system incident at a named insured office.
+L0ss estimate is USD 2353089.03.
+Claim reference is FCL-GN-1125-399.
+0riginal insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Fire.
+L0ss location is Sable Quay, Example Region.
+Sender name is Blake Bell.
+Sender role is Reinsurance adjuster.
+Cedent notes is Initial estimate; engineering review is pending.
+Paid to date is USD 235308.90.
+Outstanding reserve is USD 1411853.42.
+
+Yours faithfully
+Claims Intake

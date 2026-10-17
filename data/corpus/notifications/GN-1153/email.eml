@@ -1,7 +1,7 @@
 From: Devon Dale <devon.dale@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Mon, 21 Oct 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1153-304
+Subject: Loss notification
 Message-ID: <GN-1153@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,13 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent D Ltd (fictional)
-Treaty reference: Primary FICT-FAC-002; secondary FICT-FAC-001
-Loss date: 2024-10-18
-Notification date: 2024-10-21
+Cedant: Example Cedent D Ltd (fictional)
+Date loss occurred: 2024-10-18
+Date notified: 2024-10-21
 Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: GBP 3379902.10
-Claim reference: FCL-GN-1153-304
+Loss estimate: GBP 3379902.10
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
 Paid to date: EUR 337990.21
 
 Attachment: loss_advice.txt

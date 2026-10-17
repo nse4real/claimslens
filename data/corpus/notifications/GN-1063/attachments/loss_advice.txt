@@ -1,13 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1063-110
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-Loss date: 2024-06-24
-Notification date: 2024-07-01
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Flood
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: EUR 2164867.66
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent D Ltd (fictional) |
+| Treaty ref | FICT-FAC-002 |
+| Loss date | June 24, 2024 |
+| Notification date | 2024-07-01 |
+| Claim reference | FCL-GN-1063-110 |
+| Peril or cause | Flood |
+| Loss location | Sable Quay, Example Region |
+| Sender role | Claims technician |
+| Cedent notes | Initial estimate; engineering review is pending. |
+| Outstanding reserve | EUR 2.16m (EUR 2164867.66) |

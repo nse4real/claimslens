@@ -1,7 +1,7 @@
-From: Devon Dale <devon.dale@example.test>
+From: devon.dale@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Mon, 11 Mar 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1208-716
+Subject: Loss notification
 Message-ID: <GN-1208@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,21 +12,17 @@ Dear Claims Team
 Please record this fictional loss notification.
 
 Cedent: Example Cedent B Ltd (fictional)
-Treaty reference: FICT-TRT-006
-Loss date: 2024-02-28
-Notification date: 2024-03-11
+Trty.: FICT-TRT-006
+Date loss occurred: 2024-02-28
+Notice dt.: 2024-03-11
 Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss: EUR 4697667.64
-Claim reference: FCL-GN-1208-716
+Estimated loss amount: EUR 4697667.64
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional North Territory
-Peril or cause: Flood
 Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
 Paid to date: USD 469766.76
 
 Attachment: loss_advice.txt
 
 Regards
-Devon Dale
 Reinsurance adjuster

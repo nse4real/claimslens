@@ -1,13 +1,17 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1073-287
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2025-02-25
-Notification date: 2025-03-07
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: GBP 171568.79
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Flood
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
+| Field | Value |
+| --- | --- |
+| Cedent | Example Cedent A Ltd (fictional) |
+| Treaty reference | FICT-TRT-001 |
+| Date loss occurred | 25/02/2025 |
+| Date notified | 07/03/2025 |
+| Description of loss | Fictional computer-system incident at a named insured office. |
+| Estimated loss amount | GBP 171 568.79 (GBP 171568.79) |
+| Claim reference | FCL-GN-1073-287 |
+| Original insured | Briar Foundry Group (fictional) |
+| Territory or country | Fictional South Territory |
+| Peril or cause | Flood |
+| Loss location | Sable Quay, Example Region |
+| Sender name | Devon Dale |
+| Sender role | Claims analyst |
+| Cedent notes | Initial estimate; engineering review is pending. |

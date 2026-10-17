@@ -1,7 +1,7 @@
 From: Devon Dale <devon.dale@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Sun, 23 Feb 2025 09:00:00 +0000
-Subject: Loss notification FCL-GN-1200-971
+Subject: Loss notification
 Message-ID: <GN-1200@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,11 @@ Dear Claims Team
 This message reports a new fictional loss for your claims register.
 
 Cedent: Example Cedent A Ltd (fictional)
-Treaty reference: FICT-TRT-002
-Loss date: 2025-02-09
-Notification date: 2025-02-23
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: EUR 1199674.08
-Claim reference: FCL-GN-1200-971
+Trty.: FICT-TRT-002
+Advised on: 2025-02-23
+Nature of loss: Fictional storm damage to two insured storage buildings.
+Est. loss: EUR 1199674.08
 Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
 Peril or cause: Flood
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Early notification; supporting documents are being gathered.

@@ -1,13 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1008-415
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-10-28
-Notification date: 2024-11-08
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: GBP 399801.84
+
+Dear Claims Team,
+
+Section: Notification facts
+Treaty ref is FICT-TRT-003.
+Loss description is Fictional computer-system incident at a named insured office.
+Claim reference is FCL-GN-1008-415.
+Territory or country is Fictional North Territory.
+Peril or cause is Storm.
+Loss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Reinsurance adjuster.
+Cedent notes is Early notification; supporting documents are being gathered.
+Paid to date is GBP 399801.84.
+
+Yours faithfully
+Claims Intake

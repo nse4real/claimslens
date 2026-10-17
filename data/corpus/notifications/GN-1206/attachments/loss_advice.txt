@@ -1,14 +1,20 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1206-629
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-001
-Loss date: 2024-09-09
-Notification date: 2024-10-09
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss amount: EUR 1230284.23
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Fire
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 111844.02
+
+Dear Claims Team,
+
+Section: Notification facts
+Treaty ref is FICT-FAC-001.
+Date notified is 2024-10-09.
+Nature of loss is Fictional fire damage to one insured production building.
+Est. loss is EUR 1230284.23.
+Original insured is Briar Foundry Group (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Fire.
+Loss location is Sable Quay, Example Region.
+Sender name is Alex Avery.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.
+Paid to date is USD 111844.02.
+
+Yours faithfully
+Claims Intake

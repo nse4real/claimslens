@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1183-904
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2025-05-29
-Notification date: 2025-06-11
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: EUR 2821570.41
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Loss details
+From cedent is Example Cedent A Ltd (fictional).
+Treaty ref is FICT-TRT-005.
+Notification date is 2025-06-11.
+Description of loss is Fictional storm damage to two insured storage buildings.
+Loss estimate is EUR 2821570.41.
+Claim reference is FCL-GN-1183-904.
+Original insured is Aster Orchard Cooperative (fictional).
+Territory or country is Fictional North Territory.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Blake Bell.
+Sender role is Reinsurance adjuster.

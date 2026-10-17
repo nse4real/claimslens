@@ -1,14 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1056-409
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-10-06
-Notification date: 2024-10-12
-Loss description: Fictional flood damage to insured stock and equipment.
+Cedant: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-003
+Date of loss: October 6, 2024
+Notice dt.: October 12, 2024
+Nature of loss: Fictional flood damage to insured stock and equipment.
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Storm
 Loss location: Rook Lane, Example District
+Sender name: Blake Bell
 Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 292861.74
-Outstanding reserve: GBP 1757170.44
+Outstanding reserve: GBP 1 757 170.44 (GBP 1757170.44)

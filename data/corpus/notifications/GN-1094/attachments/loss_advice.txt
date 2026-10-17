@@ -1,14 +1,17 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1094-844
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-06-02
-Notification date: 2024-06-22
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: GBP 1034684.88
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Fire
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: GBP 620810.93
+
+Dear Claims Team,
+
+Section: Notification facts
+Treaty ref is FICT-TRT-001.
+Date loss occurred is June 2, 2024.
+Desc. is Fictional computer-system incident at a named insured office.
+Est. loss is GBP 1,034,684.88 (GBP 1034684.88).
+Claim reference is FCL-GN-1094-844.
+Territory or country is Fictional South Territory.
+Peril or cause is Fire.
+Sender name is Devon Dale.
+Outstanding reserve is GBP 620810.93.
+
+Yours faithfully
+Claims Intake

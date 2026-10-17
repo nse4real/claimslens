@@ -1,12 +1,8 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1130-629
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2025-12-07
-Notification date: 2025-12-15
 Estimated loss amount: GBP 4204322.12
-Original insured: Briar Foundry Group (fictional)
+Claim reference: FCL-GN-1130-629
 Territory or country: Fictional South Territory
-Peril or cause: Storm
 Loss location: Rook Lane, Example District
+Sender name: Casey Clark
+Sender role: Reinsurance adjuster
 Cedent notes: Early notification; supporting documents are being gathered.

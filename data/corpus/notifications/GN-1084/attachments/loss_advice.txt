@@ -1,14 +1,16 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1084-778
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2024-06-14
-Notification date: 2024-07-08
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: USD 4753829.96
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 475383.00
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent A Ltd (fictional) |
+| DOL | June 14, 2024 |
+| Date notified | July 8, 2024 |
+| Desc. | Fictional flood damage to insured stock and equipment. |
+| Loss estimate | USD 4 753 829.96 (USD 4753829.96) |
+| Claim reference | FCL-GN-1084-778 |
+| Original insured | Cedar Ferry Consortium (fictional) |
+| Territory or country | Fictional North Territory |
+| Peril or cause | Flood |
+| Loss location | Sable Quay, Example Region |
+| Sender name | Blake Bell |
+| Sender role | Reinsurance adjuster |
+| Cedent notes | Early notification; supporting documents are being gathered. |

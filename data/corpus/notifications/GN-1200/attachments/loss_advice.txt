@@ -1,13 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1200-971
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-02-09
-Notification date: 2025-02-23
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 119967.41
+
+Loss details
+Trty. is FICT-TRT-002.
+Date of loss is 2025-02-09.
+Advised on is 2025-02-23.
+Claim reference is FCL-GN-1200-971.
+Original insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Flood.
+Sender name is Devon Dale.
+Sender role is Reinsurance adjuster.
+Cedent notes is Early notification; supporting documents are being gathered.

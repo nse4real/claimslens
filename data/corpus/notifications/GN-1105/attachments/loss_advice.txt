@@ -1,14 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1105-908
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-09-26
-Notification date: 2024-10-07
+Cedant: Example Cedent B Ltd (fictional)
+Treaty ref: FICT-TRT-003
+DOL: September 26, 2024
+Notice dt.: 2024-10-07
 Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Aster Orchard Cooperative (fictional)
+Claim reference: FCL-GN-1105-908
 Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Kestrel Wharf, Example Province
+Sender name: Casey Clark
+Sender role: Claims analyst
 Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 160819.86
-Outstanding reserve: GBP 964919.15
+Paid to date: GBP 0.16m (GBP 160819.86)
+Outstanding reserve: GBP 0.96m (GBP 964919.15)

@@ -11,12 +11,12 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Ced.: Example Cedent B Ltd (fictional)
-Trty.: FICT-TRT-004
-DOL: 2024/11/02
-Notice dt.: 2024/11/13
-Desc.: Fictional storm damage to two insured storage buildings.
-Est. loss: EUR 3239602.52
+Cedant: Example Cedent B Ltd (fictional)
+Contract reference: FICT-TRT-004
+Date loss occurred: November 2, 2024
+Advised on: November 13, 2024
+Description of loss: Fictional storm damage to two insured storage buildings.
+Estimated loss: EUR 3,239,602.52 (EUR 3239602.52)
 Claim reference: FCL-GN-1047-571
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional North Territory
@@ -28,6 +28,5 @@ Attachment: loss_advice.txt
 
 Regards
 Devon Dale
-Reinsurance adjuster
 Claims Coordinator
 Second signature: Morgan Lake

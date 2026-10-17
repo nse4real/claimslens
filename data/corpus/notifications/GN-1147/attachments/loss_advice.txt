@@ -1,11 +1,12 @@
 Loss Advice (fictional)
+Cedant: Example Cedent D Ltd (fictional)
+Treaty reference: FICT-FAC-001
+DOL: 2024-09-19
+Desc.: Fictional storm damage to two insured storage buildings.
 Claim reference: FCL-GN-1147-446
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-001
-Loss date: 2024-09-19
-Loss description: Fictional storm damage to two insured storage buildings.
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
+Sender name: Blake Bell
+Sender role: Reinsurance adjuster

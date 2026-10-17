@@ -1,15 +1,19 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1040-799
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-008
-Loss date: 2024-05-14
-Notification date: 2024-06-03
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: GBP 3992240.69
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 399224.07
-Outstanding reserve: GBP 2395344.41
+
+Dear Claims Team,
+
+Section: Notification facts
+From cedent is Example Cedent C Ltd (fictional).
+Contract reference is FICT-TRT-008.
+DOL is 2024-05-14.
+Nature of loss is Fictional storm damage to two insured storage buildings.
+Estimated loss is GBP 3992240.69.
+Original insured is Cedar Ferry Consortium (fictional).
+Peril or cause is Storm.
+Sender name is Casey Clark.
+Sender role is Claims technician.
+Paid to date is GBP 399224.07.
+Outstanding reserve is GBP 2395344.41.
+
+Yours faithfully
+Claims Intake

@@ -1,13 +1,17 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1101-320
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-03-16
-Notification date: 2025-03-16
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Fire
-Loss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 814634.78
+
+Dear Claims Team,
+
+Section: Notification facts
+Ceding company is Example Cedent A Ltd (fictional).
+Treaty reference is FICT-TRT-002.
+Date of loss is 16/03/2025.
+Description of loss is Fictional storm damage to two insured storage buildings.
+Original insured is Cedar Ferry Consortium (fictional).
+Peril or cause is Fire.
+Loss location is Rook Lane, Example District.
+Cedent notes is Initial estimate; engineering review is pending.
+Outstanding reserve is USD 0.81m (USD 814634.78).
+
+Yours faithfully
+Claims Intake

@@ -1,7 +1,7 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sat, 21 Sep 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1120-527
+Subject: Loss notification
 Message-ID: <GN-1120@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,23 +11,16 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent B Ltd (fictional)
-Treaty reference: FICT-TRT-004
-Loss date: 2024-09-14
-Notification date: 2024-09-21
-Loss description: Fictional fire damage to one insured production building.
+Cedant: Example Cedent B Ltd (fictional)
+Treaty ref: FICT-TRT-004
+Loss date: 14/09/2024
+Advised on: 2024-09-21
 Estimated loss: EUR 4175024.65
-Claim reference: FCL-GN-1120-527
 Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Rook Lane, Example District
 Cedent notes: Early notification; supporting documents are being gathered.
 Paid to date: USD 417502.46
-Outstanding reserve: USD 2505014.79
 
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
 Claims analyst

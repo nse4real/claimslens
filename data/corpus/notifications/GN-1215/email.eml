@@ -1,4 +1,4 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Tue, 23 Apr 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1002-984
@@ -11,15 +11,13 @@ Dear Claims Team
 
 Please record this fictional loss notification.
 
-Cedent: Example Cedent D Ltd (fictional)
-Treaty reference: FICT-FAC-001
-Loss date: 2024-04-12
-Notification date: 2024-04-23
-Loss description: Fictional computer-system incident at a named insured office.
+From cedent: Example Cedent D Ltd (fictional)
+Contract reference: FICT-FAC-001
+Advised on: 2024-04-23
+Desc.: Fictional computer-system incident at a named insured office.
 Estimated loss: EUR 4314143.26
 Claim reference: FCL-GN-1002-984
 Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Preliminary advice; reserve review is scheduled.
@@ -27,5 +25,4 @@ Cedent notes: Preliminary advice; reserve review is scheduled.
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
 Reinsurance adjuster

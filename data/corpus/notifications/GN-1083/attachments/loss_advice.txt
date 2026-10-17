@@ -1,14 +1,11 @@
 Loss Advice (fictional)
+Treaty ref: FICT-FAC-001
+Loss date: November 14, 2024
+Date notified: 06/12/2024
+Description of loss: Fictional fire damage to one insured production building.
 Claim reference: FCL-GN-1083-861
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-001
-Loss date: 2024-11-14
-Notification date: 2024-12-06
-Loss description: Fictional fire damage to one insured production building.
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional North Territory
-Peril or cause: Fire
 Loss location: Sable Quay, Example Region
-Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 430178.50
-Outstanding reserve: USD 2581071.02
+Sender role: Claims technician
+Paid to date: USD 430 178.50 (USD 430178.50)

@@ -1,14 +1,8 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1187-417
-Cedent: Example Cedent Z Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-03-05
-Notification date: 2024-03-06
-Loss description: Fictional fire damage to one insured production building.
+Ceding company: Example Cedent Z Ltd (fictional)
+Treaty reference: FICT-TRT-004
+Date of loss: 2024-03-05
+Notice dt.: 2024-03-06
 Estimated loss amount: USD 4908203.81
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
 Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
 Outstanding reserve: USD 2944922.29

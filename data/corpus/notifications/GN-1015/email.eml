@@ -1,7 +1,7 @@
-From: Devon Dale <devon.dale@example.test>
+From: devon.dale@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Wed, 12 Jun 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1015-174
+Subject: Loss notification
 Message-ID: <GN-1015@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,22 +11,17 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent A Ltd (fictional)
-Treaty reference: FICT-TRT-001
-Loss date: 2024-06-05
-Notification date: 2024-06-12
+From cedent: Example Cedent A Ltd (fictional)
+Treaty ref: FICT-TRT-001
+Date loss occurred: 2024-06-05
 Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss: GBP 4200654.55
-Claim reference: FCL-GN-1015-174
 Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Fire
 Loss location: Rook Lane, Example District
 Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: GBP 420065.46
 
 Attachment: loss_advice.txt
 
 Regards
-Devon Dale
 Claims analyst

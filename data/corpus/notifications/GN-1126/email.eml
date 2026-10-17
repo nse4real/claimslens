@@ -1,7 +1,7 @@
 From: Devon Dale <devon.dale@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Wed, 16 Oct 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1126-122
+Subject: Loss notification
 Message-ID: <GN-1126@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,13 @@ Dear Claims Team
 
 I am writing to provide an initial fictional loss advice.
 
-Treaty reference: FICT-TRT-001
-Loss date: 2024-09-30
-Notification date: 2024-10-16
+Date of loss: 2024-09-30
+Advised on: 2024-10-16
 Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss: GBP 1355705.13
-Claim reference: FCL-GN-1126-122
+Loss estimate: GBP 1355705.13
 Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
 Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
 Paid to date: GBP 135570.51
-Outstanding reserve: GBP 813423.08
 
 Attachment: loss_advice.txt
 

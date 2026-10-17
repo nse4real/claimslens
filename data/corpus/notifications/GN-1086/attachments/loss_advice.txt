@@ -1,13 +1,12 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1086-224
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2024-10-17
-Notification date: 2024-10-19
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: EUR 2124974.01
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Rook Lane, Example District
-Cedent notes: Early notification; supporting documents are being gathered.
+| Field | Value |
+| --- | --- |
+| Cedant | Example Cedent A Ltd (fictional) |
+| Treaty reference | FICT-TRT-005 |
+| Date loss occurred | 17 Oct 2024 |
+| Loss description | Fictional storm damage to two insured storage buildings. |
+| Claim reference | FCL-GN-1086-224 |
+| Original insured | Dovetail Storage Mutual (fictional) |
+| Territory or country | Fictional North Territory |
+| Sender name | Blake Bell |
+| Sender role | Reinsurance adjuster |

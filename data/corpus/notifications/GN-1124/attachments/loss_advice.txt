@@ -1,15 +1,12 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1124-622
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-008
-L0ss date: 2024-10-06
-N0tification date: 2024-10-06
-L0ss description: Fictional storm damage to two insured storage buildings.
+Cedant: Example Cedent C Ltd (fictional)
+Treaty reference: FICT-TRT-008
+L0ss date: October 6, 2024
+Advised on: 2024-10-06
+Desc.: Fictional storm damage to two insured storage buildings.
 Estimated loss amount: GBP 4512858.30
-0riginal insured: Dovetail Storage Mutual (fictional)
 Territory or
 country: Fictional South Territory
 Peril or cause: Flood
 L0ss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: GBP 2707714.98
+Sender role: Claims technician

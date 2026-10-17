@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1028-299
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-11-25
-Notification date: 2025-11-29
-Loss description: Fictional fire damage to one insured production building.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
-Outstanding reserve: USD 126340.25
+| Field | Value |
+| --- | --- |
+| Treaty reference | FICT-TRT-002 |
+| Date loss occurred | 2025-11-25 |
+| Date notified | 2025-11-29 |
+| Description of loss | Fictional fire damage to one insured production building. |
+| Claim reference | FCL-GN-1028-299 |
+| Territory or country | Fictional North Territory |
+| Peril or cause | Unauthorised access |
+| Sender name | Devon Dale |
+| Sender role | Claims analyst |
+| Cedent notes | Early notification; supporting documents are being gathered. |
+| Outstanding reserve | USD 126340.25 |

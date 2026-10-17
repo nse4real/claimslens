@@ -1,15 +1,20 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1224-662
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-006
-Loss date: 2024-07-24
-Notification date: 2024-08-01
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: USD 1732934.42
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 173293.44
-Outstanding reserve: USD 1039760.65
+
+Dear Claims Team,
+
+Section: Notification facts
+Ced. is Example Cedent B Ltd (fictional).
+DOL is 2024-07-24.
+Date notified is 2024-08-01.
+Loss estimate is USD 1732934.42.
+Claim reference is FCL-GN-1224-662.
+Territory or country is Fictional South Territory.
+Peril or cause is Storm.
+Loss location is Sable Quay, Example Region.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.
+Paid to date is USD 173293.44.
+Outstanding reserve is USD 1039760.65.
+
+Yours faithfully
+Claims Intake

@@ -1,14 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1038-151
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-005
-Loss date: 2024-07-07
-Notification date: 2024-08-05
-Loss description: Fictional flood damage to insured stock and equipment.
+From cedent: Example Cedent A Ltd (fictional)
+Treaty no.: FICT-TRT-005
+Date of loss: 2024-07-07
+Description of loss: Fictional flood damage to insured stock and equipment.
 Estimated loss amount: EUR 4914270.16
+Claim reference: FCL-GN-1038-151
 Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
 Peril or cause: Flood
 Loss location: Kestrel Wharf, Example Province
+Sender name: Blake Bell
+Sender role: Claims analyst
 Cedent notes: Early notification; supporting documents are being gathered.
-Outstanding reserve: EUR 2948562.10

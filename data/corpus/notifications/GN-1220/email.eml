@@ -1,4 +1,4 @@
-From: Blake Bell <blake.bell@example.test>
+From: blake.bell@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Tue, 26 Mar 2024 09:00:00 +0000
 Subject: Treaty administration request FCL-GN-1220-282
@@ -11,12 +11,12 @@ Dear Claims Team
 
 Please change the treaty terms below. This treaty administration request is outside claims handling.
 
-Cedent: Example Cedent B Ltd (fictional)
+Ceding company: Example Cedent B Ltd (fictional)
 Treaty reference: FICT-TRT-004
-Loss date: 2024-03-24
-Notification date: 2024-03-26
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: USD 2457641.25
+Date loss occurred: 2024-03-24
+Date notified: 2024-03-26
+Description of loss: Fictional storm damage to two insured storage buildings.
+Est. loss: USD 2457641.25
 Claim reference: FCL-GN-1220-282
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional South Territory
@@ -29,5 +29,4 @@ Outstanding reserve: USD 1474584.75
 Attachment: loss_advice.txt
 
 Regards
-Blake Bell
 Claims analyst

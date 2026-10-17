@@ -1,4 +1,4 @@
-From: Blake Bell <blake.bell@example.test>
+From: blake.bell@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Mon, 18 Aug 2025 09:00:00 +0000
 Subject: Loss notification FCL-GN-1145-921
@@ -11,13 +11,12 @@ Dear Claims Team
 
 I am writing to provide an initial fictional loss advice.
 
-Cedent: Example Cedent A Ltd (fictional)
+Ced.: Example Cedent A Ltd (fictional)
 Loss date: 2025-08-16
-Notification date: 2025-08-18
-Loss description: Fictional fire damage to one insured production building.
-Estimated loss: GBP 619471.34
+Date notified: 2025-08-18
+Nature of loss: Fictional fire damage to one insured production building.
+Est. loss: GBP 619471.34
 Claim reference: FCL-GN-1145-921
-Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Unauthorised access
 Loss location: Sable Quay, Example Region
@@ -27,5 +26,4 @@ Outstanding reserve: GBP 371682.80
 Attachment: loss_advice.txt
 
 Regards
-Blake Bell
 Claims analyst

@@ -1,14 +1,18 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1169-833
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-006
-Secondary treaty reference: FICT-TRT-004
-Loss date: 2024-09-24
-Notification date: 2024-09-28
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: USD 584436.47
+
+Dear Claims Team,
+
+Section: Notification facts
+Treaty ref is FICT-TRT-006; FICT-TRT-004.
+Date of loss is 2024-09-24.
+Date notified is 2024-09-28.
+Claim reference is FCL-GN-1169-833.
+Territory or country is Fictional North Territory.
+Peril or cause is Flood.
+Loss location is Rook Lane, Example District.
+Sender name is Blake Bell.
+Sender role is Claims analyst.
+Cedent notes is Initial estimate; engineering review is pending.
+
+Yours faithfully
+Claims Intake

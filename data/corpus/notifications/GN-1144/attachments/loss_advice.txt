@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1144-330
-Primary treaty reference: FICT-TRT-007
-Loss date: 2024-06-04
-Notification date: 2024-06-12
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 368522.50
-Outstanding reserve: GBP 2211134.97
+| Field | Value |
+| --- | --- |
+| Contract reference | FICT-TRT-007 |
+| Date notified | 2024-06-12 |
+| Desc. | Fictional storm damage to two insured storage buildings. |
+| Claim reference | FCL-GN-1144-330 |
+| Original insured | Cedar Ferry Consortium (fictional) |
+| Territory or country | Fictional North Territory |
+| Peril or cause | Unauthorised access |
+| Sender role | Claims analyst |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |
+| Paid to date | GBP 368522.50 |
+| Outstanding reserve | GBP 2211134.97 |

@@ -1,14 +1,19 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1006-974
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-006
-Loss date: 2024-12-14
-Notification date: 2024-12-25
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: USD 321002.16
-Outstanding reserve: USD 1926012.98
+
+Dear Claims Team,
+
+Section: Notification facts
+Cedant is Example Cedent B Ltd (fictional).
+DOL is 2024-12-14.
+Advised on is 2024-12-25.
+Nature of loss is Fictional flood damage to insured stock and equipment.
+Original insured is Briar Foundry Group (fictional).
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Casey Clark.
+Sender role is Claims analyst.
+Cedent notes is Initial estimate; engineering review is pending.
+Paid to date is USD 321002.16.
+Outstanding reserve is USD 1926012.98.
+
+Yours faithfully
+Claims Intake

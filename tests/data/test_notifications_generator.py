@@ -1,14 +1,15 @@
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 from collections import Counter, defaultdict
-from datetime import timedelta
+from datetime import datetime, timedelta
 from decimal import Decimal
 from email import policy
 from email.parser import BytesParser
-from email.utils import getaddresses
+from email.utils import getaddresses, parsedate_to_datetime
 from pathlib import Path
 
 import pytest
@@ -17,18 +18,27 @@ from jsonschema import Draft202012Validator, FormatChecker
 from data.generators.notifications import (
     ADVERSARIAL_COUNTS,
     ADVERSARIAL_TAGS,
+    ATTACHMENT_LAYOUTS,
     DEFAULT_SEED,
     DIFFERENCE_SEED,
     EXPECTED_SPLIT_COUNTS,
+    EXTRACTION_FIELDS,
     INJECTION_TEXTS,
+    LABEL_SYNONYMS,
     NON_ADVERSARIAL_COUNTS,
     REFERENCE_DATE,
     SUPPORTED_COUNT,
     TAG_COUNTS,
     build_scenarios,
+    field_in_document,
+    field_is_present,
+    field_values,
     generate_corpus,
     load_contracts,
+    render_attachment,
+    rendering_plan,
 )
+from src.evals.runner import run_baseline
 
 ROOT = Path(__file__).resolve().parents[2]
 GENERATOR = ROOT / "data" / "generators" / "notifications.py"
@@ -333,7 +343,7 @@ def test_14_wrong_cedent_records_cannot_match_any_manifest_contract(
                 data["contract"].cedent_name == scenario["cedent"]
                 and data["contract"].contract_id == scenario["contract_id"]
             )
-        assert scenario["cedent"] in email_text(record_id)
+        assert scenario["cedent"] in rendered_text(record)
 
 
 def test_15_contradictory_documents_have_ambiguous_null_amounts(
@@ -634,3 +644,260 @@ def test_30_missing_treaties_are_empty_and_removed_notification_dates_are_absent
                 sent_date.strftime("%Y/%m/%d"),
             }
             assert not any(value in rendered for value in rendered_dates)
+
+
+def head_file_bytes(relative_path):
+    result = subprocess.run(
+        ["git", "show", f"HEAD:{relative_path}"],
+        cwd=ROOT,
+        capture_output=True,
+        check=False,
+    )
+    assert result.returncode == 0, result.stderr.decode("utf-8")
+    return result.stdout
+
+
+def head_json(relative_path):
+    return json.loads(head_file_bytes(relative_path))
+
+
+def document_text(record_id, document):
+    return email_text(record_id) if document == "email" else attachment_text(record_id)
+
+
+def test_31_regeneration_leaves_every_gold_record_byte_identical_to_head(tmp_path):
+    generate_corpus(out=tmp_path, seed=DEFAULT_SEED)
+    for index in range(SUPPORTED_COUNT):
+        record_id = f"GN-{1001 + index:04d}"
+        relative = f"evals/gold/records/{record_id}.json"
+        expected = head_file_bytes(relative)
+        assert (ROOT / relative).read_bytes() == expected
+        assert (tmp_path / relative).read_bytes() == expected
+
+
+def test_32_regeneration_leaves_manifest_and_per_tag_counts_unchanged(tmp_path):
+    expected = {
+        "total": 225,
+        "splits": {"dev": 158, "holdout": 67},
+        "tags": dict(TAG_COUNTS),
+    }
+    assert head_json("data/corpus/notifications_manifest.json")["counts"] == expected
+    assert load_gold(MANIFEST_PATH)["counts"] == expected
+    assert generate_corpus(out=tmp_path, seed=DEFAULT_SEED)["counts"] == expected
+
+
+def test_33_every_label_synonym_appears_at_least_five_times(gold_records):
+    corpus_text = "\n".join(
+        email_text(record_id) + "\n" + attachment_text(record_id)
+        for record_id in gold_records
+    ).casefold()
+    for synonyms in LABEL_SYNONYMS.values():
+        for synonym in synonyms:
+            assert corpus_text.count(synonym.casefold()) >= 5, synonym
+
+
+def test_34_each_attachment_layout_appears_evenly_and_at_least_forty_times(scenarios):
+    layouts = {scenario["record_id"]: rendering_plan(scenario)["layout"] for scenario in scenarios}
+    counts = Counter(layouts.values())
+    assert set(counts) == set(ATTACHMENT_LAYOUTS)
+    assert all(count >= 40 for count in counts.values())
+    assert max(counts.values()) - min(counts.values()) <= 1
+    for scenario in scenarios:
+        assert attachment_text(scenario["record_id"]) == render_attachment(scenario)
+
+
+def test_35_at_least_twenty_records_have_a_field_in_only_one_document(scenarios):
+    uneven_records = 0
+    for scenario in scenarios:
+        record_id = scenario["record_id"]
+        plan = rendering_plan(scenario)
+        values = {
+            document: field_values(scenario, plan, document)
+            for document in ("email", "attachment")
+        }
+        uneven = False
+        for field in EXTRACTION_FIELDS:
+            if not field_is_present(scenario, field):
+                continue
+            placement = plan["placements"][field]
+            if placement == "both":
+                continue
+            uneven = True
+            assert values[placement][field] in document_text(record_id, placement)
+        uneven_records += uneven
+    assert uneven_records >= 20
+
+
+def test_36_cedent_and_treaty_are_present_unless_deliberately_removed(scenarios):
+    for scenario in scenarios:
+        record_id = scenario["record_id"]
+        combined = (email_text(record_id) + "\n" + attachment_text(record_id)).casefold()
+        removed = set(scenario["removed_fields"])
+        if "cedent_name" not in removed:
+            assert scenario["cedent"].casefold() in combined
+        if "treaty_references" not in removed:
+            assert scenario["contract_id"].casefold() in combined
+            if scenario["secondary_choice"] is not None:
+                secondary_id = scenario["secondary_choice"]["data"]["contract"].contract_id
+                assert secondary_id.casefold() in combined
+
+
+def test_37_at_least_twenty_percent_of_target_dates_are_non_iso(scenarios):
+    date_values = []
+    for scenario in scenarios:
+        if scenario["primary_tag"] not in {"messy", "forwarded_chain", "scanned_style"}:
+            continue
+        plan = rendering_plan(scenario)
+        for field in ("date_of_loss", "date_of_notification"):
+            if not field_is_present(scenario, field):
+                continue
+            document = "email" if field_in_document(plan, field, "email") else "attachment"
+            value = field_values(scenario, plan, document)[field]
+            assert value in document_text(scenario["record_id"], document)
+            expected = scenario["loss_date"] if field == "date_of_loss" else scenario["sent_date"]
+            date_values.append((value, expected.isoformat()))
+    assert date_values
+    assert sum(value != iso_value for value, iso_value in date_values) / len(date_values) >= 0.20
+
+
+def test_38_at_least_twenty_records_use_amount_separators_or_suffixes(scenarios):
+    formatted_records = set()
+    for scenario in scenarios:
+        if scenario["primary_tag"] not in {"messy", "forwarded_chain"}:
+            continue
+        plan = rendering_plan(scenario)
+        for field in ("estimated_loss_amount", "paid_to_date", "outstanding_reserve"):
+            if not field_is_present(scenario, field) or plan["amount_styles"][field] == 3:
+                continue
+            document = "email" if field_in_document(plan, field, "email") else "attachment"
+            value = field_values(scenario, plan, document)[field]
+            assert value in document_text(scenario["record_id"], document)
+            number = value.split(" ", 1)[1]
+            assert re.search(r"\d[, ]\d{3}", number) or re.search(r"\d\.\d{2}m(?:\s|$)", number)
+            formatted_records.add(scenario["record_id"])
+    assert len(formatted_records) >= 20
+
+
+def test_39_every_forwarded_chain_has_a_safe_quoted_trap_date(scenarios):
+    for scenario in scenarios:
+        if scenario["primary_tag"] != "forwarded_chain":
+            continue
+        match = re.search(
+            r"^On (\d{1,2} [A-Za-z]{3} \d{4}) 09:00 \+0000, .+ wrote:$",
+            email_text(scenario["record_id"]),
+            re.MULTILINE,
+        )
+        assert match is not None
+        quoted_date = datetime.strptime(match.group(1), "%d %b %Y").date()
+        assert quoted_date < scenario["sent_date"]
+        assert abs((quoted_date - scenario["sent_date"]).days) >= 3
+        assert quoted_date != scenario["loss_date"]
+
+
+def test_40_forwarded_top_message_date_equals_gold_notification_date(
+    gold_records, scenarios_by_id
+):
+    for record_id, scenario in scenarios_by_id.items():
+        if scenario["primary_tag"] != "forwarded_chain":
+            continue
+        message = BytesParser(policy=policy.default).parsebytes(
+            email_text(record_id).encode("utf-8")
+        )
+        assert "Date" in message
+        top_date = parsedate_to_datetime(str(message["Date"])).date().isoformat()
+        assert top_date == scenario["sent_date"].isoformat()
+        assert top_date == gold_records[record_id]["labels"]["extraction"]["date_of_notification"]
+
+
+def test_41_two_regenerations_have_identical_email_and_attachment_hashes(tmp_path):
+    first = tmp_path / "first"
+    second = tmp_path / "second"
+    generate_corpus(out=first, seed=DEFAULT_SEED)
+    generate_corpus(out=second, seed=DEFAULT_SEED)
+
+    def rendered_hashes(root):
+        notifications = root / "data" / "corpus" / "notifications"
+        return {
+            path.relative_to(notifications).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+            for path in notifications.rglob("*")
+            if path.is_file()
+        }
+
+    assert rendered_hashes(first) == rendered_hashes(second)
+    assert len(rendered_hashes(first)) == 450
+
+
+def test_42_holdout_gold_files_remain_byte_identical(gold_records):
+    holdout_ids = {
+        record_id for record_id, record in gold_records.items() if record["split"] == "holdout"
+    }
+    assert len(holdout_ids) == 67
+    for record_id in holdout_ids:
+        relative = f"evals/gold/records/{record_id}.json"
+        assert (ROOT / relative).read_bytes() == head_file_bytes(relative)
+
+
+def test_43_all_adversarial_records_keep_tags_and_marker_text(
+    gold_records, scenarios_by_id
+):
+    adversarial = []
+    for record_id, record in gold_records.items():
+        if not set(record["tags"]) & set(ADVERSARIAL_TAGS):
+            continue
+        adversarial.append(record_id)
+        relative = f"evals/gold/records/{record_id}.json"
+        assert record["tags"] == head_json(relative)["tags"]
+        scenario = scenarios_by_id[record_id]
+        if scenario["primary_tag"] == "injection":
+            rendered = rendered_text(record)
+            for instruction in scenario["injection_texts"]:
+                assert instruction in rendered
+        elif scenario["primary_tag"] == "contradictory_documents":
+            plan = rendering_plan(scenario)
+            email_amount = field_values(scenario, plan, "email")["estimated_loss_amount"]
+            attachment_amount = field_values(scenario, plan, "attachment")["estimated_loss_amount"]
+            assert email_amount != attachment_amount
+            assert email_amount in email_text(record_id)
+            assert attachment_amount in attachment_text(record_id)
+        elif scenario["primary_tag"] == "out_of_scope":
+            assert "outside claims handling" in email_text(record_id)
+        elif scenario["primary_tag"] == "near_duplicate":
+            assert scenario["near_duplicate_of"] in gold_records
+    assert len(adversarial) == 30
+
+
+def test_44_b10_runner_writes_provisional_v2_results_with_new_name(tmp_path):
+    committed_path = ROOT / "evals" / "results" / "baseline-regex-v2__dev.json"
+    assert committed_path.is_file()
+    committed = load_gold(committed_path)
+    path = run_baseline("dev", tmp_path, prompt_version="baseline-regex-v2")
+    report = load_gold(path)
+    assert path.name == "baseline-regex-v2__dev.json"
+    for result in (committed, report):
+        assert result["prompt_version"] == "baseline-regex-v2"
+        assert result["provisional"] is True
+    assert committed["metrics"] == report["metrics"]
+
+
+def test_45_v2_critical_macro_is_strictly_below_v1_threshold():
+    report = load_gold(ROOT / "evals" / "results" / "baseline-regex-v2__dev.json")
+    for mode in ("exact", "fuzzy"):
+        assert report["metrics"][mode]["critical_macro"]["value"] < 0.9412
+
+
+def test_46_v1_results_file_hash_is_unchanged_from_head():
+    relative = "evals/results/baseline-regex-v1__dev.json"
+    current_hash = subprocess.check_output(
+        ["git", "hash-object", relative], cwd=ROOT, text=True
+    ).strip()
+    head_hash = subprocess.check_output(
+        ["git", "rev-parse", f"HEAD:{relative}"], cwd=ROOT, text=True
+    ).strip()
+    assert current_hash == head_hash
+
+
+def test_47_runner_default_output_name_remains_baseline_regex_v1(tmp_path):
+    path = run_baseline("dev", tmp_path)
+    report = load_gold(path)
+    assert path.name == "baseline-regex-v1__dev.json"
+    assert report["prompt_version"] == "baseline-regex-v1"

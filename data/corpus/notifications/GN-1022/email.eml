@@ -1,7 +1,7 @@
-From: Blake Bell <blake.bell@example.test>
+From: blake.bell@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Thu, 16 May 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1022-534
+Subject: Loss notification
 Message-ID: <GN-1022@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,23 +11,18 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent A Ltd (fictional)
-Treaty reference: FICT-TRT-001
-Loss date: 2024-05-11
-Notification date: 2024-05-16
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss: GBP 4206519.34
-Claim reference: FCL-GN-1022-534
-Original insured: Briar Foundry Group (fictional)
+From cedent: Example Cedent A Ltd (fictional)
+Treaty ref: FICT-TRT-001
+Date of loss: 2024-05-11
+Advised on: 2024-05-16
+Description of loss: Fictional storm damage to two insured storage buildings.
+Estimated loss amount: GBP 4206519.34
 Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Rook Lane, Example District
 Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 420651.93
 Outstanding reserve: GBP 2523911.60
 
 Attachment: loss_advice.txt
 
 Regards
-Blake Bell
-Claims technician

@@ -1,14 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1171-771
 Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-02-10
-Notification date: 2024-03-21
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss amount: GBP 4524401.10
+Treaty no.: FICT-TRT-001
+Date loss occurred: 2024-02-10
+Nature of loss: Fictional computer-system incident at a named insured office.
+Estimated loss: GBP 4524401.10
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Kestrel Wharf, Example Province
+Sender name: Devon Dale
+Sender role: Claims analyst
 Cedent notes: Initial estimate; engineering review is pending.
 Outstanding reserve: GBP 2714640.66

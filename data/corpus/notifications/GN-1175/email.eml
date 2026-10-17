@@ -1,7 +1,7 @@
 From: Casey Clark <casey.clark@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Wed, 30 Apr 2025 09:00:00 +0000
-Subject: Loss notification FCL-GN-1175-537
+Subject: Loss notification
 Message-ID: <GN-1175@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,14 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Cedent: Example Cedent A Ltd (fictional)
-Treaty reference: FICT-TRT-002
-Loss date: 2025-03-30
-Notification date: 2025-04-30
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss: EUR 1314501.23
-Claim reference: FCL-GN-1175-537
+Ceding company: Example Cedent A Ltd (fictional)
+Treaty no.: FICT-TRT-002
+Date of loss: 2025-03-30
+Notice dt.: 2025-04-30
+Nature of loss: Fictional flood damage to insured stock and equipment.
+Estimated loss amount: EUR 1314501.23
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional North Territory
-Peril or cause: Flood
 Loss location: Kestrel Wharf, Example Province
 Cedent notes: Initial estimate; engineering review is pending.
 

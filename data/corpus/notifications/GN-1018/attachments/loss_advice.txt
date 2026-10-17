@@ -1,13 +1,13 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1018-330
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-02-16
-Notification date: 2024-03-25
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: GBP 989105.49
+| Field | Value |
+| --- | --- |
+| Cedent | Example Cedent B Ltd (fictional) |
+| Treaty no. | FICT-TRT-003 |
+| Notice dt. | 2024-03-25 |
+| Description of loss | Fictional storm damage to two insured storage buildings. |
+| Claim reference | FCL-GN-1018-330 |
+| Territory or country | Fictional North Territory |
+| Loss location | Sable Quay, Example Region |
+| Sender name | Casey Clark |
+| Sender role | Reinsurance adjuster |
+| Cedent notes | Initial estimate; engineering review is pending. |

@@ -1,4 +1,4 @@
-From: Blake Bell <blake.bell@example.test>
+From: blake.bell@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sun, 07 Jul 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1079-194
@@ -11,25 +11,22 @@ Dear Claims Team
 
 I am writing to proivde an initial fictional loss advice.
 
-Ced.: Example Cedent D Ltd (fictional)
-Trty.: FICT-FAC-001
-DOL: 2024/06/12
-Notice dt.: 2024/07/07
-Desc.: Fictional computer-system incident at a named insured office.
-Est. loss: EUR 1120933.67
+From cedent: Example Cedent D Ltd (fictional)
+Date of loss: 12 Jun 2024
+Notification date: July 7, 2024
+Nature of loss: Fictional computer-system incident at a named insured office.
+Loss estimate: EUR 1,120,933.67 (EUR 1120933.67)
 Claim reference: FCL-GN-1079-194
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Fire
-Loss location: Rook Lane, Example District
 Cedent notes: Early notification; supporting documents are being gathered.
-Paid to date: USD 112093.37
+Paid to date: USD 0.11m (USD 112093.37)
 Outstanding reserve: USD 672560.20
 
 Attachment: loss_advice.txt
 
 Regards
-Blake Bell
 Claims analyst
 Claims Coordinator
 Second signature: Morgan Lake

@@ -1,14 +1,16 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1203-654
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-10-28
-Notification date: 2024-11-08
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: GBP 4722431.92
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Rook Lane, Example District
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 472243.19
+
+Loss details
+Cedant is Example Cedent A Ltd (fictional).
+Contract reference is FICT-TRT-001.
+DOL is 2024-10-28.
+Date notified is 2024-11-08.
+Description of loss is Fictional flood damage to insured stock and equipment.
+Est. loss is GBP 4722431.92.
+Original insured is Briar Foundry Group (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Fire.
+Loss location is Rook Lane, Example District.
+Sender name is Casey Clark.
+Sender role is Claims technician.
+Paid to date is GBP 472243.19.

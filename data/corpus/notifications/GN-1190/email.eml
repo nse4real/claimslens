@@ -1,7 +1,7 @@
-From: Casey Clark <casey.clark@example.test>
+From: casey.clark@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Tue, 26 Nov 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1190-770
+Subject: Loss notification
 Message-ID: <GN-1190@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,22 +11,16 @@ Dear Claims Team
 
 I am writing to provide an initial fictional loss advice.
 
-Cedent: Example Cedent Z Ltd (fictional)
+Cedant: Example Cedent Z Ltd (fictional)
 Treaty reference: FICT-TRT-004
-Loss date: 2024-10-31
-Notification date: 2024-11-26
-Loss description: Fictional computer-system incident at a named insured office.
-Estimated loss: USD 474033.64
-Claim reference: FCL-GN-1190-770
+DOL: 2024-10-31
+Notice dt.: 2024-11-26
+Desc.: Fictional computer-system incident at a named insured office.
+Loss estimate: USD 474033.64
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional South Territory
-Peril or cause: Unauthorised access
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
 Outstanding reserve: USD 284420.18
 
 Attachment: loss_advice.txt
 
 Regards
-Casey Clark
-Claims analyst

@@ -1,13 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1199-625
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-003
-Loss date: 2024-07-01
-Notification date: 2024-07-08
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: GBP 1622701.88
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent B Ltd (fictional) |
+| Treaty reference | FICT-TRT-003 |
+| Notice dt. | 2024-07-08 |
+| Desc. | Fictional computer-system incident at a named insured office. |
+| Original insured | Cedar Ferry Consortium (fictional) |
+| Peril or cause | Fire |
+| Loss location | Kestrel Wharf, Example Province |
+| Sender name | Casey Clark |
+| Sender role | Reinsurance adjuster |
+| Cedent notes | Preliminary advice; reserve review is scheduled. |
+| Outstanding reserve | GBP 1622701.88 |

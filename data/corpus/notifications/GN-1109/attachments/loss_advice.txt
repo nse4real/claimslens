@@ -1,14 +1,18 @@
 L0ss Adv1ce (fictional)
-Claim reference: FCL-GN-1109-137
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-L0ss date: 2024-01-05
-N0tification date: 2024-01-15
-L0ss description: Fictional flood damage to insured stock and equipment.
-0riginal insured: Dovetail Storage Mutual (fictional)
-Territory or
-country: Fictional North Territory
-Peril or cause: Unauthorised access
-L0ss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
-Outstanding reserve: USD 1518134.05
+
+Dear Claims Team,
+
+Section: N0tification facts
+Cedent is Example Cedent B Ltd (fictional).
+Contract reference is FICT-TRT-004.
+Date loss occurred is 05/01/2024.
+Date notified is 15 Jan 2024.
+Claim reference is FCL-GN-1109-137.
+Territory or country is Fictional North Territory.
+Peril or cause is Unauthorised access.
+L0ss location is Kestrel Wharf, Example Province.
+Sender name is Blake Bell.
+Sender role is Claims technician.
+
+Yours faithfully
+Claims Intake

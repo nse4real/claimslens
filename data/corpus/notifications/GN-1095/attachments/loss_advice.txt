@@ -1,14 +1,12 @@
 Loss Advice (fictional)
+Ced.: Example Cedent C Ltd (fictional)
+Contract reference: FICT-TRT-007
+DOL: August 15, 2024
+Nature of loss: Fictional fire damage to one insured production building.
 Claim reference: FCL-GN-1095-260
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-007
-Loss date: 2024-08-15
-Notification date: 2024-09-12
-Loss description: Fictional fire damage to one insured production building.
 Original insured: Dovetail Storage Mutual (fictional)
 Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
+Sender name: Casey Clark
+Sender role: Claims analyst
 Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 153813.56
-Outstanding reserve: GBP 922881.35
+Paid to date: GBP 153 813.56 (GBP 153813.56)

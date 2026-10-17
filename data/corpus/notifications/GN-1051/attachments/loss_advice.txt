@@ -1,15 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1051-503
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Loss date: 2024-03-24
-Notification date: 2024-03-31
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: GBP 3143552.17
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Unauthorised access
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
-Paid to date: GBP 314355.22
-Outstanding reserve: GBP 1886131.30
+
+Loss details
+Ceding company is Example Cedent A Ltd (fictional).
+Treaty ref is FICT-TRT-001.
+Date loss occurred is 24/03/2024.
+Advised on is 31/03/2024.
+Nature of loss is Fictional storm damage to two insured storage buildings.
+Estimated loss is GBP 3.14m (GBP 3143552.17).
+Loss location is Rook Lane, Example District.
+Sender name is Devon Dale.
+Cedent notes is Preliminary advice; reserve review is scheduled.
+Paid to date is GBP 314,355.22 (GBP 314355.22).
+Outstanding reserve is GBP 1,886,131.30 (GBP 1886131.30).

@@ -1,13 +1,19 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1027-804
-Cedent: Example Cedent D Ltd (fictional)
-Primary treaty reference: FICT-FAC-002
-Loss date: 2024-10-30
-Notification date: 2024-11-28
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Flood
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Early notification; supporting documents are being gathered.
-Outstanding reserve: EUR 874523.60
+
+Dear Claims Team,
+
+Section: Notification facts
+Cedant is Example Cedent D Ltd (fictional).
+Contract reference is FICT-FAC-002.
+Date of loss is 2024-10-30.
+Advised on is 2024-11-28.
+Description of loss is Fictional flood damage to insured stock and equipment.
+Claim reference is FCL-GN-1027-804.
+Original insured is Dovetail Storage Mutual (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Flood.
+Loss location is Kestrel Wharf, Example Province.
+Sender role is Reinsurance adjuster.
+
+Yours faithfully
+Claims Intake

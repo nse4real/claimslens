@@ -1,7 +1,7 @@
 From: Blake Bell <blake.bell@example.test>
 To: Claims Mailbox <claims@example.test>
 Date: Tue, 16 Apr 2024 09:00:00 +0000
-Subject: Loss notification FCL-GN-1139-846
+Subject: Loss notification
 Message-ID: <GN-1139@example.test>
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,10 @@ Dear Claims Team
 
 I am writing to provide an initial fictional loss advice.
 
-Cedent: Example Cedent B Ltd (fictional)
+Ceding company: Example Cedent B Ltd (fictional)
 Treaty reference: FICT-TRT-003
-Loss date: 2024-04-10
-Notification date: 2024-04-16
+Date notified: 2024-04-16
 Estimated loss: USD 320016.19
-Claim reference: FCL-GN-1139-846
 Original insured: Briar Foundry Group (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Fire

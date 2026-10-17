@@ -1,14 +1,17 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1146-589
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-001
-Notification date: 2024-08-12
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: GBP 4350506.45
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Fire
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
-Paid to date: GBP 435050.64
-Outstanding reserve: GBP 2610303.87
+
+Loss details
+Ced. is Example Cedent A Ltd (fictional).
+Contract reference is FICT-TRT-001.
+Notice dt. is 2024-08-12.
+Loss description is Fictional flood damage to insured stock and equipment.
+Est. loss is GBP 4350506.45.
+Claim reference is FCL-GN-1146-589.
+Original insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Fire.
+Loss location is Sable Quay, Example Region.
+Sender name is Casey Clark.
+Sender role is Claims analyst.
+Cedent notes is Initial estimate; engineering review is pending.
+Outstanding reserve is GBP 2610303.87.

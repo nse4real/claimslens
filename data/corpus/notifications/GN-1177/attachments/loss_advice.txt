@@ -1,12 +1,19 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1177-928
-Cedent: Example Cedent A Ltd (fictional)
-Primary treaty reference: FICT-TRT-002
-Loss date: 2025-04-02
-Notification date: 2025-04-26
-Loss description: Fictional computer-system incident at a named insured office.
-Original insured: Cedar Ferry Consortium (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Unauthorised access
-Loss location: Rook Lane, Example District
-Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Dear Claims Team,
+
+Section: Notification facts
+Ceding company is Example Cedent A Ltd (fictional).
+Treaty ref is FICT-TRT-002.
+Date of loss is 2025-04-02.
+Notification date is 2025-04-26.
+Desc. is Fictional computer-system incident at a named insured office.
+Claim reference is FCL-GN-1177-928.
+Original insured is Cedar Ferry Consortium (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Unauthorised access.
+Loss location is Rook Lane, Example District.
+Sender name is Alex Avery.
+
+Yours faithfully
+Claims Intake

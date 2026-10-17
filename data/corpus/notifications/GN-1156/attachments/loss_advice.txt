@@ -1,16 +1,12 @@
 Loss Advice (fictional)
+From cedent: Example Cedent C Ltd (fictional)
+DOL: 2024-06-14
+Date notified: 2024-07-22
+Nature of loss: Fictional storm damage to two insured storage buildings.
 Claim reference: FCL-GN-1156-553
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-008
-Secondary treaty reference: FICT-TRT-007
-Loss date: 2024-06-14
-Notification date: 2024-07-22
-Loss description: Fictional storm damage to two insured storage buildings.
-Estimated loss amount: GBP 1765825.63
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Rook Lane, Example District
+Sender name: Blake Bell
 Cedent notes: Early notification; supporting documents are being gathered.
 Paid to date: GBP 176582.56
 Outstanding reserve: GBP 1059495.38

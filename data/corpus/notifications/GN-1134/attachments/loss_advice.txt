@@ -1,11 +1,14 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1134-238
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-02-21
-Notification date: 2024-03-18
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
+
+Loss details
+Cedent is Example Cedent B Ltd (fictional).
+Treaty no. is FICT-TRT-004.
+Loss date is 2024-02-21.
+Claim reference is FCL-GN-1134-238.
+Original insured is Aster Orchard Cooperative (fictional).
+Territory or country is Fictional South Territory.
+Peril or cause is Storm.
+Loss location is Kestrel Wharf, Example Province.
+Sender name is Alex Avery.
+Sender role is Claims technician.
+Cedent notes is Initial estimate; engineering review is pending.

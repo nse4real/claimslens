@@ -1,12 +1,12 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1047-571
-Cedent: Example Cedent B Ltd (fictional)
-Primary treaty reference: FICT-TRT-004
-Loss date: 2024-11-02
-Notification date: 2024-11-13
-Loss description: Fictional storm damage to two insured storage buildings.
-Original insured: Briar Foundry Group (fictional)
-Territory or country: Fictional North Territory
-Peril or cause: Storm
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
+
+Loss details
+Date loss occurred is November 2, 2024.
+Claim reference is FCL-GN-1047-571.
+Original insured is Briar Foundry Group (fictional).
+Territory or country is Fictional North Territory.
+Peril or cause is Storm.
+Loss location is Sable Quay, Example Region.
+Sender name is Devon Dale.
+Sender role is Reinsurance adjuster.
+Cedent notes is Initial estimate; engineering review is pending.

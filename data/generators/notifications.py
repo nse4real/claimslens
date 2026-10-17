@@ -696,15 +696,201 @@ def build_gold_record(scenario: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def body_date(scenario: dict[str, Any], value: date) -> str:
-    if scenario["primary_tag"] != "messy":
-        return value.isoformat()
-    formats = ("%d/%m/%Y", "%d %b %Y", "%Y/%m/%d")
-    return value.strftime(formats[scenario["date_style"]])
+LABEL_SYNONYMS = {
+    "cedent_name": ("Cedent", "Ceding company", "From cedent", "Ced.", "Cedant"),
+    "treaty_references": ("Treaty reference", "Treaty ref", "Contract reference", "Trty.", "Treaty no."),
+    "date_of_loss": ("Loss date", "Date of loss", "DOL", "Date loss occurred"),
+    "date_of_notification": ("Notification date", "Date notified", "Notice dt.", "Advised on"),
+    "loss_description": ("Loss description", "Description of loss", "Desc.", "Nature of loss"),
+    "estimated_loss_amount": ("Estimated loss", "Est. loss", "Estimated loss amount", "Loss estimate"),
+}
+FIELD_LABELS = {
+    "cedent_claim_reference": "Claim reference",
+    "original_insured_name": "Original insured",
+    "territory_or_country": "Territory or country",
+    "peril_or_cause": "Peril or cause",
+    "loss_location": "Loss location",
+    "sender_name": "Sender name",
+    "sender_role": "Sender role",
+    "cedent_notes": "Cedent notes",
+    "paid_to_date": "Paid to date",
+    "outstanding_reserve": "Outstanding reserve",
+}
+ATTACHMENT_LAYOUTS = ("key_value", "table", "prose", "letter")
+PLACEMENT_OPTIONS = ("both", "email", "attachment")
+PLACEMENT_WEIGHTS = (50, 25, 25)
+DATE_FORMAT_TAGS = {"messy", "forwarded_chain", "scanned_style"}
+AMOUNT_FORMAT_TAGS = {"messy", "forwarded_chain"}
+
+
+def rendering_plan(scenario: dict[str, Any]) -> dict[str, Any]:
+    record_index = int(scenario["record_id"].rsplit("-", 1)[1]) - 1001
+    rng = random.Random(scenario["generator_seed"] + record_index)
+    labels = dict(FIELD_LABELS)
+    for field in CRITICAL_FIELDS:
+        labels[field] = rng.choice(LABEL_SYNONYMS[field])
+    placements = {
+        field: rng.choices(PLACEMENT_OPTIONS, weights=PLACEMENT_WEIGHTS, k=1)[0]
+        for field in EXTRACTION_FIELDS
+    }
+    contradictory = scenario["primary_tag"] == "contradictory_documents"
+    has_a3 = any(item["ambiguity_id"] == "A3" for item in scenario["ambiguities"])
+    if placements["cedent_name"] == "attachment":
+        placements["cedent_name"] = "both"
+    if contradictory:
+        placements["estimated_loss_amount"] = "both"
+    elif has_a3:
+        placements["estimated_loss_amount"] = "email"
+    if (
+        scenario["primary_tag"] == "forwarded_chain"
+        and placements["date_of_notification"] == "attachment"
+    ):
+        placements["date_of_notification"] = "email"
+    if record_index == 0:
+        for field in CRITICAL_FIELDS:
+            labels[field] = LABEL_SYNONYMS[field][0]
+            placements[field] = "both"
+
+    layout_block_start = record_index - record_index % len(ATTACHMENT_LAYOUTS)
+    layout_rng = random.Random(scenario["generator_seed"] + layout_block_start)
+    layout_choices = list(ATTACHMENT_LAYOUTS)
+    layout_rng.shuffle(layout_choices)
+    layout = layout_choices[record_index % len(ATTACHMENT_LAYOUTS)]
+    date_styles = {
+        field: rng.randrange(4) for field in ("date_of_loss", "date_of_notification")
+    }
+    amount_styles = {
+        field: rng.randrange(4)
+        for field in ("estimated_loss_amount", "paid_to_date", "outstanding_reserve")
+    }
+    treaty_lowercase = rng.random() < 0.5
+    multi_treaty_list = rng.random() < 0.5
+    trap_date = scenario["sent_date"] - timedelta(days=rng.randint(3, 10))
+    if trap_date == scenario["loss_date"]:
+        trap_date -= timedelta(days=1)
+    return {
+        "labels": labels,
+        "placements": placements,
+        "layout": layout,
+        "date_styles": date_styles,
+        "amount_styles": amount_styles,
+        "treaty_lowercase": treaty_lowercase,
+        "multi_treaty_list": multi_treaty_list,
+        "trap_date": trap_date,
+    }
+
+
+def field_is_present(scenario: dict[str, Any], field: str) -> bool:
+    if field in scenario["removed_fields"]:
+        return False
+    if field in {"paid_to_date", "outstanding_reserve"}:
+        return scenario[field] is not None
+    return True
+
+
+def field_in_document(plan: dict[str, Any], field: str, document: str) -> bool:
+    return plan["placements"][field] in {"both", document}
+
+
+def format_date(value: date, style: int) -> str:
+    if style == 0:
+        return f"{value.day} {value:%b} {value.year}"
+    if style == 1:
+        return value.strftime("%d/%m/%Y")
+    if style == 2:
+        return f"{value:%B} {value.day}, {value.year}"
+    return value.isoformat()
+
+
+def render_date(scenario: dict[str, Any], plan: dict[str, Any], field: str) -> str:
+    value = scenario["loss_date"] if field == "date_of_loss" else scenario["sent_date"]
+    style = plan["date_styles"][field] if scenario["primary_tag"] in DATE_FORMAT_TAGS else 3
+    return format_date(value, style)
+
+
+def format_amount(amount: Decimal, currency: str, style: int) -> str:
+    plain = format(amount, ".2f")
+    if style == 0:
+        number = format(amount, ",.2f")
+    elif style == 1:
+        number = f"{format(amount / Decimal('1000000'), '.2f')}m"
+    elif style == 2:
+        number = format(amount, ",.2f").replace(",", " ")
+    else:
+        return f"{currency} {plain}"
+    return f"{currency} {number} ({currency} {plain})"
+
+
+def render_amount(
+    scenario: dict[str, Any], plan: dict[str, Any], field: str, amount: Decimal
+) -> str:
+    currency = scenario["stated_currency"] if field == "estimated_loss_amount" else scenario["currency"]
+    style = plan["amount_styles"][field] if scenario["primary_tag"] in AMOUNT_FORMAT_TAGS else 3
+    return format_amount(amount, currency, style)
+
+
+def treaty_value(scenario: dict[str, Any], plan: dict[str, Any], document: str) -> str:
+    references = [scenario["contract_id"]]
+    if scenario["secondary_choice"] is not None:
+        references.append(scenario["secondary_choice"]["data"]["contract"].contract_id)
+    separator = " and " if document == "email" and plan["multi_treaty_list"] else "; "
+    value = separator.join(references)
+    if document == "email" and scenario["primary_tag"] == "messy" and plan["treaty_lowercase"]:
+        return f"{value.lower()} ({value})"
+    return value
+
+
+def field_values(
+    scenario: dict[str, Any], plan: dict[str, Any], document: str
+) -> dict[str, str | None]:
+    contradictory = scenario["primary_tag"] == "contradictory_documents"
+    estimated_amount = (
+        scenario["contradictory_amount"]
+        if contradictory and document == "attachment"
+        else scenario["estimated_amount"]
+    )
+    return {
+        "cedent_name": scenario["cedent"],
+        "treaty_references": treaty_value(scenario, plan, document),
+        "date_of_loss": render_date(scenario, plan, "date_of_loss"),
+        "date_of_notification": render_date(scenario, plan, "date_of_notification"),
+        "loss_description": scenario["loss_description"],
+        "estimated_loss_amount": render_amount(
+            scenario, plan, "estimated_loss_amount", estimated_amount
+        ),
+        "cedent_claim_reference": scenario["claim_reference"],
+        "original_insured_name": scenario["insured_name"],
+        "territory_or_country": scenario["territory"],
+        "peril_or_cause": scenario["peril"],
+        "loss_location": scenario["location"],
+        "sender_name": scenario["sender_name"],
+        "sender_role": scenario["sender_role"],
+        "cedent_notes": scenario["notes"],
+        "paid_to_date": render_amount(scenario, plan, "paid_to_date", scenario["paid_to_date"])
+        if scenario["paid_to_date"] is not None
+        else None,
+        "outstanding_reserve": render_amount(
+            scenario, plan, "outstanding_reserve", scenario["outstanding_reserve"]
+        )
+        if scenario["outstanding_reserve"] is not None
+        else None,
+    }
+
+
+def field_label(scenario: dict[str, Any], plan: dict[str, Any], field: str, document: str) -> str:
+    if (
+        field == "treaty_references"
+        and document == "email"
+        and scenario["secondary_choice"] is not None
+        and plan["multi_treaty_list"]
+    ):
+        return "Treaty references"
+    return plan["labels"][field]
 
 
 def core_body(scenario: dict[str, Any]) -> str:
-    removed = set(scenario["removed_fields"])
+    plan = rendering_plan(scenario)
+    values = field_values(scenario, plan, "email")
     messy = scenario["primary_tag"] == "messy"
     if scenario["primary_tag"] == "out_of_scope":
         intro = "Please change the treaty terms below. This treaty administration request is outside claims handling."
@@ -717,122 +903,125 @@ def core_body(scenario: dict[str, Any]) -> str:
         intro = intros[scenario["body_template"]]
         if messy:
             intro = intro.replace("notification", "notifcation").replace("provide", "proivde")
-    labels = {
-        "cedent": "Ced." if messy else "Cedent",
-        "treaty": "Trty." if messy else "Treaty reference",
-        "loss_date": "DOL" if messy else "Loss date",
-        "sent_date": "Notice dt." if messy else "Notification date",
-        "description": "Desc." if messy else "Loss description",
-        "amount": "Est. loss" if messy else "Estimated loss",
-    }
     lines = ["Dear Claims Team", "", intro, ""]
-    if "cedent_name" not in removed:
-        lines.append(f"{labels['cedent']}: {scenario['cedent']}")
-    if "treaty_references" not in removed:
-        treaty_value = scenario["contract_id"]
-        if scenario["secondary_choice"] is not None:
-            secondary_id = scenario["secondary_choice"]["data"]["contract"].contract_id
-            treaty_value = f"Primary {scenario['contract_id']}; secondary {secondary_id}"
-        lines.append(f"{labels['treaty']}: {treaty_value}")
-    if "date_of_loss" not in removed:
-        lines.append(f"{labels['loss_date']}: {body_date(scenario, scenario['loss_date'])}")
-    if "date_of_notification" not in removed:
-        lines.append(f"{labels['sent_date']}: {body_date(scenario, scenario['sent_date'])}")
-    if "loss_description" not in removed:
-        lines.append(f"{labels['description']}: {scenario['loss_description']}")
-    if "estimated_loss_amount" not in removed:
-        lines.append(
-            f"{labels['amount']}: {scenario['stated_currency']} {format(scenario['estimated_amount'], '.2f')}"
-        )
-    lines.extend(
-        [
-            f"Claim reference: {scenario['claim_reference']}",
-            f"Original insured: {scenario['insured_name']}",
-            f"Territory or country: {scenario['territory']}",
-            f"Peril or cause: {scenario['peril']}",
-            f"Loss location: {scenario['location']}",
-            f"Cedent notes: {scenario['notes']}",
-        ]
-    )
-    if scenario["paid_to_date"] is not None:
-        lines.append(f"Paid to date: {scenario['currency']} {format(scenario['paid_to_date'], '.2f')}")
-    if scenario["outstanding_reserve"] is not None:
-        lines.append(f"Outstanding reserve: {scenario['currency']} {format(scenario['outstanding_reserve'], '.2f')}")
+    for field in EXTRACTION_FIELDS:
+        if field in {"sender_name", "sender_role"}:
+            continue
+        if field_is_present(scenario, field) and field_in_document(plan, field, "email"):
+            label = field_label(scenario, plan, field, "email")
+            lines.append(f"{label}: {values[field]}")
     lines.extend(["", "Attachment: loss_advice.txt"])
     for category, text in zip(scenario["injection_categories"], scenario["injection_texts"], strict=True):
         if category != "b":
             lines.extend(["", text])
-    lines.extend(["", "Regards", scenario["sender_name"], scenario["sender_role"]])
+    lines.extend(["", "Regards"])
+    if field_is_present(scenario, "sender_name") and field_in_document(plan, "sender_name", "email"):
+        lines.append(scenario["sender_name"])
+    if field_is_present(scenario, "sender_role") and field_in_document(plan, "sender_role", "email"):
+        lines.append(scenario["sender_role"])
     if messy:
         lines.extend(["Claims Coordinator", "Second signature: Morgan Lake"])
     return "\n".join(lines)
 
 
 def render_email(scenario: dict[str, Any]) -> str:
+    plan = rendering_plan(scenario)
     body = core_body(scenario)
     if scenario["primary_tag"] == "forwarded_chain":
-        first_date = scenario["sent_date"] - timedelta(days=2)
-        second_date = scenario["sent_date"] - timedelta(days=1)
+        quoted_date = format_date(plan["trap_date"], 0)
         body = (
-            "---------- Earlier message 1 ----------\n"
-            "From: Alex Avery <alex.avery@example.test>\n"
-            f"Date: {first_date.isoformat()}\n\n"
-            "Can you review the incoming advice?\n\n"
-            "---------- Earlier message 2 ----------\n"
-            "From: Blake Bell <blake.bell@example.test>\n"
-            f"Date: {second_date.isoformat()}\n\n"
-            "Adding the claims mailbox for handling.\n\n"
-            "---------- Forwarded loss notification ----------\n"
-            f"{body}"
+            f"{body}\n\n"
+            "---------- Earlier quoted message ----------\n"
+            f"On {quoted_date} 09:00 +0000, Morgan Lake <morgan.lake@example.test> wrote:\n\n"
+            "Can you review the incoming advice before it reaches the claims mailbox?"
         )
     message = EmailMessage(policy=policy.default.clone(linesep="\n"))
-    message["From"] = f"{scenario['sender_name']} <{scenario['sender_email']}>"
+    sender_in_email = field_is_present(scenario, "sender_name") and field_in_document(
+        plan, "sender_name", "email"
+    )
+    if sender_in_email:
+        message["From"] = f"{scenario['sender_name']} <{scenario['sender_email']}>"
+    else:
+        message["From"] = scenario["sender_email"]
     message["To"] = "Claims Mailbox <claims@example.test>"
-    if "date_of_notification" not in scenario["removed_fields"]:
+    if field_is_present(scenario, "date_of_notification"):
         sent_at = datetime.combine(scenario["sent_date"], time(9, 0), tzinfo=timezone.utc)
         message["Date"] = format_datetime(sent_at, usegmt=True)
     subject_prefix = "Treaty administration request" if scenario["primary_tag"] == "out_of_scope" else "Loss notification"
-    message["Subject"] = f"{subject_prefix} {scenario['claim_reference']}"
+    reference_in_email = field_is_present(
+        scenario, "cedent_claim_reference"
+    ) and field_in_document(plan, "cedent_claim_reference", "email")
+    message["Subject"] = (
+        f"{subject_prefix} {scenario['claim_reference']}" if reference_in_email else subject_prefix
+    )
     message["Message-ID"] = f"<{scenario['record_id']}@example.test>"
     message.set_content(body, subtype="plain", charset="utf-8", cte="7bit")
     return message.as_string()
 
 
+def key_value_attachment_lines(
+    fields: list[str], labels: dict[str, str], values: dict[str, str | None]
+) -> list[str]:
+    return ["Loss Advice (fictional)"] + [
+        f"{labels[field]}: {values[field]}" for field in fields
+    ]
+
+
+def table_attachment_lines(
+    fields: list[str], labels: dict[str, str], values: dict[str, str | None]
+) -> list[str]:
+    return ["Loss Advice (fictional)", "| Field | Value |", "| --- | --- |"] + [
+        f"| {labels[field]} | {values[field]} |" for field in fields
+    ]
+
+
+def prose_fact(label: str, value: str | None) -> str:
+    return f"{label} is {str(value).rstrip('.')}."
+
+
+def prose_attachment_lines(
+    fields: list[str], labels: dict[str, str], values: dict[str, str | None]
+) -> list[str]:
+    return ["Loss Advice (fictional)", "", "Loss details"] + [
+        prose_fact(labels[field], values[field]) for field in fields
+    ]
+
+
+def letter_attachment_lines(
+    fields: list[str], labels: dict[str, str], values: dict[str, str | None]
+) -> list[str]:
+    return [
+        "Loss Advice (fictional)",
+        "",
+        "Dear Claims Team,",
+        "",
+        "Section: Notification facts",
+    ] + [prose_fact(labels[field], values[field]) for field in fields] + [
+        "",
+        "Yours faithfully",
+        "Claims Intake",
+    ]
+
+
 def render_attachment(scenario: dict[str, Any]) -> str:
-    removed = set(scenario["removed_fields"])
+    plan = rendering_plan(scenario)
+    values = field_values(scenario, plan, "attachment")
+    fields = [
+        field
+        for field in EXTRACTION_FIELDS
+        if field_is_present(scenario, field) and field_in_document(plan, field, "attachment")
+    ]
     has_a3 = any(item["ambiguity_id"] == "A3" for item in scenario["ambiguities"])
     contradictory = scenario["primary_tag"] == "contradictory_documents"
-    lines = ["Loss Advice (fictional)", f"Claim reference: {scenario['claim_reference']}"]
-    if "cedent_name" not in removed:
-        lines.append(f"Cedent: {scenario['cedent']}")
-    if "treaty_references" not in removed:
-        lines.append(f"Primary treaty reference: {scenario['contract_id']}")
-        if scenario["secondary_choice"] is not None:
-            lines.append(
-                f"Secondary treaty reference: {scenario['secondary_choice']['data']['contract'].contract_id}"
-            )
-    if "date_of_loss" not in removed:
-        lines.append(f"Loss date: {scenario['loss_date'].isoformat()}")
-    if "date_of_notification" not in removed:
-        lines.append(f"Notification date: {scenario['sent_date'].isoformat()}")
-    if "loss_description" not in removed:
-        lines.append(f"Loss description: {scenario['loss_description']}")
-    if "estimated_loss_amount" not in removed and (not has_a3 or contradictory):
-        amount = scenario["contradictory_amount"] if contradictory else scenario["estimated_amount"]
-        lines.append(f"Estimated loss amount: {scenario['stated_currency']} {format(amount, '.2f')}")
-    lines.extend(
-        [
-            f"Original insured: {scenario['insured_name']}",
-            f"Territory or country: {scenario['territory']}",
-            f"Peril or cause: {scenario['peril']}",
-            f"Loss location: {scenario['location']}",
-            f"Cedent notes: {scenario['notes']}",
-        ]
-    )
-    if scenario["paid_to_date"] is not None:
-        lines.append(f"Paid to date: {scenario['currency']} {format(scenario['paid_to_date'], '.2f')}")
-    if scenario["outstanding_reserve"] is not None:
-        lines.append(f"Outstanding reserve: {scenario['currency']} {format(scenario['outstanding_reserve'], '.2f')}")
+    if has_a3 and not contradictory:
+        fields = [field for field in fields if field != "estimated_loss_amount"]
+    layout_renderers = {
+        "key_value": key_value_attachment_lines,
+        "table": table_attachment_lines,
+        "prose": prose_attachment_lines,
+        "letter": letter_attachment_lines,
+    }
+    lines = layout_renderers[plan["layout"]](fields, plan["labels"], values)
     for category, text in zip(scenario["injection_categories"], scenario["injection_texts"], strict=True):
         if category == "b":
             lines.extend(["", text])

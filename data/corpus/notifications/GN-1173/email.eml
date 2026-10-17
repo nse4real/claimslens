@@ -1,4 +1,4 @@
-From: Blake Bell <blake.bell@example.test>
+From: blake.bell@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Thu, 02 Jan 2025 09:00:00 +0000
 Subject: Loss notification FCL-GN-1173-719
@@ -11,14 +11,13 @@ Dear Claims Team
 
 Please record this fictional loss notification.
 
-Cedent: Example Cedent D Ltd (fictional)
-Treaty reference: FICT-FAC-002
-Loss date: 2024-11-28
+From cedent: Example Cedent D Ltd (fictional)
+Contract reference: FICT-FAC-002
+Date of loss: 2024-11-28
 Notification date: 2025-01-02
-Loss description: Fictional computer-system incident at a named insured office.
+Desc.: Fictional computer-system incident at a named insured office.
 Estimated loss: GBP 1800518.25
 Claim reference: FCL-GN-1173-719
-Original insured: Aster Orchard Cooperative (fictional)
 Territory or country: Fictional South Territory
 Peril or cause: Storm
 Loss location: Sable Quay, Example Region
@@ -27,5 +26,4 @@ Cedent notes: Initial estimate; engineering review is pending.
 Attachment: loss_advice.txt
 
 Regards
-Blake Bell
 Claims analyst

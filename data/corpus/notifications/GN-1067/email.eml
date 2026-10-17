@@ -1,4 +1,4 @@
-From: Alex Avery <alex.avery@example.test>
+From: alex.avery@example.test
 To: Claims Mailbox <claims@example.test>
 Date: Sat, 20 Jul 2024 09:00:00 +0000
 Subject: Loss notification FCL-GN-1067-598
@@ -11,24 +11,22 @@ Dear Claims Team
 
 This message reports a new fictional loss for your claims register.
 
-Ced.: Example Cedent D Ltd (fictional)
-Trty.: FICT-FAC-002
-DOL: 2024/07/09
-Notice dt.: 2024/07/20
-Desc.: Fictional fire damage to one insured production building.
-Est. loss: GBP 2597910.00
+From cedent: Example Cedent D Ltd (fictional)
+Date loss occurred: July 9, 2024
+Notification date: 2024-07-20
+Nature of loss: Fictional fire damage to one insured production building.
+Estimated loss amount: GBP 2597910.00
 Claim reference: FCL-GN-1067-598
 Original insured: Cedar Ferry Consortium (fictional)
 Territory or country: Fictional North Territory
 Peril or cause: Storm
 Loss location: Rook Lane, Example District
 Cedent notes: Preliminary advice; reserve review is scheduled.
-Outstanding reserve: EUR 1558746.00
+Outstanding reserve: EUR 1.56m (EUR 1558746.00)
 
 Attachment: loss_advice.txt
 
 Regards
-Alex Avery
 Reinsurance adjuster
 Claims Coordinator
 Second signature: Morgan Lake

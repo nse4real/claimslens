@@ -1,12 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1062-252
-Cedent: Example Cedent C Ltd (fictional)
-Primary treaty reference: FICT-TRT-007
-Loss date: 2024-09-06
-Notification date: 2024-09-21
-Loss description: Fictional flood damage to insured stock and equipment.
-Original insured: Dovetail Storage Mutual (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Fire
-Loss location: Sable Quay, Example Region
-Cedent notes: Initial estimate; engineering review is pending.
+
+Dear Claims Team,
+
+Section: Notification facts
+Ced. is Example Cedent C Ltd (fictional).
+Trty. is FICT-TRT-007.
+Notice dt. is September 21, 2024.
+Description of loss is Fictional flood damage to insured stock and equipment.
+Original insured is Dovetail Storage Mutual (fictional).
+Sender name is Casey Clark.
+Sender role is Reinsurance adjuster.
+
+Yours faithfully
+Claims Intake

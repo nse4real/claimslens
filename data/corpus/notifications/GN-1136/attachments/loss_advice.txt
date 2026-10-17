@@ -1,13 +1,15 @@
 Loss Advice (fictional)
-Claim reference: FCL-GN-1136-966
-Cedent: Example Cedent A Ltd (fictional)
-Loss date: 2024-05-17
-Notification date: 2024-05-22
-Loss description: Fictional flood damage to insured stock and equipment.
-Estimated loss amount: GBP 4399883.75
-Original insured: Aster Orchard Cooperative (fictional)
-Territory or country: Fictional South Territory
-Peril or cause: Storm
-Loss location: Kestrel Wharf, Example Province
-Cedent notes: Initial estimate; engineering review is pending.
-Outstanding reserve: GBP 2639930.25
+| Field | Value |
+| --- | --- |
+| From cedent | Example Cedent A Ltd (fictional) |
+| Date of loss | 2024-05-17 |
+| Notification date | 2024-05-22 |
+| Nature of loss | Fictional flood damage to insured stock and equipment. |
+| Estimated loss | GBP 4399883.75 |
+| Original insured | Aster Orchard Cooperative (fictional) |
+| Territory or country | Fictional South Territory |
+| Peril or cause | Storm |
+| Loss location | Kestrel Wharf, Example Province |
+| Sender role | Claims technician |
+| Cedent notes | Initial estimate; engineering review is pending. |
+| Outstanding reserve | GBP 2639930.25 |
