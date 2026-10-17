@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "source_documents": [
+    {
+      "document_id": "doc-empty-email",
+      "document_type": "email"
+    }
+  ],
+  "intake_metadata": {
+    "channel": "email",
+    "attachment_count": 0
+  },
+  "cedent_name": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "treaty_references": [
+    {
+      "value": null,
+      "confidence": 0,
+      "evidence": [],
+      "reason": "not_found"
+    }
+  ],
+  "date_of_loss": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "date_of_notification": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "loss_description": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "estimated_loss_amount": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "cedent_claim_reference": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "original_insured_name": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "territory_or_country": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "peril_or_cause": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "loss_location": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "paid_to_date": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_applicable"
+  },
+  "outstanding_reserve": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "sender_name": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "sender_role": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_found"
+  },
+  "cedent_notes": {
+    "value": null,
+    "confidence": 0,
+    "evidence": [],
+    "reason": "not_applicable"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0.0",
+  "source_documents": [
+    {
+      "document_id": "doc-email",
+      "document_type": "email"
+    },
+    {
+      "document_id": "doc-attachment",
+      "document_type": "pdf"
+    }
+  ],
+  "intake_metadata": {
+    "channel": "email",
+    "attachment_count": 1
+  },
+  "cedent_name": {
+    "value": "Fictional Cedent Alpha Ltd",
+    "confidence": 0.99,
+    "evidence": [
+      {
+        "document_id": "doc-email",
+        "location": "line 2",
+        "quote": "Fictional Cedent Alpha Ltd sends notice of the following loss."
+      }
+    ],
+    "reason": null
+  },
+  "treaty_references": [
+    {
+      "value": "FICT-2026-PROP-001",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "document_id": "doc-attachment",
+          "location": "page 1, paragraph 2",
+          "quote": "Treaty reference: FICT-2026-PROP-001."
+        }
+      ],
+      "reason": null
+    }
+  ],
+  "date_of_loss": {
+    "value": "2026-09-28",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 1, paragraph 3",
+        "quote": "The fire occurred on 28 September 2026."
+      }
+    ],
+    "reason": null
+  },
+  "date_of_notification": {
+    "value": "2026-10-02",
+    "confidence": 0.99,
+    "evidence": [
+      {
+        "document_id": "doc-email",
+        "location": "sent-date header",
+        "quote": "Sent: 2 October 2026 09:15."
+      }
+    ],
+    "reason": null
+  },
+  "loss_description": {
+    "value": "A fire damaged the fictional warehouse packing area.",
+    "confidence": 0.96,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 1, paragraph 4",
+        "quote": "A fire damaged the fictional warehouse packing area."
+      }
+    ],
+    "reason": null
+  },
+  "estimated_loss_amount": {
+    "value": {
+      "amount": "125000.00",
+      "currency": "USD"
+    },
+    "confidence": 0.95,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 2, paragraph 1",
+        "quote": "Our current estimate is USD 125,000.00."
+      }
+    ],
+    "reason": null
+  },
+  "cedent_claim_reference": {
+    "value": "ALPHA-CLAIM-0042",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "document_id": "doc-email",
+        "location": "line 4",
+        "quote": "Our claim reference is ALPHA-CLAIM-0042."
+      }
+    ],
+    "reason": null
+  },
+  "original_insured_name": {
+    "value": "Fictional Insured Beta Ltd",
+    "confidence": 0.97,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 1, paragraph 1",
+        "quote": "Original insured: Fictional Insured Beta Ltd."
+      }
+    ],
+    "reason": null
+  },
+  "territory_or_country": {
+    "value": "Fictional Territory C",
+    "confidence": 0.93,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 1, paragraph 5",
+        "quote": "The site is in Fictional Territory C."
+      }
+    ],
+    "reason": null
+  },
+  "peril_or_cause": {
+    "value": "Fire",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 1, paragraph 4",
+        "quote": "Cause of loss: fire."
+      }
+    ],
+    "reason": null
+  },
+  "loss_location": {
+    "value": "Unit 7, Example Industrial Estate",
+    "confidence": 0.94,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 1, paragraph 5",
+        "quote": "Loss location: Unit 7, Example Industrial Estate."
+      }
+    ],
+    "reason": null
+  },
+  "paid_to_date": {
+    "value": {
+      "amount": "2500.00",
+      "currency": "USD"
+    },
+    "confidence": 0.92,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 2, paragraph 2",
+        "quote": "Payments to date total USD 2,500.00."
+      }
+    ],
+    "reason": null
+  },
+  "outstanding_reserve": {
+    "value": {
+      "amount": "122500.00",
+      "currency": "USD"
+    },
+    "confidence": 0.92,
+    "evidence": [
+      {
+        "document_id": "doc-attachment",
+        "location": "page 2, paragraph 3",
+        "quote": "The outstanding reserve is USD 122,500.00."
+      }
+    ],
+    "reason": null
+  },
+  "sender_name": {
+    "value": "Alex Example",
+    "confidence": 0.99,
+    "evidence": [
+      {
+        "document_id": "doc-email",
+        "location": "signature, line 1",
+        "quote": "Alex Example"
+      }
+    ],
+    "reason": null
+  },
+  "sender_role": {
+    "value": "Fictional Claims Coordinator",
+    "confidence": 0.98,
+    "evidence": [
+      {
+        "document_id": "doc-email",
+        "location": "signature, line 2",
+        "quote": "Fictional Claims Coordinator"
+      }
+    ],
+    "reason": null
+  },
+  "cedent_notes": {
+    "value": "Please contact the sender for the fictional site inspection schedule.",
+    "confidence": 0.9,
+    "evidence": [
+      {
+        "document_id": "doc-email",
+        "location": "final paragraph",
+        "quote": "Please contact the sender for the fictional site inspection schedule."
+      }
+    ],
+    "reason": null
+  }
+}

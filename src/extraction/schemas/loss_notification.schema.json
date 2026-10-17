@@ -1,0 +1,659 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://claimslens.local/schemas/loss_notification/1.0.0",
+  "title": "Loss notification extraction output",
+  "description": "Extraction service output contract for one single-occurrence loss notification. Every field is present but may be null inside its wrapper. intake_metadata is set by ingestion code, not by the model.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source_documents",
+    "intake_metadata",
+    "cedent_name",
+    "treaty_references",
+    "date_of_loss",
+    "date_of_notification",
+    "loss_description",
+    "estimated_loss_amount",
+    "cedent_claim_reference",
+    "original_insured_name",
+    "territory_or_country",
+    "peril_or_cause",
+    "loss_location",
+    "paid_to_date",
+    "outstanding_reserve",
+    "sender_name",
+    "sender_role",
+    "cedent_notes"
+  ],
+  "properties": {
+    "schema_version": {
+      "description": "Schema version for this output; bump rules are in the PRD.",
+      "const": "1.0.0"
+    },
+    "source_documents": {
+      "description": "Every document the extraction read, including the email body and each attachment. Populated by ingestion code, never by the model; document_id values must be unique, which is checked in Python.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "description": "A source document supplied to the extraction service.",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "document_id",
+          "document_type"
+        ],
+        "properties": {
+          "document_id": {
+            "description": "Non-blank ingestion-supplied identifier that the model may reference in evidence.",
+            "type": "string",
+            "pattern": "\\S"
+          },
+          "document_type": {
+            "description": "Kind of source document read by the extraction service.",
+            "type": "string",
+            "enum": [
+              "email",
+              "pdf",
+              "other"
+            ]
+          }
+        }
+      }
+    },
+    "intake_metadata": {
+      "description": "Metadata populated by ingestion code and never asked of the model; this is not a field wrapper and takes no evidence.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "channel",
+        "attachment_count"
+      ],
+      "properties": {
+        "channel": {
+          "description": "Intake channel for this single-occurrence notification; portal records are outside v1 scope.",
+          "type": "string",
+          "enum": [
+            "email",
+            "other"
+          ]
+        },
+        "attachment_count": {
+          "description": "Number of attachments supplied at intake.",
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "cedent_name": {
+      "description": "The legal name of the ceding company that sent the notification.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "treaty_references": {
+      "description": "Each treaty or contract reference the document names. The array is never empty: a single null not_found item is the no-references placeholder; otherwise null items must be ambiguous or illegible with evidence, and the critical check passes if at least one item has a non-null value.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "description": "A wrapped treaty or contract reference.",
+        "allOf": [
+          {
+            "$ref": "#/$defs/field"
+          },
+          {
+            "properties": {
+              "value": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "\\S"
+              }
+            }
+          }
+        ]
+      },
+      "anyOf": [
+        {
+          "description": "The sole placeholder used when no treaty reference is found.",
+          "maxItems": 1,
+          "items": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "reason": {
+                "const": "not_found"
+              }
+            }
+          }
+        },
+        {
+          "description": "Actual references, optionally alongside ambiguous or illegible null items.",
+          "items": {
+            "if": {
+              "properties": {
+                "value": {
+                  "type": "null"
+                }
+              },
+              "required": [
+                "value"
+              ]
+            },
+            "then": {
+              "properties": {
+                "reason": {
+                  "enum": [
+                    "ambiguous",
+                    "illegible"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "date_of_loss": {
+      "description": "The single calendar date on which the loss event occurred, as stated in the document. If the document gives a range, use reason ambiguous; if it gives no date, use reason not_found.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            }
+          }
+        }
+      ]
+    },
+    "date_of_notification": {
+      "description": "The date the cedent sent the notification, as stated in the document or taken from the email sent-date header; never the ingestion date. Use ambiguous or not_found if the sent date cannot be determined.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date",
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+            }
+          }
+        }
+      ]
+    },
+    "loss_description": {
+      "description": "The cedent's own short summary of what happened.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "estimated_loss_amount": {
+      "description": "The cedent's estimate of the loss, in the currency stated in the document.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "if": {
+                "type": "object"
+              },
+              "then": {
+                "$ref": "#/$defs/money"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "cedent_claim_reference": {
+      "description": "The cedent's own claim number.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "original_insured_name": {
+      "description": "The name of the insured party under the underlying policy.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "territory_or_country": {
+      "description": "Territory or country where the loss occurred.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "peril_or_cause": {
+      "description": "The peril or cause of loss as stated.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "loss_location": {
+      "description": "Free-text location detail beyond territory.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "paid_to_date": {
+      "description": "Amount paid by the cedent to date.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "if": {
+                "type": "object"
+              },
+              "then": {
+                "$ref": "#/$defs/money"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "outstanding_reserve": {
+      "description": "Outstanding reserve as stated.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "if": {
+                "type": "object"
+              },
+              "then": {
+                "$ref": "#/$defs/money"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sender_name": {
+      "description": "Name of the person who sent the notification.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "sender_role": {
+      "description": "The sender's stated job title or role.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    },
+    "cedent_notes": {
+      "description": "Any other notes the cedent included.",
+      "allOf": [
+        {
+          "$ref": "#/$defs/field"
+        },
+        {
+          "properties": {
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "\\S"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "field": {
+      "description": "Wrapper for one extracted value, its uncalibrated confidence, supporting evidence, and the reason a null value could not be filled.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "confidence",
+        "evidence",
+        "reason"
+      ],
+      "properties": {
+        "value": {
+          "description": "Extracted value or null; each concrete field narrows this unconstrained value schema."
+        },
+        "confidence": {
+          "description": "An uncalibrated extraction self-score. It must not drive automated triage or any automated decision until it is calibrated in B6 and B10.",
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "evidence": {
+          "description": "Source evidence supporting the value or explaining an ambiguous or illegible null value.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          }
+        },
+        "reason": {
+          "description": "Always present: null for a filled value, otherwise the reason the value is null.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null,
+            "not_found",
+            "not_applicable",
+            "ambiguous",
+            "illegible"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "reason": {
+                "enum": [
+                  "not_found",
+                  "not_applicable"
+                ]
+              }
+            },
+            "required": [
+              "value",
+              "reason"
+            ]
+          },
+          "then": {
+            "properties": {
+              "confidence": {
+                "const": 0
+              },
+              "evidence": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "value": {
+                "type": "null"
+              },
+              "reason": {
+                "enum": [
+                  "ambiguous",
+                  "illegible"
+                ]
+              }
+            },
+            "required": [
+              "value",
+              "reason"
+            ]
+          },
+          "then": {
+            "properties": {
+              "confidence": {
+                "const": 0
+              },
+              "evidence": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "value": {
+                "not": {
+                  "type": "null"
+                }
+              }
+            },
+            "required": [
+              "value"
+            ]
+          },
+          "then": {
+            "properties": {
+              "reason": {
+                "type": "null"
+              },
+              "evidence": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "value": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "value"
+            ]
+          },
+          "then": {
+            "properties": {
+              "reason": {
+                "type": "string",
+                "enum": [
+                  "not_found",
+                  "not_applicable",
+                  "ambiguous",
+                  "illegible"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "evidence": {
+      "description": "A source quote and its location; B4 checks evidence shape and document references, not whether the quote occurs in the source.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "location",
+        "quote"
+      ],
+      "properties": {
+        "document_id": {
+          "description": "Identifier equal to a document_id in source_documents; the cross-reference is checked in Python.",
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "location": {
+          "description": "Non-blank free-text source location, such as page 2, paragraph 3 or line 14.",
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "quote": {
+          "description": "The source text the value came from; for an illegible value, the nearest legible text around the gap.",
+          "type": "string",
+          "pattern": "\\S",
+          "maxLength": 500
+        }
+      }
+    },
+    "money": {
+      "description": "A non-negative monetary amount represented as a string and a three-letter currency code whose syntax is checked here.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "amount",
+        "currency"
+      ],
+      "properties": {
+        "amount": {
+          "description": "Non-negative decimal amount stored as a string, never a JSON number, with at most four decimal places.",
+          "type": "string",
+          "pattern": "^[0-9]+(\\.[0-9]{1,4})?$"
+        },
+        "currency": {
+          "description": "Three uppercase letters only; ISO 4217 registry validation is deferred to code.",
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        }
+      }
+    }
+  }
+}
