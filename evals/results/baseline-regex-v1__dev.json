@@ -1,0 +1,5673 @@
+{
+  "prompt_version": "baseline-regex-v1",
+  "model_identifier": "none",
+  "extractor": "rules-regex-1.0.0",
+  "dataset_version": "gold-schema-1.0.0__corpus-seed-20261017",
+  "split": "dev",
+  "scorer_version": {
+    "name": "scorer-1.0.0",
+    "fuzzy_threshold": "0.90",
+    "similarity": "difflib-ratio"
+  },
+  "timestamp": "2026-10-17T19:05:54.709379+00:00",
+  "label_status_counts": {
+    "gold": 0,
+    "single": 158
+  },
+  "provisional": true,
+  "record_count": 158,
+  "split_counts": {
+    "dev": 158,
+    "holdout": 67
+  },
+  "metrics": {
+    "exact": {
+      "mode": "exact",
+      "record_count": 158,
+      "fields": {
+        "cedent_name": {
+          "tp": 157,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 1,
+          "precision_denominator": 157,
+          "recall_denominator": 157,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "treaty_references": {
+          "tp": 118,
+          "fp_precision": 28,
+          "fn_recall": 52,
+          "ignored": 2,
+          "precision_denominator": 146,
+          "recall_denominator": 170,
+          "precision": 0.8082191780821918,
+          "recall": 0.6941176470588235
+        },
+        "date_of_loss": {
+          "tp": 153,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 5,
+          "precision_denominator": 153,
+          "recall_denominator": 153,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "date_of_notification": {
+          "tp": 153,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 5,
+          "precision_denominator": 153,
+          "recall_denominator": 153,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "loss_description": {
+          "tp": 153,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 5,
+          "precision_denominator": 153,
+          "recall_denominator": 153,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "estimated_loss_amount": {
+          "tp": 124,
+          "fp_precision": 6,
+          "fn_recall": 24,
+          "ignored": 4,
+          "precision_denominator": 130,
+          "recall_denominator": 148,
+          "precision": 0.9538461538461539,
+          "recall": 0.8378378378378378
+        },
+        "cedent_claim_reference": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "original_insured_name": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "territory_or_country": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "peril_or_cause": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "loss_location": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "sender_name": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "sender_role": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "cedent_notes": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "paid_to_date": {
+          "tp": 75,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 83,
+          "precision_denominator": 75,
+          "recall_denominator": 75,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "outstanding_reserve": {
+          "tp": 93,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 65,
+          "precision_denominator": 93,
+          "recall_denominator": 93,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "critical_macro": {
+        "value": 0.9411684014020839,
+        "contributing": 12
+      },
+      "per_tag": {
+        "clean": {
+          "cedent_name": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 21,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 11,
+            "precision_denominator": 21,
+            "recall_denominator": 21,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 8,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "contradictory_documents": {
+          "cedent_name": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 0,
+            "fp_precision": 6,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 0,
+            "precision": 0.0,
+            "recall": null
+          },
+          "cedent_claim_reference": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 1,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 1,
+            "recall_denominator": 1,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "forwarded_chain": {
+          "cedent_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 8,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 9,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 9,
+            "precision_denominator": 9,
+            "recall_denominator": 9,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "injection": {
+          "cedent_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 4,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "late_notice": {
+          "cedent_name": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 7,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 4,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "messy": {
+          "cedent_name": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 0,
+            "fp_precision": 0,
+            "fn_recall": 24,
+            "ignored": 0,
+            "precision_denominator": 0,
+            "recall_denominator": 24,
+            "precision": null,
+            "recall": 0.0
+          },
+          "date_of_loss": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 0,
+            "fp_precision": 0,
+            "fn_recall": 24,
+            "ignored": 0,
+            "precision_denominator": 0,
+            "recall_denominator": 24,
+            "precision": null,
+            "recall": 0.0
+          },
+          "cedent_claim_reference": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 9,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 15,
+            "precision_denominator": 9,
+            "recall_denominator": 9,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 12,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 12,
+            "precision_denominator": 12,
+            "recall_denominator": 12,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "missing_fields": {
+          "cedent_name": {
+            "tp": 17,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 1,
+            "precision_denominator": 17,
+            "recall_denominator": 17,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 16,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 16,
+            "recall_denominator": 16,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 13,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 13,
+            "recall_denominator": 13,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 13,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 13,
+            "recall_denominator": 13,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 13,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 13,
+            "recall_denominator": 13,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 4,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 12,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 11,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 7,
+            "precision_denominator": 11,
+            "recall_denominator": 11,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "multi_contract": {
+          "cedent_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 0,
+            "fp_precision": 28,
+            "fn_recall": 28,
+            "ignored": 0,
+            "precision_denominator": 28,
+            "recall_denominator": 28,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "date_of_loss": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 9,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 9,
+            "recall_denominator": 9,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 8,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "near_duplicate": {
+          "cedent_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 2,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 2,
+            "recall_denominator": 2,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 1,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "out_of_scope": {
+          "cedent_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 1,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 1,
+            "recall_denominator": 1,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 2,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 2,
+            "recall_denominator": 2,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "scanned_style": {
+          "cedent_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 5,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 9,
+            "precision_denominator": 5,
+            "recall_denominator": 5,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 12,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 12,
+            "recall_denominator": 12,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "wrong_cedent": {
+          "cedent_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 2,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 2,
+            "recall_denominator": 2,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        }
+      },
+      "failed_cases": {
+        "cedent_name": [],
+        "treaty_references": [
+          {
+            "record_id": "GN-1046",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1047",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1050",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1051",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1053",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1054",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1055",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1057",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1058",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1059",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-FAC-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1060",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1061",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-008"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1062",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-007"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1063",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-FAC-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1065",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1066",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1070",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1071",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1072",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-008"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1074",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1075",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1076",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1077",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-007"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1078",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1151",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-003",
+              "secondary FICT-TRT-006"
+            ],
+            "gold": [
+              "FICT-TRT-003",
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1152",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-005",
+              "secondary FICT-TRT-001"
+            ],
+            "gold": [
+              "FICT-TRT-005",
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1153",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-FAC-002",
+              "secondary FICT-FAC-001"
+            ],
+            "gold": [
+              "FICT-FAC-002",
+              "FICT-FAC-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1154",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-005",
+              "secondary FICT-TRT-002"
+            ],
+            "gold": [
+              "FICT-TRT-005",
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1155",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-001",
+              "secondary FICT-TRT-002"
+            ],
+            "gold": [
+              "FICT-TRT-001",
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1157",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-001",
+              "secondary FICT-TRT-005"
+            ],
+            "gold": [
+              "FICT-TRT-001",
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1158",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-004",
+              "secondary FICT-TRT-003"
+            ],
+            "gold": [
+              "FICT-TRT-004",
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1159",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-002",
+              "secondary FICT-TRT-001"
+            ],
+            "gold": [
+              "FICT-TRT-002",
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1162",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-003",
+              "secondary FICT-TRT-006"
+            ],
+            "gold": [
+              "FICT-TRT-003",
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1163",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-004",
+              "secondary FICT-TRT-006"
+            ],
+            "gold": [
+              "FICT-TRT-004",
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1164",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-002",
+              "secondary FICT-TRT-005"
+            ],
+            "gold": [
+              "FICT-TRT-002",
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1167",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-005",
+              "secondary FICT-TRT-002"
+            ],
+            "gold": [
+              "FICT-TRT-005",
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1168",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-003",
+              "secondary FICT-TRT-004"
+            ],
+            "gold": [
+              "FICT-TRT-003",
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1170",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-006",
+              "secondary FICT-TRT-003"
+            ],
+            "gold": [
+              "FICT-TRT-006",
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          }
+        ],
+        "date_of_loss": [],
+        "date_of_notification": [],
+        "loss_description": [],
+        "estimated_loss_amount": [
+          {
+            "record_id": "GN-1046",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "706957.15",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1047",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3239602.52",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1050",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3092183.36",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1051",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3143552.17",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1053",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "1575792.39",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1054",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4688892.21",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1055",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2775412.14",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1057",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3749724.18",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1058",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "936456.26",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1059",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4641988.38",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1060",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "496429.96",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1061",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4609659.18",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1062",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2128180.64",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1063",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3608112.76",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1065",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4764083.35",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1066",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2214487.72",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1070",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4901377.00",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1071",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "1197813.54",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1072",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "1810664.55",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1074",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "395903.39",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1075",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3559562.18",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1076",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "177168.88",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1077",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2719619.50",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1078",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2226150.90",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1206",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "1118440.21",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1207",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "2825782.74",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1208",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "4697667.64",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1209",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "1489106.73",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1210",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "3887360.74",
+              "currency": "GBP"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1213",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "4397580.03",
+              "currency": "GBP"
+            },
+            "gold": null,
+            "cause": "extraction"
+          }
+        ]
+      }
+    },
+    "fuzzy": {
+      "mode": "fuzzy",
+      "record_count": 158,
+      "fields": {
+        "cedent_name": {
+          "tp": 157,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 1,
+          "precision_denominator": 157,
+          "recall_denominator": 157,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "treaty_references": {
+          "tp": 118,
+          "fp_precision": 28,
+          "fn_recall": 52,
+          "ignored": 2,
+          "precision_denominator": 146,
+          "recall_denominator": 170,
+          "precision": 0.8082191780821918,
+          "recall": 0.6941176470588235
+        },
+        "date_of_loss": {
+          "tp": 153,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 5,
+          "precision_denominator": 153,
+          "recall_denominator": 153,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "date_of_notification": {
+          "tp": 153,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 5,
+          "precision_denominator": 153,
+          "recall_denominator": 153,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "loss_description": {
+          "tp": 153,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 5,
+          "precision_denominator": 153,
+          "recall_denominator": 153,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "estimated_loss_amount": {
+          "tp": 124,
+          "fp_precision": 6,
+          "fn_recall": 24,
+          "ignored": 4,
+          "precision_denominator": 130,
+          "recall_denominator": 148,
+          "precision": 0.9538461538461539,
+          "recall": 0.8378378378378378
+        },
+        "cedent_claim_reference": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "original_insured_name": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "territory_or_country": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "peril_or_cause": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "loss_location": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "sender_name": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "sender_role": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "cedent_notes": {
+          "tp": 158,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 0,
+          "precision_denominator": 158,
+          "recall_denominator": 158,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "paid_to_date": {
+          "tp": 75,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 83,
+          "precision_denominator": 75,
+          "recall_denominator": 75,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "outstanding_reserve": {
+          "tp": 93,
+          "fp_precision": 0,
+          "fn_recall": 0,
+          "ignored": 65,
+          "precision_denominator": 93,
+          "recall_denominator": 93,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      },
+      "critical_macro": {
+        "value": 0.9411684014020839,
+        "contributing": 12
+      },
+      "per_tag": {
+        "clean": {
+          "cedent_name": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 32,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 32,
+            "recall_denominator": 32,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 21,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 11,
+            "precision_denominator": 21,
+            "recall_denominator": 21,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 8,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "contradictory_documents": {
+          "cedent_name": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 0,
+            "fp_precision": 6,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 0,
+            "precision": 0.0,
+            "recall": null
+          },
+          "cedent_claim_reference": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 1,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 1,
+            "recall_denominator": 1,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "forwarded_chain": {
+          "cedent_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 8,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 9,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 9,
+            "precision_denominator": 9,
+            "recall_denominator": 9,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "injection": {
+          "cedent_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 4,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "late_notice": {
+          "cedent_name": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 10,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 10,
+            "recall_denominator": 10,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 7,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 4,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "messy": {
+          "cedent_name": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 0,
+            "fp_precision": 0,
+            "fn_recall": 24,
+            "ignored": 0,
+            "precision_denominator": 0,
+            "recall_denominator": 24,
+            "precision": null,
+            "recall": 0.0
+          },
+          "date_of_loss": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 0,
+            "fp_precision": 0,
+            "fn_recall": 24,
+            "ignored": 0,
+            "precision_denominator": 0,
+            "recall_denominator": 24,
+            "precision": null,
+            "recall": 0.0
+          },
+          "cedent_claim_reference": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 24,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 24,
+            "recall_denominator": 24,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 9,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 15,
+            "precision_denominator": 9,
+            "recall_denominator": 9,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 12,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 12,
+            "precision_denominator": 12,
+            "recall_denominator": 12,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "missing_fields": {
+          "cedent_name": {
+            "tp": 17,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 1,
+            "precision_denominator": 17,
+            "recall_denominator": 17,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 16,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 16,
+            "recall_denominator": 16,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 13,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 13,
+            "recall_denominator": 13,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 13,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 13,
+            "recall_denominator": 13,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 13,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 13,
+            "recall_denominator": 13,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 4,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 18,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 18,
+            "recall_denominator": 18,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 12,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 11,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 7,
+            "precision_denominator": 11,
+            "recall_denominator": 11,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "multi_contract": {
+          "cedent_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 0,
+            "fp_precision": 28,
+            "fn_recall": 28,
+            "ignored": 0,
+            "precision_denominator": 28,
+            "recall_denominator": 28,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "date_of_loss": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 9,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 9,
+            "recall_denominator": 9,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 6,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 8,
+            "precision_denominator": 6,
+            "recall_denominator": 6,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "near_duplicate": {
+          "cedent_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 2,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 2,
+            "recall_denominator": 2,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 3,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 1,
+            "precision_denominator": 3,
+            "recall_denominator": 3,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "out_of_scope": {
+          "cedent_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 1,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 1,
+            "recall_denominator": 1,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 2,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 2,
+            "recall_denominator": 2,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "scanned_style": {
+          "cedent_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 14,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 14,
+            "recall_denominator": 14,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 5,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 9,
+            "precision_denominator": 5,
+            "recall_denominator": 5,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 12,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 2,
+            "precision_denominator": 12,
+            "recall_denominator": 12,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        },
+        "wrong_cedent": {
+          "cedent_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "treaty_references": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_loss": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "date_of_notification": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_description": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "estimated_loss_amount": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_claim_reference": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "original_insured_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "territory_or_country": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "peril_or_cause": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "loss_location": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_name": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "sender_role": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "cedent_notes": {
+            "tp": 7,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 0,
+            "precision_denominator": 7,
+            "recall_denominator": 7,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "paid_to_date": {
+            "tp": 2,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 5,
+            "precision_denominator": 2,
+            "recall_denominator": 2,
+            "precision": 1.0,
+            "recall": 1.0
+          },
+          "outstanding_reserve": {
+            "tp": 4,
+            "fp_precision": 0,
+            "fn_recall": 0,
+            "ignored": 3,
+            "precision_denominator": 4,
+            "recall_denominator": 4,
+            "precision": 1.0,
+            "recall": 1.0
+          }
+        }
+      },
+      "failed_cases": {
+        "cedent_name": [],
+        "treaty_references": [
+          {
+            "record_id": "GN-1046",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1047",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1050",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1051",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1053",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1054",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1055",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1057",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1058",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1059",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-FAC-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1060",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1061",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-008"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1062",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-007"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1063",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-FAC-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1065",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1066",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1070",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1071",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1072",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-008"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1074",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1075",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1076",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1077",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-007"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1078",
+            "field": "treaty_references",
+            "predicted": [],
+            "gold": [
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1151",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-003",
+              "secondary FICT-TRT-006"
+            ],
+            "gold": [
+              "FICT-TRT-003",
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1152",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-005",
+              "secondary FICT-TRT-001"
+            ],
+            "gold": [
+              "FICT-TRT-005",
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1153",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-FAC-002",
+              "secondary FICT-FAC-001"
+            ],
+            "gold": [
+              "FICT-FAC-002",
+              "FICT-FAC-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1154",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-005",
+              "secondary FICT-TRT-002"
+            ],
+            "gold": [
+              "FICT-TRT-005",
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1155",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-001",
+              "secondary FICT-TRT-002"
+            ],
+            "gold": [
+              "FICT-TRT-001",
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1157",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-001",
+              "secondary FICT-TRT-005"
+            ],
+            "gold": [
+              "FICT-TRT-001",
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1158",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-004",
+              "secondary FICT-TRT-003"
+            ],
+            "gold": [
+              "FICT-TRT-004",
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1159",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-002",
+              "secondary FICT-TRT-001"
+            ],
+            "gold": [
+              "FICT-TRT-002",
+              "FICT-TRT-001"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1162",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-003",
+              "secondary FICT-TRT-006"
+            ],
+            "gold": [
+              "FICT-TRT-003",
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1163",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-004",
+              "secondary FICT-TRT-006"
+            ],
+            "gold": [
+              "FICT-TRT-004",
+              "FICT-TRT-006"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1164",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-002",
+              "secondary FICT-TRT-005"
+            ],
+            "gold": [
+              "FICT-TRT-002",
+              "FICT-TRT-005"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1167",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-005",
+              "secondary FICT-TRT-002"
+            ],
+            "gold": [
+              "FICT-TRT-005",
+              "FICT-TRT-002"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1168",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-003",
+              "secondary FICT-TRT-004"
+            ],
+            "gold": [
+              "FICT-TRT-003",
+              "FICT-TRT-004"
+            ],
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1170",
+            "field": "treaty_references",
+            "predicted": [
+              "Primary FICT-TRT-006",
+              "secondary FICT-TRT-003"
+            ],
+            "gold": [
+              "FICT-TRT-006",
+              "FICT-TRT-003"
+            ],
+            "cause": "extraction"
+          }
+        ],
+        "date_of_loss": [],
+        "date_of_notification": [],
+        "loss_description": [],
+        "estimated_loss_amount": [
+          {
+            "record_id": "GN-1046",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "706957.15",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1047",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3239602.52",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1050",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3092183.36",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1051",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3143552.17",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1053",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "1575792.39",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1054",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4688892.21",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1055",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2775412.14",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1057",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3749724.18",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1058",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "936456.26",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1059",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4641988.38",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1060",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "496429.96",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1061",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4609659.18",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1062",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2128180.64",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1063",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3608112.76",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1065",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4764083.35",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1066",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2214487.72",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1070",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "4901377.00",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1071",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "1197813.54",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1072",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "1810664.55",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1074",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "395903.39",
+              "currency": "GBP"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1075",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "3559562.18",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1076",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "177168.88",
+              "currency": "EUR"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1077",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2719619.50",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1078",
+            "field": "estimated_loss_amount",
+            "predicted": null,
+            "gold": {
+              "amount": "2226150.90",
+              "currency": "USD"
+            },
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1206",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "1118440.21",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1207",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "2825782.74",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1208",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "4697667.64",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1209",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "1489106.73",
+              "currency": "EUR"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1210",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "3887360.74",
+              "currency": "GBP"
+            },
+            "gold": null,
+            "cause": "extraction"
+          },
+          {
+            "record_id": "GN-1213",
+            "field": "estimated_loss_amount",
+            "predicted": {
+              "amount": "4397580.03",
+              "currency": "GBP"
+            },
+            "gold": null,
+            "cause": "extraction"
+          }
+        ]
+      }
+    }
+  }
+}
