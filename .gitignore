@@ -4,3 +4,8 @@ __pycache__/
 .pytest_cache/
 .venv/
 data/review/packets/
+
+# Secrets: API keys and local environment files, never committed
+.env
+.env.*
+!.env.example
