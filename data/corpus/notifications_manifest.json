@@ -1,0 +1,2053 @@
+{
+  "seed": 20261017,
+  "generator_version": "1.0.0",
+  "reference_date": "2026-10-17",
+  "counts": {
+    "total": 225,
+    "splits": {
+      "dev": 158,
+      "holdout": 67
+    },
+    "tags": {
+      "clean": 45,
+      "messy": 35,
+      "forwarded_chain": 25,
+      "scanned_style": 20,
+      "missing_fields": 25,
+      "multi_contract": 20,
+      "late_notice": 15,
+      "wrong_cedent": 10,
+      "injection": 10,
+      "contradictory_documents": 8,
+      "near_duplicate": 6,
+      "out_of_scope": 6
+    }
+  },
+  "records": [
+    {
+      "record_id": "GN-1001",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1001",
+      "gold_path": "evals/gold/records/GN-1001.json"
+    },
+    {
+      "record_id": "GN-1002",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1002",
+      "gold_path": "evals/gold/records/GN-1002.json"
+    },
+    {
+      "record_id": "GN-1003",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1003",
+      "gold_path": "evals/gold/records/GN-1003.json"
+    },
+    {
+      "record_id": "GN-1004",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1004",
+      "gold_path": "evals/gold/records/GN-1004.json"
+    },
+    {
+      "record_id": "GN-1005",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1005",
+      "gold_path": "evals/gold/records/GN-1005.json"
+    },
+    {
+      "record_id": "GN-1006",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1006",
+      "gold_path": "evals/gold/records/GN-1006.json"
+    },
+    {
+      "record_id": "GN-1007",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1007",
+      "gold_path": "evals/gold/records/GN-1007.json"
+    },
+    {
+      "record_id": "GN-1008",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1008",
+      "gold_path": "evals/gold/records/GN-1008.json"
+    },
+    {
+      "record_id": "GN-1009",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1009",
+      "gold_path": "evals/gold/records/GN-1009.json"
+    },
+    {
+      "record_id": "GN-1010",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1010",
+      "gold_path": "evals/gold/records/GN-1010.json"
+    },
+    {
+      "record_id": "GN-1011",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1011",
+      "gold_path": "evals/gold/records/GN-1011.json"
+    },
+    {
+      "record_id": "GN-1012",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1012",
+      "gold_path": "evals/gold/records/GN-1012.json"
+    },
+    {
+      "record_id": "GN-1013",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1013",
+      "gold_path": "evals/gold/records/GN-1013.json"
+    },
+    {
+      "record_id": "GN-1014",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1014",
+      "gold_path": "evals/gold/records/GN-1014.json"
+    },
+    {
+      "record_id": "GN-1015",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1015",
+      "gold_path": "evals/gold/records/GN-1015.json"
+    },
+    {
+      "record_id": "GN-1016",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1016",
+      "gold_path": "evals/gold/records/GN-1016.json"
+    },
+    {
+      "record_id": "GN-1017",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1017",
+      "gold_path": "evals/gold/records/GN-1017.json"
+    },
+    {
+      "record_id": "GN-1018",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1018",
+      "gold_path": "evals/gold/records/GN-1018.json"
+    },
+    {
+      "record_id": "GN-1019",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1019",
+      "gold_path": "evals/gold/records/GN-1019.json"
+    },
+    {
+      "record_id": "GN-1020",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1020",
+      "gold_path": "evals/gold/records/GN-1020.json"
+    },
+    {
+      "record_id": "GN-1021",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1021",
+      "gold_path": "evals/gold/records/GN-1021.json"
+    },
+    {
+      "record_id": "GN-1022",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1022",
+      "gold_path": "evals/gold/records/GN-1022.json"
+    },
+    {
+      "record_id": "GN-1023",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1023",
+      "gold_path": "evals/gold/records/GN-1023.json"
+    },
+    {
+      "record_id": "GN-1024",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1024",
+      "gold_path": "evals/gold/records/GN-1024.json"
+    },
+    {
+      "record_id": "GN-1025",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1025",
+      "gold_path": "evals/gold/records/GN-1025.json"
+    },
+    {
+      "record_id": "GN-1026",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1026",
+      "gold_path": "evals/gold/records/GN-1026.json"
+    },
+    {
+      "record_id": "GN-1027",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1027",
+      "gold_path": "evals/gold/records/GN-1027.json"
+    },
+    {
+      "record_id": "GN-1028",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1028",
+      "gold_path": "evals/gold/records/GN-1028.json"
+    },
+    {
+      "record_id": "GN-1029",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1029",
+      "gold_path": "evals/gold/records/GN-1029.json"
+    },
+    {
+      "record_id": "GN-1030",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1030",
+      "gold_path": "evals/gold/records/GN-1030.json"
+    },
+    {
+      "record_id": "GN-1031",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1031",
+      "gold_path": "evals/gold/records/GN-1031.json"
+    },
+    {
+      "record_id": "GN-1032",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1032",
+      "gold_path": "evals/gold/records/GN-1032.json"
+    },
+    {
+      "record_id": "GN-1033",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1033",
+      "gold_path": "evals/gold/records/GN-1033.json"
+    },
+    {
+      "record_id": "GN-1034",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1034",
+      "gold_path": "evals/gold/records/GN-1034.json"
+    },
+    {
+      "record_id": "GN-1035",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1035",
+      "gold_path": "evals/gold/records/GN-1035.json"
+    },
+    {
+      "record_id": "GN-1036",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1036",
+      "gold_path": "evals/gold/records/GN-1036.json"
+    },
+    {
+      "record_id": "GN-1037",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1037",
+      "gold_path": "evals/gold/records/GN-1037.json"
+    },
+    {
+      "record_id": "GN-1038",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1038",
+      "gold_path": "evals/gold/records/GN-1038.json"
+    },
+    {
+      "record_id": "GN-1039",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1039",
+      "gold_path": "evals/gold/records/GN-1039.json"
+    },
+    {
+      "record_id": "GN-1040",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1040",
+      "gold_path": "evals/gold/records/GN-1040.json"
+    },
+    {
+      "record_id": "GN-1041",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1041",
+      "gold_path": "evals/gold/records/GN-1041.json"
+    },
+    {
+      "record_id": "GN-1042",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1042",
+      "gold_path": "evals/gold/records/GN-1042.json"
+    },
+    {
+      "record_id": "GN-1043",
+      "split": "holdout",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1043",
+      "gold_path": "evals/gold/records/GN-1043.json"
+    },
+    {
+      "record_id": "GN-1044",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1044",
+      "gold_path": "evals/gold/records/GN-1044.json"
+    },
+    {
+      "record_id": "GN-1045",
+      "split": "dev",
+      "tags": [
+        "clean"
+      ],
+      "folder": "data/corpus/notifications/GN-1045",
+      "gold_path": "evals/gold/records/GN-1045.json"
+    },
+    {
+      "record_id": "GN-1046",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1046",
+      "gold_path": "evals/gold/records/GN-1046.json"
+    },
+    {
+      "record_id": "GN-1047",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1047",
+      "gold_path": "evals/gold/records/GN-1047.json"
+    },
+    {
+      "record_id": "GN-1048",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1048",
+      "gold_path": "evals/gold/records/GN-1048.json"
+    },
+    {
+      "record_id": "GN-1049",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1049",
+      "gold_path": "evals/gold/records/GN-1049.json"
+    },
+    {
+      "record_id": "GN-1050",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1050",
+      "gold_path": "evals/gold/records/GN-1050.json"
+    },
+    {
+      "record_id": "GN-1051",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1051",
+      "gold_path": "evals/gold/records/GN-1051.json"
+    },
+    {
+      "record_id": "GN-1052",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1052",
+      "gold_path": "evals/gold/records/GN-1052.json"
+    },
+    {
+      "record_id": "GN-1053",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1053",
+      "gold_path": "evals/gold/records/GN-1053.json"
+    },
+    {
+      "record_id": "GN-1054",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1054",
+      "gold_path": "evals/gold/records/GN-1054.json"
+    },
+    {
+      "record_id": "GN-1055",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1055",
+      "gold_path": "evals/gold/records/GN-1055.json"
+    },
+    {
+      "record_id": "GN-1056",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1056",
+      "gold_path": "evals/gold/records/GN-1056.json"
+    },
+    {
+      "record_id": "GN-1057",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1057",
+      "gold_path": "evals/gold/records/GN-1057.json"
+    },
+    {
+      "record_id": "GN-1058",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1058",
+      "gold_path": "evals/gold/records/GN-1058.json"
+    },
+    {
+      "record_id": "GN-1059",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1059",
+      "gold_path": "evals/gold/records/GN-1059.json"
+    },
+    {
+      "record_id": "GN-1060",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1060",
+      "gold_path": "evals/gold/records/GN-1060.json"
+    },
+    {
+      "record_id": "GN-1061",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1061",
+      "gold_path": "evals/gold/records/GN-1061.json"
+    },
+    {
+      "record_id": "GN-1062",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1062",
+      "gold_path": "evals/gold/records/GN-1062.json"
+    },
+    {
+      "record_id": "GN-1063",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1063",
+      "gold_path": "evals/gold/records/GN-1063.json"
+    },
+    {
+      "record_id": "GN-1064",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1064",
+      "gold_path": "evals/gold/records/GN-1064.json"
+    },
+    {
+      "record_id": "GN-1065",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1065",
+      "gold_path": "evals/gold/records/GN-1065.json"
+    },
+    {
+      "record_id": "GN-1066",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1066",
+      "gold_path": "evals/gold/records/GN-1066.json"
+    },
+    {
+      "record_id": "GN-1067",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1067",
+      "gold_path": "evals/gold/records/GN-1067.json"
+    },
+    {
+      "record_id": "GN-1068",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1068",
+      "gold_path": "evals/gold/records/GN-1068.json"
+    },
+    {
+      "record_id": "GN-1069",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1069",
+      "gold_path": "evals/gold/records/GN-1069.json"
+    },
+    {
+      "record_id": "GN-1070",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1070",
+      "gold_path": "evals/gold/records/GN-1070.json"
+    },
+    {
+      "record_id": "GN-1071",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1071",
+      "gold_path": "evals/gold/records/GN-1071.json"
+    },
+    {
+      "record_id": "GN-1072",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1072",
+      "gold_path": "evals/gold/records/GN-1072.json"
+    },
+    {
+      "record_id": "GN-1073",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1073",
+      "gold_path": "evals/gold/records/GN-1073.json"
+    },
+    {
+      "record_id": "GN-1074",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1074",
+      "gold_path": "evals/gold/records/GN-1074.json"
+    },
+    {
+      "record_id": "GN-1075",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1075",
+      "gold_path": "evals/gold/records/GN-1075.json"
+    },
+    {
+      "record_id": "GN-1076",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1076",
+      "gold_path": "evals/gold/records/GN-1076.json"
+    },
+    {
+      "record_id": "GN-1077",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1077",
+      "gold_path": "evals/gold/records/GN-1077.json"
+    },
+    {
+      "record_id": "GN-1078",
+      "split": "dev",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1078",
+      "gold_path": "evals/gold/records/GN-1078.json"
+    },
+    {
+      "record_id": "GN-1079",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1079",
+      "gold_path": "evals/gold/records/GN-1079.json"
+    },
+    {
+      "record_id": "GN-1080",
+      "split": "holdout",
+      "tags": [
+        "messy"
+      ],
+      "folder": "data/corpus/notifications/GN-1080",
+      "gold_path": "evals/gold/records/GN-1080.json"
+    },
+    {
+      "record_id": "GN-1081",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1081",
+      "gold_path": "evals/gold/records/GN-1081.json"
+    },
+    {
+      "record_id": "GN-1082",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1082",
+      "gold_path": "evals/gold/records/GN-1082.json"
+    },
+    {
+      "record_id": "GN-1083",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1083",
+      "gold_path": "evals/gold/records/GN-1083.json"
+    },
+    {
+      "record_id": "GN-1084",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1084",
+      "gold_path": "evals/gold/records/GN-1084.json"
+    },
+    {
+      "record_id": "GN-1085",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1085",
+      "gold_path": "evals/gold/records/GN-1085.json"
+    },
+    {
+      "record_id": "GN-1086",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1086",
+      "gold_path": "evals/gold/records/GN-1086.json"
+    },
+    {
+      "record_id": "GN-1087",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1087",
+      "gold_path": "evals/gold/records/GN-1087.json"
+    },
+    {
+      "record_id": "GN-1088",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1088",
+      "gold_path": "evals/gold/records/GN-1088.json"
+    },
+    {
+      "record_id": "GN-1089",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1089",
+      "gold_path": "evals/gold/records/GN-1089.json"
+    },
+    {
+      "record_id": "GN-1090",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1090",
+      "gold_path": "evals/gold/records/GN-1090.json"
+    },
+    {
+      "record_id": "GN-1091",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1091",
+      "gold_path": "evals/gold/records/GN-1091.json"
+    },
+    {
+      "record_id": "GN-1092",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1092",
+      "gold_path": "evals/gold/records/GN-1092.json"
+    },
+    {
+      "record_id": "GN-1093",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1093",
+      "gold_path": "evals/gold/records/GN-1093.json"
+    },
+    {
+      "record_id": "GN-1094",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1094",
+      "gold_path": "evals/gold/records/GN-1094.json"
+    },
+    {
+      "record_id": "GN-1095",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1095",
+      "gold_path": "evals/gold/records/GN-1095.json"
+    },
+    {
+      "record_id": "GN-1096",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1096",
+      "gold_path": "evals/gold/records/GN-1096.json"
+    },
+    {
+      "record_id": "GN-1097",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1097",
+      "gold_path": "evals/gold/records/GN-1097.json"
+    },
+    {
+      "record_id": "GN-1098",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1098",
+      "gold_path": "evals/gold/records/GN-1098.json"
+    },
+    {
+      "record_id": "GN-1099",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1099",
+      "gold_path": "evals/gold/records/GN-1099.json"
+    },
+    {
+      "record_id": "GN-1100",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1100",
+      "gold_path": "evals/gold/records/GN-1100.json"
+    },
+    {
+      "record_id": "GN-1101",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1101",
+      "gold_path": "evals/gold/records/GN-1101.json"
+    },
+    {
+      "record_id": "GN-1102",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1102",
+      "gold_path": "evals/gold/records/GN-1102.json"
+    },
+    {
+      "record_id": "GN-1103",
+      "split": "holdout",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1103",
+      "gold_path": "evals/gold/records/GN-1103.json"
+    },
+    {
+      "record_id": "GN-1104",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1104",
+      "gold_path": "evals/gold/records/GN-1104.json"
+    },
+    {
+      "record_id": "GN-1105",
+      "split": "dev",
+      "tags": [
+        "forwarded_chain"
+      ],
+      "folder": "data/corpus/notifications/GN-1105",
+      "gold_path": "evals/gold/records/GN-1105.json"
+    },
+    {
+      "record_id": "GN-1106",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1106",
+      "gold_path": "evals/gold/records/GN-1106.json"
+    },
+    {
+      "record_id": "GN-1107",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1107",
+      "gold_path": "evals/gold/records/GN-1107.json"
+    },
+    {
+      "record_id": "GN-1108",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1108",
+      "gold_path": "evals/gold/records/GN-1108.json"
+    },
+    {
+      "record_id": "GN-1109",
+      "split": "holdout",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1109",
+      "gold_path": "evals/gold/records/GN-1109.json"
+    },
+    {
+      "record_id": "GN-1110",
+      "split": "holdout",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1110",
+      "gold_path": "evals/gold/records/GN-1110.json"
+    },
+    {
+      "record_id": "GN-1111",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1111",
+      "gold_path": "evals/gold/records/GN-1111.json"
+    },
+    {
+      "record_id": "GN-1112",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1112",
+      "gold_path": "evals/gold/records/GN-1112.json"
+    },
+    {
+      "record_id": "GN-1113",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1113",
+      "gold_path": "evals/gold/records/GN-1113.json"
+    },
+    {
+      "record_id": "GN-1114",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1114",
+      "gold_path": "evals/gold/records/GN-1114.json"
+    },
+    {
+      "record_id": "GN-1115",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1115",
+      "gold_path": "evals/gold/records/GN-1115.json"
+    },
+    {
+      "record_id": "GN-1116",
+      "split": "holdout",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1116",
+      "gold_path": "evals/gold/records/GN-1116.json"
+    },
+    {
+      "record_id": "GN-1117",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1117",
+      "gold_path": "evals/gold/records/GN-1117.json"
+    },
+    {
+      "record_id": "GN-1118",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1118",
+      "gold_path": "evals/gold/records/GN-1118.json"
+    },
+    {
+      "record_id": "GN-1119",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1119",
+      "gold_path": "evals/gold/records/GN-1119.json"
+    },
+    {
+      "record_id": "GN-1120",
+      "split": "holdout",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1120",
+      "gold_path": "evals/gold/records/GN-1120.json"
+    },
+    {
+      "record_id": "GN-1121",
+      "split": "holdout",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1121",
+      "gold_path": "evals/gold/records/GN-1121.json"
+    },
+    {
+      "record_id": "GN-1122",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1122",
+      "gold_path": "evals/gold/records/GN-1122.json"
+    },
+    {
+      "record_id": "GN-1123",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1123",
+      "gold_path": "evals/gold/records/GN-1123.json"
+    },
+    {
+      "record_id": "GN-1124",
+      "split": "dev",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1124",
+      "gold_path": "evals/gold/records/GN-1124.json"
+    },
+    {
+      "record_id": "GN-1125",
+      "split": "holdout",
+      "tags": [
+        "scanned_style"
+      ],
+      "folder": "data/corpus/notifications/GN-1125",
+      "gold_path": "evals/gold/records/GN-1125.json"
+    },
+    {
+      "record_id": "GN-1126",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1126",
+      "gold_path": "evals/gold/records/GN-1126.json"
+    },
+    {
+      "record_id": "GN-1127",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1127",
+      "gold_path": "evals/gold/records/GN-1127.json"
+    },
+    {
+      "record_id": "GN-1128",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1128",
+      "gold_path": "evals/gold/records/GN-1128.json"
+    },
+    {
+      "record_id": "GN-1129",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1129",
+      "gold_path": "evals/gold/records/GN-1129.json"
+    },
+    {
+      "record_id": "GN-1130",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1130",
+      "gold_path": "evals/gold/records/GN-1130.json"
+    },
+    {
+      "record_id": "GN-1131",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1131",
+      "gold_path": "evals/gold/records/GN-1131.json"
+    },
+    {
+      "record_id": "GN-1132",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1132",
+      "gold_path": "evals/gold/records/GN-1132.json"
+    },
+    {
+      "record_id": "GN-1133",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1133",
+      "gold_path": "evals/gold/records/GN-1133.json"
+    },
+    {
+      "record_id": "GN-1134",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1134",
+      "gold_path": "evals/gold/records/GN-1134.json"
+    },
+    {
+      "record_id": "GN-1135",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1135",
+      "gold_path": "evals/gold/records/GN-1135.json"
+    },
+    {
+      "record_id": "GN-1136",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1136",
+      "gold_path": "evals/gold/records/GN-1136.json"
+    },
+    {
+      "record_id": "GN-1137",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1137",
+      "gold_path": "evals/gold/records/GN-1137.json"
+    },
+    {
+      "record_id": "GN-1138",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1138",
+      "gold_path": "evals/gold/records/GN-1138.json"
+    },
+    {
+      "record_id": "GN-1139",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1139",
+      "gold_path": "evals/gold/records/GN-1139.json"
+    },
+    {
+      "record_id": "GN-1140",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1140",
+      "gold_path": "evals/gold/records/GN-1140.json"
+    },
+    {
+      "record_id": "GN-1141",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1141",
+      "gold_path": "evals/gold/records/GN-1141.json"
+    },
+    {
+      "record_id": "GN-1142",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1142",
+      "gold_path": "evals/gold/records/GN-1142.json"
+    },
+    {
+      "record_id": "GN-1143",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1143",
+      "gold_path": "evals/gold/records/GN-1143.json"
+    },
+    {
+      "record_id": "GN-1144",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1144",
+      "gold_path": "evals/gold/records/GN-1144.json"
+    },
+    {
+      "record_id": "GN-1145",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1145",
+      "gold_path": "evals/gold/records/GN-1145.json"
+    },
+    {
+      "record_id": "GN-1146",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1146",
+      "gold_path": "evals/gold/records/GN-1146.json"
+    },
+    {
+      "record_id": "GN-1147",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1147",
+      "gold_path": "evals/gold/records/GN-1147.json"
+    },
+    {
+      "record_id": "GN-1148",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1148",
+      "gold_path": "evals/gold/records/GN-1148.json"
+    },
+    {
+      "record_id": "GN-1149",
+      "split": "dev",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1149",
+      "gold_path": "evals/gold/records/GN-1149.json"
+    },
+    {
+      "record_id": "GN-1150",
+      "split": "holdout",
+      "tags": [
+        "missing_fields"
+      ],
+      "folder": "data/corpus/notifications/GN-1150",
+      "gold_path": "evals/gold/records/GN-1150.json"
+    },
+    {
+      "record_id": "GN-1151",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1151",
+      "gold_path": "evals/gold/records/GN-1151.json"
+    },
+    {
+      "record_id": "GN-1152",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1152",
+      "gold_path": "evals/gold/records/GN-1152.json"
+    },
+    {
+      "record_id": "GN-1153",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1153",
+      "gold_path": "evals/gold/records/GN-1153.json"
+    },
+    {
+      "record_id": "GN-1154",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1154",
+      "gold_path": "evals/gold/records/GN-1154.json"
+    },
+    {
+      "record_id": "GN-1155",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1155",
+      "gold_path": "evals/gold/records/GN-1155.json"
+    },
+    {
+      "record_id": "GN-1156",
+      "split": "holdout",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1156",
+      "gold_path": "evals/gold/records/GN-1156.json"
+    },
+    {
+      "record_id": "GN-1157",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1157",
+      "gold_path": "evals/gold/records/GN-1157.json"
+    },
+    {
+      "record_id": "GN-1158",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1158",
+      "gold_path": "evals/gold/records/GN-1158.json"
+    },
+    {
+      "record_id": "GN-1159",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1159",
+      "gold_path": "evals/gold/records/GN-1159.json"
+    },
+    {
+      "record_id": "GN-1160",
+      "split": "holdout",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1160",
+      "gold_path": "evals/gold/records/GN-1160.json"
+    },
+    {
+      "record_id": "GN-1161",
+      "split": "holdout",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1161",
+      "gold_path": "evals/gold/records/GN-1161.json"
+    },
+    {
+      "record_id": "GN-1162",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1162",
+      "gold_path": "evals/gold/records/GN-1162.json"
+    },
+    {
+      "record_id": "GN-1163",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1163",
+      "gold_path": "evals/gold/records/GN-1163.json"
+    },
+    {
+      "record_id": "GN-1164",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1164",
+      "gold_path": "evals/gold/records/GN-1164.json"
+    },
+    {
+      "record_id": "GN-1165",
+      "split": "holdout",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1165",
+      "gold_path": "evals/gold/records/GN-1165.json"
+    },
+    {
+      "record_id": "GN-1166",
+      "split": "holdout",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1166",
+      "gold_path": "evals/gold/records/GN-1166.json"
+    },
+    {
+      "record_id": "GN-1167",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1167",
+      "gold_path": "evals/gold/records/GN-1167.json"
+    },
+    {
+      "record_id": "GN-1168",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1168",
+      "gold_path": "evals/gold/records/GN-1168.json"
+    },
+    {
+      "record_id": "GN-1169",
+      "split": "holdout",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1169",
+      "gold_path": "evals/gold/records/GN-1169.json"
+    },
+    {
+      "record_id": "GN-1170",
+      "split": "dev",
+      "tags": [
+        "multi_contract"
+      ],
+      "folder": "data/corpus/notifications/GN-1170",
+      "gold_path": "evals/gold/records/GN-1170.json"
+    },
+    {
+      "record_id": "GN-1171",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1171",
+      "gold_path": "evals/gold/records/GN-1171.json"
+    },
+    {
+      "record_id": "GN-1172",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1172",
+      "gold_path": "evals/gold/records/GN-1172.json"
+    },
+    {
+      "record_id": "GN-1173",
+      "split": "holdout",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1173",
+      "gold_path": "evals/gold/records/GN-1173.json"
+    },
+    {
+      "record_id": "GN-1174",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1174",
+      "gold_path": "evals/gold/records/GN-1174.json"
+    },
+    {
+      "record_id": "GN-1175",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1175",
+      "gold_path": "evals/gold/records/GN-1175.json"
+    },
+    {
+      "record_id": "GN-1176",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1176",
+      "gold_path": "evals/gold/records/GN-1176.json"
+    },
+    {
+      "record_id": "GN-1177",
+      "split": "holdout",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1177",
+      "gold_path": "evals/gold/records/GN-1177.json"
+    },
+    {
+      "record_id": "GN-1178",
+      "split": "holdout",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1178",
+      "gold_path": "evals/gold/records/GN-1178.json"
+    },
+    {
+      "record_id": "GN-1179",
+      "split": "holdout",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1179",
+      "gold_path": "evals/gold/records/GN-1179.json"
+    },
+    {
+      "record_id": "GN-1180",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1180",
+      "gold_path": "evals/gold/records/GN-1180.json"
+    },
+    {
+      "record_id": "GN-1181",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1181",
+      "gold_path": "evals/gold/records/GN-1181.json"
+    },
+    {
+      "record_id": "GN-1182",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1182",
+      "gold_path": "evals/gold/records/GN-1182.json"
+    },
+    {
+      "record_id": "GN-1183",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1183",
+      "gold_path": "evals/gold/records/GN-1183.json"
+    },
+    {
+      "record_id": "GN-1184",
+      "split": "dev",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1184",
+      "gold_path": "evals/gold/records/GN-1184.json"
+    },
+    {
+      "record_id": "GN-1185",
+      "split": "holdout",
+      "tags": [
+        "late_notice"
+      ],
+      "folder": "data/corpus/notifications/GN-1185",
+      "gold_path": "evals/gold/records/GN-1185.json"
+    },
+    {
+      "record_id": "GN-1186",
+      "split": "holdout",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1186",
+      "gold_path": "evals/gold/records/GN-1186.json"
+    },
+    {
+      "record_id": "GN-1187",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1187",
+      "gold_path": "evals/gold/records/GN-1187.json"
+    },
+    {
+      "record_id": "GN-1188",
+      "split": "holdout",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1188",
+      "gold_path": "evals/gold/records/GN-1188.json"
+    },
+    {
+      "record_id": "GN-1189",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1189",
+      "gold_path": "evals/gold/records/GN-1189.json"
+    },
+    {
+      "record_id": "GN-1190",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1190",
+      "gold_path": "evals/gold/records/GN-1190.json"
+    },
+    {
+      "record_id": "GN-1191",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1191",
+      "gold_path": "evals/gold/records/GN-1191.json"
+    },
+    {
+      "record_id": "GN-1192",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1192",
+      "gold_path": "evals/gold/records/GN-1192.json"
+    },
+    {
+      "record_id": "GN-1193",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1193",
+      "gold_path": "evals/gold/records/GN-1193.json"
+    },
+    {
+      "record_id": "GN-1194",
+      "split": "holdout",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1194",
+      "gold_path": "evals/gold/records/GN-1194.json"
+    },
+    {
+      "record_id": "GN-1195",
+      "split": "dev",
+      "tags": [
+        "wrong_cedent"
+      ],
+      "folder": "data/corpus/notifications/GN-1195",
+      "gold_path": "evals/gold/records/GN-1195.json"
+    },
+    {
+      "record_id": "GN-1196",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1196",
+      "gold_path": "evals/gold/records/GN-1196.json"
+    },
+    {
+      "record_id": "GN-1197",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1197",
+      "gold_path": "evals/gold/records/GN-1197.json"
+    },
+    {
+      "record_id": "GN-1198",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1198",
+      "gold_path": "evals/gold/records/GN-1198.json"
+    },
+    {
+      "record_id": "GN-1199",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1199",
+      "gold_path": "evals/gold/records/GN-1199.json"
+    },
+    {
+      "record_id": "GN-1200",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1200",
+      "gold_path": "evals/gold/records/GN-1200.json"
+    },
+    {
+      "record_id": "GN-1201",
+      "split": "holdout",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1201",
+      "gold_path": "evals/gold/records/GN-1201.json"
+    },
+    {
+      "record_id": "GN-1202",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1202",
+      "gold_path": "evals/gold/records/GN-1202.json"
+    },
+    {
+      "record_id": "GN-1203",
+      "split": "holdout",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1203",
+      "gold_path": "evals/gold/records/GN-1203.json"
+    },
+    {
+      "record_id": "GN-1204",
+      "split": "dev",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1204",
+      "gold_path": "evals/gold/records/GN-1204.json"
+    },
+    {
+      "record_id": "GN-1205",
+      "split": "holdout",
+      "tags": [
+        "injection"
+      ],
+      "folder": "data/corpus/notifications/GN-1205",
+      "gold_path": "evals/gold/records/GN-1205.json"
+    },
+    {
+      "record_id": "GN-1206",
+      "split": "dev",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1206",
+      "gold_path": "evals/gold/records/GN-1206.json"
+    },
+    {
+      "record_id": "GN-1207",
+      "split": "dev",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1207",
+      "gold_path": "evals/gold/records/GN-1207.json"
+    },
+    {
+      "record_id": "GN-1208",
+      "split": "dev",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1208",
+      "gold_path": "evals/gold/records/GN-1208.json"
+    },
+    {
+      "record_id": "GN-1209",
+      "split": "dev",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1209",
+      "gold_path": "evals/gold/records/GN-1209.json"
+    },
+    {
+      "record_id": "GN-1210",
+      "split": "dev",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1210",
+      "gold_path": "evals/gold/records/GN-1210.json"
+    },
+    {
+      "record_id": "GN-1211",
+      "split": "holdout",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1211",
+      "gold_path": "evals/gold/records/GN-1211.json"
+    },
+    {
+      "record_id": "GN-1212",
+      "split": "holdout",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1212",
+      "gold_path": "evals/gold/records/GN-1212.json"
+    },
+    {
+      "record_id": "GN-1213",
+      "split": "dev",
+      "tags": [
+        "contradictory_documents"
+      ],
+      "folder": "data/corpus/notifications/GN-1213",
+      "gold_path": "evals/gold/records/GN-1213.json"
+    },
+    {
+      "record_id": "GN-1214",
+      "split": "dev",
+      "tags": [
+        "near_duplicate"
+      ],
+      "folder": "data/corpus/notifications/GN-1214",
+      "gold_path": "evals/gold/records/GN-1214.json"
+    },
+    {
+      "record_id": "GN-1215",
+      "split": "holdout",
+      "tags": [
+        "near_duplicate"
+      ],
+      "folder": "data/corpus/notifications/GN-1215",
+      "gold_path": "evals/gold/records/GN-1215.json"
+    },
+    {
+      "record_id": "GN-1216",
+      "split": "dev",
+      "tags": [
+        "near_duplicate"
+      ],
+      "folder": "data/corpus/notifications/GN-1216",
+      "gold_path": "evals/gold/records/GN-1216.json"
+    },
+    {
+      "record_id": "GN-1217",
+      "split": "holdout",
+      "tags": [
+        "near_duplicate"
+      ],
+      "folder": "data/corpus/notifications/GN-1217",
+      "gold_path": "evals/gold/records/GN-1217.json"
+    },
+    {
+      "record_id": "GN-1218",
+      "split": "dev",
+      "tags": [
+        "near_duplicate"
+      ],
+      "folder": "data/corpus/notifications/GN-1218",
+      "gold_path": "evals/gold/records/GN-1218.json"
+    },
+    {
+      "record_id": "GN-1219",
+      "split": "dev",
+      "tags": [
+        "near_duplicate"
+      ],
+      "folder": "data/corpus/notifications/GN-1219",
+      "gold_path": "evals/gold/records/GN-1219.json"
+    },
+    {
+      "record_id": "GN-1220",
+      "split": "dev",
+      "tags": [
+        "out_of_scope"
+      ],
+      "folder": "data/corpus/notifications/GN-1220",
+      "gold_path": "evals/gold/records/GN-1220.json"
+    },
+    {
+      "record_id": "GN-1221",
+      "split": "dev",
+      "tags": [
+        "out_of_scope"
+      ],
+      "folder": "data/corpus/notifications/GN-1221",
+      "gold_path": "evals/gold/records/GN-1221.json"
+    },
+    {
+      "record_id": "GN-1222",
+      "split": "dev",
+      "tags": [
+        "out_of_scope"
+      ],
+      "folder": "data/corpus/notifications/GN-1222",
+      "gold_path": "evals/gold/records/GN-1222.json"
+    },
+    {
+      "record_id": "GN-1223",
+      "split": "holdout",
+      "tags": [
+        "out_of_scope"
+      ],
+      "folder": "data/corpus/notifications/GN-1223",
+      "gold_path": "evals/gold/records/GN-1223.json"
+    },
+    {
+      "record_id": "GN-1224",
+      "split": "holdout",
+      "tags": [
+        "out_of_scope"
+      ],
+      "folder": "data/corpus/notifications/GN-1224",
+      "gold_path": "evals/gold/records/GN-1224.json"
+    },
+    {
+      "record_id": "GN-1225",
+      "split": "dev",
+      "tags": [
+        "out_of_scope"
+      ],
+      "folder": "data/corpus/notifications/GN-1225",
+      "gold_path": "evals/gold/records/GN-1225.json"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+From: Devon Dale <devon.dale@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 31 Mar 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1051-503
+Message-ID: <GN-1051@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Ced.: Example Cedent A Ltd (fictional)
+Trty.: FICT-TRT-001
+DOL: 24 Mar 2024
+Notice dt.: 31 Mar 2024
+Desc.: Fictional storm damage to two insured storage buildings.
+Est. loss: GBP 3143552.17
+Claim reference: FCL-GN-1051-503
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: GBP 314355.22
+Outstanding reserve: GBP 1886131.30
+
+Attachment: loss_advice.txt
+
+Regards
+Devon Dale
+Claims technician
+Claims Coordinator
+Second signature: Morgan Lake

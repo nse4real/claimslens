@@ -1,0 +1,14 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1159-766
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-002
+Secondary treaty reference: FICT-TRT-001
+Loss date: 2025-03-03
+Notification date: 2025-03-13
+Loss description: Fictional fire damage to one insured production building.
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: USD 1514819.55

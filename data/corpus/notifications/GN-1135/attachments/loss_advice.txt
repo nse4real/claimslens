@@ -1,0 +1,11 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1135-721
+Primary treaty reference: FICT-FAC-001
+Loss date: 2024-01-16
+Notification date: 2024-01-24
+Loss description: Fictional computer-system incident at a named insured office.
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.

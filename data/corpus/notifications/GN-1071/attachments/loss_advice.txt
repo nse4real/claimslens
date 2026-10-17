@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1071-254
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-001
+Loss date: 2024-12-24
+Notification date: 2025-01-03
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss amount: GBP 1197813.54
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.

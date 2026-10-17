@@ -1,0 +1,32 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 07 Apr 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1020-197
+Message-ID: <GN-1020@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent D Ltd (fictional)
+Treaty reference: FICT-FAC-001
+Loss date: 2024-03-25
+Notification date: 2024-04-07
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 2968605.49
+Claim reference: FCL-GN-1020-197
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: USD 1781163.29
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims analyst

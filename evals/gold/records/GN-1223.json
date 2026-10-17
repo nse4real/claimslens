@@ -1,0 +1,71 @@
+{
+  "record_id": "GN-1223",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "holdout",
+  "tags": [
+    "out_of_scope"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1223-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1223/email.eml"
+    },
+    {
+      "document_id": "GN-1223-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1223/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent D Ltd (fictional)",
+      "treaty_references": [
+        "FICT-FAC-002"
+      ],
+      "date_of_loss": "2024-05-05",
+      "date_of_notification": "2024-05-14",
+      "loss_description": "Fictional computer-system incident at a named insured office.",
+      "estimated_loss_amount": {
+        "amount": "3229414.17",
+        "currency": "EUR"
+      },
+      "cedent_claim_reference": "FCL-GN-1223-753",
+      "original_insured_name": "Dovetail Storage Mutual (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Rook Lane, Example District",
+      "sender_name": "Devon Dale",
+      "sender_role": "Claims technician",
+      "cedent_notes": "Preliminary advice; reserve review is scheduled.",
+      "paid_to_date": {
+        "amount": "322941.42",
+        "currency": "EUR"
+      },
+      "outstanding_reserve": {
+        "amount": "1937648.50",
+        "currency": "EUR"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": null,
+      "correct_version_label": null,
+      "correct_layer_id": null,
+      "alternatives": [],
+      "expected_no_match": true
+    },
+    "qa": null,
+    "triage": null,
+    "drafting": null
+  },
+  "label_notes": []
+}

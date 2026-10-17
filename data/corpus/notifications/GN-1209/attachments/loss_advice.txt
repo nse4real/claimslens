@@ -1,0 +1,14 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1209-414
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-005
+Loss date: 2025-07-21
+Notification date: 2025-07-22
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss amount: EUR 1638017.40
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: EUR 148910.67

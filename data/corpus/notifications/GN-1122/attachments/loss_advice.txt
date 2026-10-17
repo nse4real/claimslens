@@ -1,0 +1,15 @@
+L0ss Adv1ce (fictional)
+Claim reference: FCL-GN-1122-753
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-005
+L0ss date: 2024-10-05
+N0tification date: 2024-10-16
+L0ss description: Fictional storm damage to two insured storage buildings.
+Estimated loss amount: EUR 3371878.68
+0riginal insured: Dovetail Storage Mutual (fictional)
+Territory or
+country: Fictional North Territory
+Peril or cause: Flood
+L0ss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: EUR 2023127.21

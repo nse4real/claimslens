@@ -1,0 +1,111 @@
+{
+  "record_id": "GN-1063",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "messy"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1063-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1063/email.eml"
+    },
+    {
+      "document_id": "GN-1063-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1063/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent D Ltd (fictional)",
+      "treaty_references": [
+        "FICT-FAC-002"
+      ],
+      "date_of_loss": "2024-06-24",
+      "date_of_notification": "2024-07-01",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": {
+        "amount": "3608112.76",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": "FCL-GN-1063-110",
+      "original_insured_name": "Aster Orchard Cooperative (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Flood",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Alex Avery",
+      "sender_role": "Claims technician",
+      "cedent_notes": "Initial estimate; engineering review is pending.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "2164867.66",
+        "currency": "EUR"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-FAC-002",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice must be given within 30 days of the loss date under clause C1.",
+        "required_clause_ids": [
+          "C1"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "medium",
+      "missing_information": [],
+      "notice_deadline_missed": false
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A4 endorsement_reversal: endorsement scope is ambiguous; associated business interruption is unresolved and is not labelled covered."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A1 hours_clause_conflict: clauses C10 and C11 conflict; the occurrence period is flagged and not resolved."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": true,
+      "note": "A3 currency_mismatch: the authoritative layer limit is EUR 4000000.00; the schedule conflicts with that limit."
+    }
+  ]
+}

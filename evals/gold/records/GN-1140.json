@@ -1,0 +1,114 @@
+{
+  "record_id": "GN-1140",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "holdout",
+  "tags": [
+    "missing_fields"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1140-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1140/email.eml"
+    },
+    {
+      "document_id": "GN-1140-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1140/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent C Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-008"
+      ],
+      "date_of_loss": "2024-11-10",
+      "date_of_notification": "2024-12-17",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": null,
+      "cedent_claim_reference": "FCL-GN-1140-657",
+      "original_insured_name": "Cedar Ferry Consortium (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Unauthorised access",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Devon Dale",
+      "sender_role": "Claims technician",
+      "cedent_notes": "Preliminary advice; reserve review is scheduled.",
+      "paid_to_date": {
+        "amount": "443353.42",
+        "currency": "GBP"
+      },
+      "outstanding_reserve": {
+        "amount": "2660120.52",
+        "currency": "GBP"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-008",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice requirement conflict: The claims cooperation clause allows 67 days while the general conditions allow 60 days.",
+        "required_clause_ids": [
+          "C1",
+          "C20"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "high",
+      "missing_information": [
+        "estimated_loss_amount"
+      ],
+      "notice_deadline_missed": null
+    },
+    "drafting": {
+      "draft_type": "information_request",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Request the missing information listed in triage"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "extraction",
+      "item_id": "estimated_loss_amount",
+      "certain": true,
+      "note": "Planted missing field: estimated_loss_amount is absent from every rendering."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A1 hours_clause_conflict: clauses C10 and C11 conflict; the occurrence period is flagged and not resolved."
+    },
+    {
+      "block": "qa",
+      "item_id": "Q1",
+      "certain": true,
+      "note": "A2 notice_term_mismatch: C1 and C20 conflict, so notice_deadline_missed is null."
+    }
+  ]
+}

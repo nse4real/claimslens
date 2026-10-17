@@ -1,0 +1,33 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 26 Jan 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1113-260
+Message-ID: <GN-1113@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent D Ltd (fictional)
+Treaty reference: FICT-FAC-001
+Loss date: 2024-01-12
+Notification date: 2024-01-26
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 3707512.52
+Claim reference: FCL-GN-1113-260
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 370751.25
+Outstanding reserve: USD 2224507.51
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims analyst

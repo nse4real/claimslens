@@ -1,0 +1,45 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 25 Sep 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1103-965
+Message-ID: <GN-1103@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-09-23
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-09-24
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2024-09-03
+Notification date: 2024-09-25
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: GBP 2872844.92
+Claim reference: FCL-GN-1103-965
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Unauthorised access
+Loss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: GBP 1723706.95
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims analyst

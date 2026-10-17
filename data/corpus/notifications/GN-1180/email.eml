@@ -1,0 +1,32 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 17 Jul 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1180-677
+Message-ID: <GN-1180@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent C Ltd (fictional)
+Treaty reference: FICT-TRT-007
+Loss date: 2024-06-09
+Notification date: 2024-07-17
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: USD 4399628.09
+Claim reference: FCL-GN-1180-677
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: GBP 2639776.85
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Reinsurance adjuster

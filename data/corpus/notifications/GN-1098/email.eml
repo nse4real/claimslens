@@ -1,0 +1,46 @@
+From: Devon Dale <devon.dale@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 09 Feb 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1098-617
+Message-ID: <GN-1098@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-02-07
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-02-08
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent D Ltd (fictional)
+Treaty reference: FICT-FAC-002
+Loss date: 2024-02-02
+Notification date: 2024-02-09
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: GBP 3071776.88
+Claim reference: FCL-GN-1098-617
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: EUR 307177.69
+Outstanding reserve: EUR 1843066.13
+
+Attachment: loss_advice.txt
+
+Regards
+Devon Dale
+Claims analyst

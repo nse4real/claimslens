@@ -1,0 +1,31 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sat, 07 Sep 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1148-144
+Message-ID: <GN-1148@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-002
+Loss date: 2024-09-06
+Notification date: 2024-09-07
+Estimated loss: USD 3364631.61
+Claim reference: FCL-GN-1148-144
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: USD 2018778.97
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims analyst

@@ -1,0 +1,31 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 24 Jan 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1211-693
+Message-ID: <GN-1211@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-002
+Loss date: 2024-12-27
+Notification date: 2025-01-24
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: USD 768305.87
+Claim reference: FCL-GN-1211-693
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims technician

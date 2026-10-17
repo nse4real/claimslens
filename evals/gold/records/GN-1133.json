@@ -1,0 +1,108 @@
+{
+  "record_id": "GN-1133",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "missing_fields"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1133-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1133/email.eml"
+    },
+    {
+      "document_id": "GN-1133-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1133/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent A Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-002"
+      ],
+      "date_of_loss": null,
+      "date_of_notification": null,
+      "loss_description": "Fictional fire damage to one insured production building.",
+      "estimated_loss_amount": {
+        "amount": "4795893.36",
+        "currency": "USD"
+      },
+      "cedent_claim_reference": "FCL-GN-1133-701",
+      "original_insured_name": "Dovetail Storage Mutual (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Kestrel Wharf, Example Province",
+      "sender_name": "Devon Dale",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Initial estimate; engineering review is pending.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "2877536.02",
+        "currency": "USD"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-002",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice must be given within 30 days of the loss date under clause C1.",
+        "required_clause_ids": [
+          "C1"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "high",
+      "missing_information": [
+        "date_of_loss",
+        "date_of_notification"
+      ],
+      "notice_deadline_missed": null
+    },
+    "drafting": {
+      "draft_type": "information_request",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Request the missing information listed in triage"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "extraction",
+      "item_id": "date_of_loss",
+      "certain": true,
+      "note": "Planted missing field: date_of_loss is absent from every rendering."
+    },
+    {
+      "block": "extraction",
+      "item_id": "date_of_notification",
+      "certain": true,
+      "note": "Planted missing field: date_of_notification is absent from every rendering."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 24 Jul 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1179-818
+Message-ID: <GN-1179@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2024-06-16
+Notification date: 2024-07-24
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: GBP 3555583.35
+Claim reference: FCL-GN-1179-818
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: GBP 355558.34
+Outstanding reserve: GBP 2133350.01
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Reinsurance adjuster

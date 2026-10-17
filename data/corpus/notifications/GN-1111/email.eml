@@ -1,0 +1,32 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Tue, 06 Feb 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1111-654
+Message-ID: <GN-1111@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2024-01-19
+Notification date: 2024-02-06
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: GBP 1504512.52
+Claim reference: FCL-GN-1111-654
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: GBP 902707.51
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims analyst

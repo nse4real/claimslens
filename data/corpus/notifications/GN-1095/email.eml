@@ -1,0 +1,46 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Thu, 12 Sep 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1095-260
+Message-ID: <GN-1095@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-09-10
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-09-11
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent C Ltd (fictional)
+Treaty reference: FICT-TRT-007
+Loss date: 2024-08-15
+Notification date: 2024-09-12
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: USD 1538135.59
+Claim reference: FCL-GN-1095-260
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: GBP 153813.56
+Outstanding reserve: GBP 922881.35
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims analyst

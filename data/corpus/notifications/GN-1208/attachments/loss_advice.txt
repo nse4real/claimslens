@@ -1,0 +1,14 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1208-716
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-006
+Loss date: 2024-02-28
+Notification date: 2024-03-11
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss amount: EUR 5167434.40
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: USD 469766.76

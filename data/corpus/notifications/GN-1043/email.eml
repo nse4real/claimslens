@@ -1,0 +1,32 @@
+From: Devon Dale <devon.dale@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 18 Jul 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1043-645
+Message-ID: <GN-1043@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2025-07-10
+Notification date: 2025-07-18
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: GBP 917109.87
+Claim reference: FCL-GN-1043-645
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: GBP 550265.92
+
+Attachment: loss_advice.txt
+
+Regards
+Devon Dale
+Reinsurance adjuster

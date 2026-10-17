@@ -1,0 +1,68 @@
+{
+  "record_id": "GN-1221",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "out_of_scope"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1221-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1221/email.eml"
+    },
+    {
+      "document_id": "GN-1221-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1221/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent C Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-007"
+      ],
+      "date_of_loss": "2024-11-05",
+      "date_of_notification": "2024-11-28",
+      "loss_description": "Fictional computer-system incident at a named insured office.",
+      "estimated_loss_amount": {
+        "amount": "2646489.25",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": "FCL-GN-1221-693",
+      "original_insured_name": "Cedar Ferry Consortium (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Flood",
+      "loss_location": "Rook Lane, Example District",
+      "sender_name": "Casey Clark",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Early notification; supporting documents are being gathered.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "1587893.55",
+        "currency": "GBP"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": null,
+      "correct_version_label": null,
+      "correct_layer_id": null,
+      "alternatives": [],
+      "expected_no_match": true
+    },
+    "qa": null,
+    "triage": null,
+    "drafting": null
+  },
+  "label_notes": []
+}

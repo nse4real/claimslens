@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1057-449
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-003
+Loss date: 2024-01-21
+Notification date: 2024-02-06
+Loss description: Fictional computer-system incident at a named insured office.
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: GBP 2249834.51

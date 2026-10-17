@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1055-459
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-002
+Loss date: 2024-07-20
+Notification date: 2024-08-10
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss amount: USD 2775412.14
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Unauthorised access
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.

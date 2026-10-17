@@ -1,0 +1,46 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 06 Dec 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1083-861
+Message-ID: <GN-1083@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-12-04
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-12-05
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent D Ltd (fictional)
+Treaty reference: FICT-FAC-001
+Loss date: 2024-11-14
+Notification date: 2024-12-06
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: EUR 4301785.03
+Claim reference: FCL-GN-1083-861
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: USD 430178.50
+Outstanding reserve: USD 2581071.02
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims technician

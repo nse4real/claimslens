@@ -1,0 +1,65 @@
+{
+  "record_id": "GN-1222",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "out_of_scope"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1222-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1222/email.eml"
+    },
+    {
+      "document_id": "GN-1222-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1222/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent B Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-003"
+      ],
+      "date_of_loss": "2024-07-05",
+      "date_of_notification": "2024-08-16",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": {
+        "amount": "2674910.16",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": "FCL-GN-1222-391",
+      "original_insured_name": "Cedar Ferry Consortium (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Devon Dale",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Initial estimate; engineering review is pending.",
+      "paid_to_date": null,
+      "outstanding_reserve": null,
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": null,
+      "correct_version_label": null,
+      "correct_layer_id": null,
+      "alternatives": [],
+      "expected_no_match": true
+    },
+    "qa": null,
+    "triage": null,
+    "drafting": null
+  },
+  "label_notes": []
+}

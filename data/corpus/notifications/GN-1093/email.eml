@@ -1,0 +1,45 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 07 Apr 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1093-733
+Message-ID: <GN-1093@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-04-05
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-04-06
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-003
+Loss date: 2024-04-04
+Notification date: 2024-04-07
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: USD 2729647.75
+Claim reference: FCL-GN-1093-733
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: GBP 1637788.65
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims analyst

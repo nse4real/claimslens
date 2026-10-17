@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1168-616
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-003
+Secondary treaty reference: FICT-TRT-004
+Loss date: 2024-10-30
+Notification date: 2024-11-19
+Loss description: Fictional computer-system incident at a named insured office.
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.

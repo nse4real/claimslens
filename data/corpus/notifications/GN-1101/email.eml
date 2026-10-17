@@ -1,0 +1,45 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 16 Mar 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1101-320
+Message-ID: <GN-1101@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2025-03-14
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2025-03-15
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-002
+Loss date: 2025-03-16
+Notification date: 2025-03-16
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: EUR 1357724.64
+Claim reference: FCL-GN-1101-320
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Fire
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: USD 814634.78
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims technician

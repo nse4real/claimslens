@@ -1,0 +1,32 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sat, 28 Sep 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1169-833
+Message-ID: <GN-1169@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: Primary FICT-TRT-006; secondary FICT-TRT-004
+Loss date: 2024-09-24
+Notification date: 2024-09-28
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 974060.79
+Claim reference: FCL-GN-1169-833
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: USD 584436.47
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims analyst

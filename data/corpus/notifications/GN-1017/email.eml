@@ -1,0 +1,32 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 08 Nov 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1017-995
+Message-ID: <GN-1017@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-002
+Loss date: 2024-10-15
+Notification date: 2024-11-08
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: USD 1794153.14
+Claim reference: FCL-GN-1017-995
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: USD 1076491.88
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims technician

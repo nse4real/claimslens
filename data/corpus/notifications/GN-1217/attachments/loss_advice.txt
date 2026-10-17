@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1004-317
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-003
+Loss date: 2024-08-23
+Notification date: 2024-10-03
+Loss description: Fictional fire damage to one insured production building.
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: GBP 2695076.29

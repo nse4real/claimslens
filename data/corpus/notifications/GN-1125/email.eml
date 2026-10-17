@@ -1,0 +1,33 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 26 May 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1125-399
+Message-ID: <GN-1125@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-002
+Loss date: 2024-05-21
+Notification date: 2024-05-26
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: USD 2353089.03
+Claim reference: FCL-GN-1125-399
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 235308.90
+Outstanding reserve: USD 1411853.42
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Reinsurance adjuster

@@ -1,0 +1,33 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sat, 21 Sep 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1062-252
+Message-ID: <GN-1062@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Ced.: Example Cedent C Ltd (fictional)
+Trty.: FICT-TRT-007
+DOL: 06 Sep 2024
+Notice dt.: 21 Sep 2024
+Desc.: Fictional flood damage to insured stock and equipment.
+Est. loss: USD 2128180.64
+Claim reference: FCL-GN-1062-252
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Reinsurance adjuster
+Claims Coordinator
+Second signature: Morgan Lake

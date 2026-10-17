@@ -1,0 +1,45 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 19 Feb 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1085-811
+Message-ID: <GN-1085@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2025-02-17
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2025-02-18
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-002
+Loss date: 2025-02-16
+Notification date: 2025-02-19
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: EUR 2215715.66
+Claim reference: FCL-GN-1085-811
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 221571.57
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims technician

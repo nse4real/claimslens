@@ -1,0 +1,14 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1001-779
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-005
+Loss date: 2024-05-23
+Notification date: 2024-05-23
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss amount: EUR 2450700.27
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: EUR 1470420.16

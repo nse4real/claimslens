@@ -1,0 +1,112 @@
+{
+  "record_id": "GN-1078",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "messy"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1078-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1078/email.eml"
+    },
+    {
+      "document_id": "GN-1078-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1078/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent B Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-003"
+      ],
+      "date_of_loss": "2024-09-24",
+      "date_of_notification": "2024-09-26",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": {
+        "amount": "2226150.90",
+        "currency": "USD"
+      },
+      "cedent_claim_reference": "FCL-GN-1078-365",
+      "original_insured_name": "Briar Foundry Group (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Fire",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Devon Dale",
+      "sender_role": "Claims analyst",
+      "cedent_notes": "Initial estimate; engineering review is pending.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "1335690.54",
+        "currency": "GBP"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-003",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L2",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice requirement conflict: The claims cooperation clause allows 52 days while the general conditions allow 45 days.",
+        "required_clause_ids": [
+          "C1",
+          "C20"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "medium",
+      "missing_information": [],
+      "notice_deadline_missed": null
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "qa",
+      "item_id": "Q1",
+      "certain": true,
+      "note": "A2 notice_term_mismatch: C1 and C20 conflict, so notice_deadline_missed is null."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A4 endorsement_reversal: endorsement scope is ambiguous; associated business interruption is unresolved and is not labelled covered."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": true,
+      "note": "A3 currency_mismatch: the authoritative layer limit is GBP 1000000.00; the schedule conflicts with that limit."
+    }
+  ]
+}

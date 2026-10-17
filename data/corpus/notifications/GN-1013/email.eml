@@ -1,0 +1,32 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 08 Oct 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1013-571
+Message-ID: <GN-1013@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2025-10-01
+Notification date: 2025-10-08
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: GBP 1311116.01
+Claim reference: FCL-GN-1013-571
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: GBP 786669.61
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims technician

@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1003-317
+Cedent: Example Cedent C Ltd (fictional)
+Primary treaty reference: FICT-TRT-007
+Loss date: 2024-10-28
+Notification date: 2024-11-07
+Loss description: Fictional computer-system incident at a named insured office.
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: GBP 398361.17

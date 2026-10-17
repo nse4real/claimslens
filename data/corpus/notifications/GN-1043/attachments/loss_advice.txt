@@ -1,0 +1,14 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1043-645
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-001
+Loss date: 2025-07-10
+Notification date: 2025-07-18
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss amount: GBP 917109.87
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: GBP 550265.92

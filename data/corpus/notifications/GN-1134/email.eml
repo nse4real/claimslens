@@ -1,0 +1,29 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Mon, 18 Mar 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1134-238
+Message-ID: <GN-1134@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-004
+Loss date: 2024-02-21
+Notification date: 2024-03-18
+Claim reference: FCL-GN-1134-238
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims technician

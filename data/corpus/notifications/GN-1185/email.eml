@@ -1,0 +1,31 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 28 Mar 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1185-297
+Message-ID: <GN-1185@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-005
+Loss date: 2025-03-14
+Notification date: 2025-03-28
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: EUR 899350.34
+Claim reference: FCL-GN-1185-297
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Storm
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims analyst

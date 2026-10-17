@@ -1,0 +1,75 @@
+{
+  "record_id": "GN-1193",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "wrong_cedent"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1193-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1193/email.eml"
+    },
+    {
+      "document_id": "GN-1193-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1193/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent Z Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-005"
+      ],
+      "date_of_loss": "2024-05-27",
+      "date_of_notification": "2024-06-20",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": {
+        "amount": "4225680.79",
+        "currency": "EUR"
+      },
+      "cedent_claim_reference": "FCL-GN-1193-528",
+      "original_insured_name": "Cedar Ferry Consortium (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Kestrel Wharf, Example Province",
+      "sender_name": "Casey Clark",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Initial estimate; engineering review is pending.",
+      "paid_to_date": {
+        "amount": "422568.08",
+        "currency": "EUR"
+      },
+      "outstanding_reserve": {
+        "amount": "2535408.47",
+        "currency": "EUR"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": null,
+      "correct_version_label": null,
+      "correct_layer_id": null,
+      "alternatives": [],
+      "expected_no_match": true
+    },
+    "qa": null,
+    "triage": {
+      "priority": "low",
+      "missing_information": [],
+      "notice_deadline_missed": null
+    },
+    "drafting": null
+  },
+  "label_notes": []
+}

@@ -1,0 +1,33 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 18 Aug 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1037-486
+Message-ID: <GN-1037@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-006
+Loss date: 2024-08-07
+Notification date: 2024-08-18
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: EUR 140540.90
+Claim reference: FCL-GN-1037-486
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 14054.09
+Outstanding reserve: USD 84324.54
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Reinsurance adjuster

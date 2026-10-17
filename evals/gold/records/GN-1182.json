@@ -1,0 +1,92 @@
+{
+  "record_id": "GN-1182",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "late_notice"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1182-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1182/email.eml"
+    },
+    {
+      "document_id": "GN-1182-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1182/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent A Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-001"
+      ],
+      "date_of_loss": "2024-03-02",
+      "date_of_notification": "2024-04-08",
+      "loss_description": "Fictional flood damage to insured stock and equipment.",
+      "estimated_loss_amount": {
+        "amount": "2395032.30",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": "FCL-GN-1182-630",
+      "original_insured_name": "Aster Orchard Cooperative (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Casey Clark",
+      "sender_role": "Claims analyst",
+      "cedent_notes": "Early notification; supporting documents are being gathered.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "1437019.38",
+        "currency": "GBP"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-001",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice must be given within 30 days of the loss date under clause C1.",
+        "required_clause_ids": [
+          "C1"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "urgent",
+      "missing_information": [],
+      "notice_deadline_missed": true
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": []
+}

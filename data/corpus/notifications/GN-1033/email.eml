@@ -1,0 +1,31 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 31 Mar 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1033-180
+Message-ID: <GN-1033@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2024-03-18
+Notification date: 2024-03-31
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: GBP 1603820.50
+Claim reference: FCL-GN-1033-180
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Reinsurance adjuster

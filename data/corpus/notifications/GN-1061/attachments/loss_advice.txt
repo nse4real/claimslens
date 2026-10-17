@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1061-533
+Cedent: Example Cedent C Ltd (fictional)
+Primary treaty reference: FICT-TRT-008
+Loss date: 2024-02-22
+Notification date: 2024-03-18
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss amount: GBP 4609659.18
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.

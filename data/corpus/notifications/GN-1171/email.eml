@@ -1,0 +1,32 @@
+From: Devon Dale <devon.dale@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Thu, 21 Mar 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1171-771
+Message-ID: <GN-1171@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2024-02-10
+Notification date: 2024-03-21
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: GBP 4524401.10
+Claim reference: FCL-GN-1171-771
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: GBP 2714640.66
+
+Attachment: loss_advice.txt
+
+Regards
+Devon Dale
+Claims analyst

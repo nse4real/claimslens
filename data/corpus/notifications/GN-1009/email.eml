@@ -1,0 +1,33 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sat, 17 Aug 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1009-300
+Message-ID: <GN-1009@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent D Ltd (fictional)
+Treaty reference: FICT-FAC-002
+Loss date: 2024-08-05
+Notification date: 2024-08-17
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: GBP 4289830.62
+Claim reference: FCL-GN-1009-300
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Rook Lane, Example District
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: EUR 428983.06
+Outstanding reserve: EUR 2573898.37
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims analyst

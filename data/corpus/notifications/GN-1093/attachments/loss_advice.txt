@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1093-733
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-003
+Loss date: 2024-04-04
+Notification date: 2024-04-07
+Loss description: Fictional storm damage to two insured storage buildings.
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: GBP 1637788.65

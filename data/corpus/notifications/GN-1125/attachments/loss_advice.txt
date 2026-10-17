@@ -1,0 +1,16 @@
+L0ss Adv1ce (fictional)
+Claim reference: FCL-GN-1125-399
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-002
+L0ss date: 2024-05-21
+N0tification date: 2024-05-26
+L0ss description: Fictional computer-system incident at a named insured office.
+Estimated loss amount: USD 2353089.03
+0riginal insured: Dovetail Storage Mutual (fictional)
+Territory or
+country: Fictional South Territory
+Peril or cause: Fire
+L0ss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 235308.90
+Outstanding reserve: USD 1411853.42

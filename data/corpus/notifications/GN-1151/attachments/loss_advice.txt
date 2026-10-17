@@ -1,0 +1,14 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1151-637
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-003
+Secondary treaty reference: FICT-TRT-006
+Loss date: 2024-03-27
+Notification date: 2024-03-27
+Loss description: Fictional computer-system incident at a named insured office.
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: GBP 205296.51

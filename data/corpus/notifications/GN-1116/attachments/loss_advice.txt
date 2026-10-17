@@ -1,0 +1,14 @@
+L0ss Adv1ce (fictional)
+Claim reference: FCL-GN-1116-425
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-003
+L0ss date: 2024-06-21
+N0tification date: 2024-06-23
+L0ss description: Fictional storm damage to two insured storage buildings.
+0riginal insured: Dovetail Storage Mutual (fictional)
+Territory or
+country: Fictional North Territory
+Peril or cause: Storm
+L0ss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: GBP 497317.78

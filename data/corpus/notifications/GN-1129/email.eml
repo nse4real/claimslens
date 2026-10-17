@@ -1,0 +1,31 @@
+From: Devon Dale <devon.dale@example.test>
+To: Claims Mailbox <claims@example.test>
+Subject: Loss notification FCL-GN-1129-338
+Message-ID: <GN-1129@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-005
+Loss date: 2025-09-29
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: EUR 4307080.32
+Claim reference: FCL-GN-1129-338
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: EUR 430708.03
+Outstanding reserve: EUR 2584248.19
+
+Attachment: loss_advice.txt
+
+Regards
+Devon Dale
+Claims analyst

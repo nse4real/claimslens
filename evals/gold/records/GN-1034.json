@@ -1,0 +1,115 @@
+{
+  "record_id": "GN-1034",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "clean"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1034-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1034/email.eml"
+    },
+    {
+      "document_id": "GN-1034-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1034/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent D Ltd (fictional)",
+      "treaty_references": [
+        "FICT-FAC-001"
+      ],
+      "date_of_loss": "2024-02-10",
+      "date_of_notification": "2024-02-18",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": {
+        "amount": "1429024.52",
+        "currency": "EUR"
+      },
+      "cedent_claim_reference": "FCL-GN-1034-562",
+      "original_insured_name": "Aster Orchard Cooperative (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Fire",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Alex Avery",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Early notification; supporting documents are being gathered.",
+      "paid_to_date": {
+        "amount": "142902.45",
+        "currency": "USD"
+      },
+      "outstanding_reserve": {
+        "amount": "857414.71",
+        "currency": "USD"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-FAC-001",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice requirement conflict: The claims cooperation clause sets 14 days while the general conditions require prompt notice.",
+        "required_clause_ids": [
+          "C1",
+          "C20"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "medium",
+      "missing_information": [],
+      "notice_deadline_missed": null
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A4 endorsement_reversal: endorsement scope is ambiguous; associated business interruption is unresolved and is not labelled covered."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": true,
+      "note": "A3 currency_mismatch: the authoritative layer limit is USD 1000000.00; the schedule conflicts with that limit."
+    },
+    {
+      "block": "qa",
+      "item_id": "Q1",
+      "certain": true,
+      "note": "A2 notice_term_mismatch: C1 and C20 conflict, so notice_deadline_missed is null."
+    }
+  ]
+}

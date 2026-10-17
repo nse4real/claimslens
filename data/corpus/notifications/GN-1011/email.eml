@@ -1,0 +1,32 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 20 Mar 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1011-295
+Message-ID: <GN-1011@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-001
+Loss date: 2024-03-19
+Notification date: 2024-03-20
+Loss description: Fictional fire damage to one insured production building.
+Estimated loss: GBP 4438923.49
+Claim reference: FCL-GN-1011-295
+Original insured: Briar Foundry Group (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Storm
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: GBP 443892.35
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims analyst

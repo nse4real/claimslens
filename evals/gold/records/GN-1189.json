@@ -1,0 +1,69 @@
+{
+  "record_id": "GN-1189",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "wrong_cedent"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1189-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1189/email.eml"
+    },
+    {
+      "document_id": "GN-1189-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1189/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent Z Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-003"
+      ],
+      "date_of_loss": "2024-01-08",
+      "date_of_notification": "2024-02-03",
+      "loss_description": "Fictional computer-system incident at a named insured office.",
+      "estimated_loss_amount": {
+        "amount": "3445989.78",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": "FCL-GN-1189-119",
+      "original_insured_name": "Dovetail Storage Mutual (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Fire",
+      "loss_location": "Kestrel Wharf, Example Province",
+      "sender_name": "Alex Avery",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Early notification; supporting documents are being gathered.",
+      "paid_to_date": null,
+      "outstanding_reserve": null,
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": null,
+      "correct_version_label": null,
+      "correct_layer_id": null,
+      "alternatives": [],
+      "expected_no_match": true
+    },
+    "qa": null,
+    "triage": {
+      "priority": "low",
+      "missing_information": [],
+      "notice_deadline_missed": null
+    },
+    "drafting": null
+  },
+  "label_notes": []
+}

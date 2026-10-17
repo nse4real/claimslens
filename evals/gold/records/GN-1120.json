@@ -1,0 +1,109 @@
+{
+  "record_id": "GN-1120",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "holdout",
+  "tags": [
+    "scanned_style"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1120-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1120/email.eml"
+    },
+    {
+      "document_id": "GN-1120-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1120/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent B Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-004"
+      ],
+      "date_of_loss": "2024-09-14",
+      "date_of_notification": "2024-09-21",
+      "loss_description": "Fictional fire damage to one insured production building.",
+      "estimated_loss_amount": {
+        "amount": "4175024.65",
+        "currency": "EUR"
+      },
+      "cedent_claim_reference": "FCL-GN-1120-527",
+      "original_insured_name": "Dovetail Storage Mutual (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Flood",
+      "loss_location": "Rook Lane, Example District",
+      "sender_name": "Alex Avery",
+      "sender_role": "Claims analyst",
+      "cedent_notes": "Early notification; supporting documents are being gathered.",
+      "paid_to_date": {
+        "amount": "417502.46",
+        "currency": "USD"
+      },
+      "outstanding_reserve": {
+        "amount": "2505014.79",
+        "currency": "USD"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-004",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice requirement conflict: The claims cooperation clause allows 37 days while the general conditions allow 30 days.",
+        "required_clause_ids": [
+          "C1",
+          "C20"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "medium",
+      "missing_information": [],
+      "notice_deadline_missed": null
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "qa",
+      "item_id": "Q1",
+      "certain": true,
+      "note": "A2 notice_term_mismatch: C1 and C20 conflict, so notice_deadline_missed is null."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": true,
+      "note": "A3 currency_mismatch: the authoritative layer limit is USD 5000000.00; the schedule conflicts with that limit."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+L0ss Adv1ce (fictional)
+Claim reference: FCL-GN-1108-788
+Cedent: Example Cedent D Ltd (fictional)
+Primary treaty reference: FICT-FAC-001
+L0ss date: 2024-03-29
+N0tification date: 2024-04-20
+L0ss description: Fictional computer-system incident at a named insured office.
+0riginal insured: Briar Foundry Group (fictional)
+Territory or
+country: Fictional South Territory
+Peril or cause: Unauthorised access
+L0ss location: Kestrel Wharf, Example Province
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: USD 11836.96

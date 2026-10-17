@@ -1,0 +1,33 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Thu, 29 May 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1052-851
+Message-ID: <GN-1052@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Ced.: Example Cedent A Ltd (fictional)
+Trty.: FICT-TRT-002
+DOL: 2025/05/21
+Notice dt.: 2025/05/29
+Desc.: Fictional computer-system incident at a named insured office.
+Est. loss: EUR 1586977.30
+Claim reference: FCL-GN-1052-851
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Early notification; supporting documents are being gathered.
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Reinsurance adjuster
+Claims Coordinator
+Second signature: Morgan Lake

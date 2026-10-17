@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1085-811
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-002
+Loss date: 2025-02-16
+Notification date: 2025-02-19
+Loss description: Fictional fire damage to one insured production building.
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 221571.57

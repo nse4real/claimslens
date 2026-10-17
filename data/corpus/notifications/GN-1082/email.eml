@@ -1,0 +1,45 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Mon, 13 May 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1082-365
+Message-ID: <GN-1082@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-05-11
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-05-12
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-004
+Loss date: 2024-05-13
+Notification date: 2024-05-13
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 921965.07
+Claim reference: FCL-GN-1082-365
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Flood
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 92196.51
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Reinsurance adjuster

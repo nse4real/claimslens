@@ -1,0 +1,105 @@
+{
+  "record_id": "GN-1048",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "holdout",
+  "tags": [
+    "messy"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1048-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1048/email.eml"
+    },
+    {
+      "document_id": "GN-1048-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1048/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent C Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-007"
+      ],
+      "date_of_loss": "2024-01-28",
+      "date_of_notification": "2024-02-10",
+      "loss_description": "Fictional flood damage to insured stock and equipment.",
+      "estimated_loss_amount": {
+        "amount": "3834761.83",
+        "currency": "USD"
+      },
+      "cedent_claim_reference": "FCL-GN-1048-852",
+      "original_insured_name": "Aster Orchard Cooperative (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Kestrel Wharf, Example Province",
+      "sender_name": "Alex Avery",
+      "sender_role": "Claims technician",
+      "cedent_notes": "Preliminary advice; reserve review is scheduled.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "2300857.10",
+        "currency": "GBP"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-007",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice must be given within 30 days of the loss date under clause C1.",
+        "required_clause_ids": [
+          "C1"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "medium",
+      "missing_information": [],
+      "notice_deadline_missed": false
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": true,
+      "note": "A3 currency_mismatch: the authoritative layer limit is GBP 3000000.00; the schedule conflicts with that limit."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A1 hours_clause_conflict: clauses C10 and C11 conflict; the occurrence period is flagged and not resolved."
+    }
+  ]
+}

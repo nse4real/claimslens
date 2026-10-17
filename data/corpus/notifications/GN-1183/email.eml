@@ -1,0 +1,31 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 11 Jun 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1183-904
+Message-ID: <GN-1183@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-005
+Loss date: 2025-05-29
+Notification date: 2025-06-11
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: EUR 2821570.41
+Claim reference: FCL-GN-1183-904
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Preliminary advice; reserve review is scheduled.
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Reinsurance adjuster

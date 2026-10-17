@@ -1,0 +1,30 @@
+From: Devon Dale <devon.dale@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 24 Jan 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1135-721
+Message-ID: <GN-1135@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Treaty reference: FICT-FAC-001
+Loss date: 2024-01-16
+Notification date: 2024-01-24
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 1726212.25
+Claim reference: FCL-GN-1135-721
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+
+Attachment: loss_advice.txt
+
+Regards
+Devon Dale
+Reinsurance adjuster

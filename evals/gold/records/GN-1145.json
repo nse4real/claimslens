@@ -1,0 +1,118 @@
+{
+  "record_id": "GN-1145",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "missing_fields"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1145-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1145/email.eml"
+    },
+    {
+      "document_id": "GN-1145-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1145/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent A Ltd (fictional)",
+      "treaty_references": [],
+      "date_of_loss": "2025-08-16",
+      "date_of_notification": "2025-08-18",
+      "loss_description": "Fictional fire damage to one insured production building.",
+      "estimated_loss_amount": {
+        "amount": "619471.34",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": "FCL-GN-1145-921",
+      "original_insured_name": "Dovetail Storage Mutual (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Unauthorised access",
+      "loss_location": "Sable Quay, Example Region",
+      "sender_name": "Blake Bell",
+      "sender_role": "Claims analyst",
+      "cedent_notes": "Preliminary advice; reserve review is scheduled.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "371682.80",
+        "currency": "GBP"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-001",
+      "correct_version_label": "2025-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice requirement conflict: The claims cooperation clause allows 21 days while the general conditions allow 14 days.",
+        "required_clause_ids": [
+          "C3",
+          "C20"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "high",
+      "missing_information": [
+        "treaty_references"
+      ],
+      "notice_deadline_missed": null
+    },
+    "drafting": {
+      "draft_type": "information_request",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Request the missing information listed in triage"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "extraction",
+      "item_id": "treaty_references",
+      "certain": true,
+      "note": "Planted missing field: treaty_references is absent from every rendering."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A1 hours_clause_conflict: clauses C10 and C11 conflict; the occurrence period is flagged and not resolved."
+    },
+    {
+      "block": "qa",
+      "item_id": "Q1",
+      "certain": true,
+      "note": "A2 notice_term_mismatch: C3 and C20 conflict, so notice_deadline_missed is null."
+    },
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A4 endorsement_reversal: endorsement scope is ambiguous; associated business interruption is unresolved and is not labelled covered."
+    }
+  ]
+}

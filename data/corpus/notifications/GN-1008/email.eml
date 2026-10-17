@@ -1,0 +1,32 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 08 Nov 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1008-415
+Message-ID: <GN-1008@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-003
+Loss date: 2024-10-28
+Notification date: 2024-11-08
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: USD 3998018.40
+Claim reference: FCL-GN-1008-415
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Storm
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: GBP 399801.84
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Reinsurance adjuster

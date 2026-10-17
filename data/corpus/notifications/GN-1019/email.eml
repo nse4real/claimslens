@@ -1,0 +1,32 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 11 Jul 2025 09:00:00 +0000
+Subject: Loss notification FCL-GN-1019-904
+Message-ID: <GN-1019@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-005
+Loss date: 2025-07-08
+Notification date: 2025-07-11
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 4902586.01
+Claim reference: FCL-GN-1019-904
+Original insured: Dovetail Storage Mutual (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Outstanding reserve: EUR 2941551.61
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Reinsurance adjuster

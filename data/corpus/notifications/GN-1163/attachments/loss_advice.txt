@@ -1,0 +1,15 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1163-596
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-004
+Secondary treaty reference: FICT-TRT-006
+Loss date: 2024-01-04
+Notification date: 2024-01-06
+Loss description: Fictional flood damage to insured stock and equipment.
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Early notification; supporting documents are being gathered.
+Paid to date: USD 405284.49
+Outstanding reserve: USD 2431706.95

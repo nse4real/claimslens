@@ -1,0 +1,45 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 27 Dec 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1102-176
+Message-ID: <GN-1102@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+---------- Earlier message 1 ----------
+From: Alex Avery <alex.avery@example.test>
+Date: 2024-12-25
+
+Can you review the incoming advice?
+
+---------- Earlier message 2 ----------
+From: Blake Bell <blake.bell@example.test>
+Date: 2024-12-26
+
+Adding the claims mailbox for handling.
+
+---------- Forwarded loss notification ----------
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: FICT-TRT-005
+Loss date: 2024-12-01
+Notification date: 2024-12-27
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: EUR 1193911.84
+Claim reference: FCL-GN-1102-176
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Rook Lane, Example District
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Outstanding reserve: EUR 716347.10
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims technician

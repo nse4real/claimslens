@@ -1,0 +1,32 @@
+From: Blake Bell <blake.bell@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sat, 07 Sep 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1165-768
+Message-ID: <GN-1165@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent A Ltd (fictional)
+Treaty reference: Primary FICT-TRT-001; secondary FICT-TRT-002
+Loss date: 2024-08-12
+Notification date: 2024-09-07
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: GBP 4246774.91
+Claim reference: FCL-GN-1165-768
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: GBP 424677.49
+
+Attachment: loss_advice.txt
+
+Regards
+Blake Bell
+Claims analyst

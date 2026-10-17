@@ -1,0 +1,32 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 12 Jun 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1144-330
+Message-ID: <GN-1144@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Treaty reference: FICT-TRT-007
+Loss date: 2024-06-04
+Notification date: 2024-06-12
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: USD 3685224.95
+Claim reference: FCL-GN-1144-330
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Preliminary advice; reserve review is scheduled.
+Paid to date: GBP 368522.50
+Outstanding reserve: GBP 2211134.97
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims analyst

@@ -1,0 +1,12 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1052-851
+Cedent: Example Cedent A Ltd (fictional)
+Primary treaty reference: FICT-TRT-002
+Loss date: 2025-05-21
+Notification date: 2025-05-29
+Loss description: Fictional computer-system incident at a named insured office.
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Early notification; supporting documents are being gathered.

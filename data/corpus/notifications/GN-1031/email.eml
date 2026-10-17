@@ -1,0 +1,31 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 25 Dec 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1031-515
+Message-ID: <GN-1031@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-006
+Loss date: 2024-12-21
+Notification date: 2024-12-25
+Loss description: Fictional flood damage to insured stock and equipment.
+Estimated loss: EUR 2512334.38
+Claim reference: FCL-GN-1031-515
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims analyst

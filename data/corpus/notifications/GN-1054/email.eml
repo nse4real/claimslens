@@ -1,0 +1,34 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 15 May 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1054-888
+Message-ID: <GN-1054@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Ced.: Example Cedent A Ltd (fictional)
+Trty.: FICT-TRT-001
+DOL: 15/04/2024
+Notice dt.: 15/05/2024
+Desc.: Fictional computer-system incident at a named insured office.
+Est. loss: GBP 4688892.21
+Claim reference: FCL-GN-1054-888
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Storm
+Loss location: Sable Quay, Example Region
+Cedent notes: Early notification; supporting documents are being gathered.
+Outstanding reserve: GBP 2813335.33
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims analyst
+Claims Coordinator
+Second signature: Morgan Lake

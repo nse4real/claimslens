@@ -1,0 +1,33 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Wed, 26 Jun 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1117-157
+Message-ID: <GN-1117@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-004
+Loss date: 2024-06-02
+Notification date: 2024-06-26
+Loss description: Fictional storm damage to two insured storage buildings.
+Estimated loss: EUR 588486.60
+Claim reference: FCL-GN-1117-157
+Original insured: Aster Orchard Cooperative (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 58848.66
+Outstanding reserve: USD 353091.96
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims technician

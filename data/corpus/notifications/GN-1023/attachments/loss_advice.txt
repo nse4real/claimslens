@@ -1,0 +1,13 @@
+Loss Advice (fictional)
+Claim reference: FCL-GN-1023-668
+Cedent: Example Cedent B Ltd (fictional)
+Primary treaty reference: FICT-TRT-004
+Loss date: 2024-10-31
+Notification date: 2024-11-20
+Loss description: Fictional fire damage to one insured production building.
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Unauthorised access
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 99667.88

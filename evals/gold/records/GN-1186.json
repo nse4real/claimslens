@@ -1,0 +1,69 @@
+{
+  "record_id": "GN-1186",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "holdout",
+  "tags": [
+    "wrong_cedent"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1186-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1186/email.eml"
+    },
+    {
+      "document_id": "GN-1186-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1186/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent Z Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-005"
+      ],
+      "date_of_loss": "2024-03-26",
+      "date_of_notification": "2024-04-14",
+      "loss_description": "Fictional storm damage to two insured storage buildings.",
+      "estimated_loss_amount": {
+        "amount": "1767843.40",
+        "currency": "EUR"
+      },
+      "cedent_claim_reference": "FCL-GN-1186-847",
+      "original_insured_name": "Briar Foundry Group (fictional)",
+      "territory_or_country": "Fictional North Territory",
+      "peril_or_cause": "Fire",
+      "loss_location": "Kestrel Wharf, Example Province",
+      "sender_name": "Alex Avery",
+      "sender_role": "Claims technician",
+      "cedent_notes": "Preliminary advice; reserve review is scheduled.",
+      "paid_to_date": null,
+      "outstanding_reserve": null,
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": null,
+      "correct_version_label": null,
+      "correct_layer_id": null,
+      "alternatives": [],
+      "expected_no_match": true
+    },
+    "qa": null,
+    "triage": {
+      "priority": "low",
+      "missing_information": [],
+      "notice_deadline_missed": null
+    },
+    "drafting": null
+  },
+  "label_notes": []
+}

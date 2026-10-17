@@ -1,0 +1,30 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 22 Mar 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1141-152
+Message-ID: <GN-1141@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+Please record this fictional loss notification.
+
+Loss date: 2024-03-15
+Notification date: 2024-03-22
+Loss description: Fictional computer-system incident at a named insured office.
+Estimated loss: EUR 2551188.87
+Claim reference: FCL-GN-1141-152
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional South Territory
+Peril or cause: Fire
+Loss location: Kestrel Wharf, Example Province
+Cedent notes: Early notification; supporting documents are being gathered.
+Outstanding reserve: USD 1530713.32
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Claims technician

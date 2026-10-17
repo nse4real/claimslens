@@ -1,0 +1,32 @@
+From: Casey Clark <casey.clark@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Sun, 08 Dec 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1149-273
+Message-ID: <GN-1149@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+I am writing to provide an initial fictional loss advice.
+
+Cedent: Example Cedent B Ltd (fictional)
+Treaty reference: FICT-TRT-006
+Loss date: 2024-11-17
+Notification date: 2024-12-08
+Loss description: Fictional storm damage to two insured storage buildings.
+Claim reference: FCL-GN-1149-273
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Fire
+Loss location: Sable Quay, Example Region
+Cedent notes: Initial estimate; engineering review is pending.
+Paid to date: USD 462580.25
+Outstanding reserve: USD 2775481.51
+
+Attachment: loss_advice.txt
+
+Regards
+Casey Clark
+Reinsurance adjuster

@@ -1,0 +1,99 @@
+{
+  "record_id": "GN-1053",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "messy"
+  ],
+  "provenance": {
+    "labeller": "generator",
+    "labelled_on": "2026-10-17",
+    "label_status": "single",
+    "generator_seed": 20261017,
+    "second_labeller_agreed": null
+  },
+  "source_documents": [
+    {
+      "document_id": "GN-1053-email",
+      "document_type": "email",
+      "corpus_path": "data/corpus/notifications/GN-1053/email.eml"
+    },
+    {
+      "document_id": "GN-1053-attachment-1",
+      "document_type": "other",
+      "corpus_path": "data/corpus/notifications/GN-1053/attachments/loss_advice.txt"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent A Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-005"
+      ],
+      "date_of_loss": "2025-01-18",
+      "date_of_notification": "2025-01-19",
+      "loss_description": "Fictional fire damage to one insured production building.",
+      "estimated_loss_amount": {
+        "amount": "1575792.39",
+        "currency": "EUR"
+      },
+      "cedent_claim_reference": "FCL-GN-1053-708",
+      "original_insured_name": "Cedar Ferry Consortium (fictional)",
+      "territory_or_country": "Fictional South Territory",
+      "peril_or_cause": "Storm",
+      "loss_location": "Kestrel Wharf, Example Province",
+      "sender_name": "Devon Dale",
+      "sender_role": "Reinsurance adjuster",
+      "cedent_notes": "Preliminary advice; reserve review is scheduled.",
+      "paid_to_date": null,
+      "outstanding_reserve": {
+        "amount": "945475.43",
+        "currency": "EUR"
+      },
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-005",
+      "correct_version_label": "2025-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "What is the notice requirement for this loss?",
+        "answerable": true,
+        "expected_answer_summary": "Notice must be given within 10 days of the loss date under clause C3.",
+        "required_clause_ids": [
+          "C3"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "medium",
+      "missing_information": [],
+      "notice_deadline_missed": false
+    },
+    "drafting": {
+      "draft_type": "acknowledgement",
+      "required_points": [
+        "Acknowledge receipt of the notification",
+        "Record the claim reference and next steps"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover",
+        "Do not make a payment commitment"
+      ]
+    }
+  },
+  "label_notes": [
+    {
+      "block": "matching",
+      "item_id": "matching",
+      "certain": false,
+      "note": "A4 endorsement_reversal: endorsement scope is ambiguous; associated business interruption is unresolved and is not labelled covered."
+    }
+  ]
+}

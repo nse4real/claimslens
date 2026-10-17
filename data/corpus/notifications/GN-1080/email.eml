@@ -1,0 +1,34 @@
+From: Alex Avery <alex.avery@example.test>
+To: Claims Mailbox <claims@example.test>
+Date: Fri, 12 Apr 2024 09:00:00 +0000
+Subject: Loss notification FCL-GN-1080-163
+Message-ID: <GN-1080@example.test>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Dear Claims Team
+
+This message reports a new fictional loss for your claims register.
+
+Ced.: Example Cedent A Ltd (fictional)
+Trty.: FICT-TRT-005
+DOL: 2024/04/02
+Notice dt.: 2024/04/12
+Desc.: Fictional flood damage to insured stock and equipment.
+Est. loss: EUR 542983.26
+Claim reference: FCL-GN-1080-163
+Original insured: Cedar Ferry Consortium (fictional)
+Territory or country: Fictional North Territory
+Peril or cause: Flood
+Loss location: Rook Lane, Example District
+Cedent notes: Initial estimate; engineering review is pending.
+Outstanding reserve: EUR 325789.96
+
+Attachment: loss_advice.txt
+
+Regards
+Alex Avery
+Claims technician
+Claims Coordinator
+Second signature: Morgan Lake
