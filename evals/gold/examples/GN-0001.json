@@ -1,0 +1,97 @@
+{
+  "record_id": "GN-0001",
+  "schema_version": "1.0.0",
+  "data_origin": "synthetic",
+  "split": "dev",
+  "tags": [
+    "clean",
+    "multi_contract"
+  ],
+  "provenance": {
+    "labeller": "Synthetic labeller A",
+    "labelled_on": "2026-10-16",
+    "label_status": "gold",
+    "generator_seed": 42,
+    "second_labeller_agreed": true
+  },
+  "label_notes": [
+    {
+      "block": "extraction",
+      "item_id": "estimated_loss_amount",
+      "certain": false,
+      "note": "Currency of the estimate is stated once in the email body; confirmed against the PDF."
+    }
+  ],
+  "source_documents": [
+    {
+      "document_id": "doc-email-1",
+      "document_type": "email",
+      "corpus_path": "data/corpus/GN-0001/email.eml"
+    },
+    {
+      "document_id": "doc-pdf-1",
+      "document_type": "pdf",
+      "corpus_path": "data/corpus/GN-0001/loss_advice.pdf"
+    }
+  ],
+  "labels": {
+    "extraction": {
+      "cedent_name": "Example Cedent Ltd (fictional)",
+      "treaty_references": [
+        "FICT-TRT-001"
+      ],
+      "date_of_loss": "2024-11-03",
+      "date_of_notification": "2024-11-10",
+      "loss_description": "Fictional storm damage to insured warehouses.",
+      "estimated_loss_amount": {
+        "amount": "2500000.00",
+        "currency": "GBP"
+      },
+      "cedent_claim_reference": null,
+      "original_insured_name": null,
+      "territory_or_country": null,
+      "peril_or_cause": null,
+      "loss_location": null,
+      "sender_name": null,
+      "sender_role": null,
+      "cedent_notes": null,
+      "paid_to_date": null,
+      "outstanding_reserve": null,
+      "uncertain_fields": []
+    },
+    "matching": {
+      "correct_contract_id": "FICT-TRT-001",
+      "correct_version_label": "2024-01",
+      "correct_layer_id": "L1",
+      "alternatives": [],
+      "expected_no_match": false
+    },
+    "qa": [
+      {
+        "question_id": "Q1",
+        "question": "Is the notice period within the layer's cover?",
+        "answerable": true,
+        "expected_answer_summary": "Notice within 30 days of loss under clause C1.",
+        "required_clause_ids": [
+          "C1"
+        ]
+      }
+    ],
+    "triage": {
+      "priority": "high",
+      "missing_information": [
+        "Cedent claim reference"
+      ],
+      "notice_deadline_missed": false
+    },
+    "drafting": {
+      "draft_type": "information_request",
+      "required_points": [
+        "Ask for the cedent claim reference"
+      ],
+      "forbidden_claims": [
+        "Do not confirm cover"
+      ]
+    }
+  }
+}

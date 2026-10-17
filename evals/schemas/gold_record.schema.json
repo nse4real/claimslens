@@ -1,0 +1,780 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://claimslens.local/schemas/gold_record/1.0.0",
+  "title": "Gold record for ClaimsLens evaluation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "schema_version",
+    "data_origin",
+    "split",
+    "tags",
+    "provenance",
+    "source_documents",
+    "labels",
+    "label_notes"
+  ],
+  "properties": {
+    "record_id": {
+      "description": "Stable gold-notification identifier.",
+      "type": "string",
+      "pattern": "^GN-[0-9]{4,}$"
+    },
+    "schema_version": {
+      "description": "Version of the gold-record format.",
+      "const": "1.0.0"
+    },
+    "data_origin": {
+      "description": "Gold records in this project must contain synthetic data only.",
+      "const": "synthetic"
+    },
+    "split": {
+      "description": "Fixed evaluation split.",
+      "type": "string",
+      "enum": [
+        "dev",
+        "holdout"
+      ]
+    },
+    "tags": {
+      "description": "Scenario tags used for error analysis.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "clean",
+          "messy",
+          "forwarded_chain",
+          "scanned_style",
+          "missing_fields",
+          "multi_contract",
+          "late_notice",
+          "wrong_cedent",
+          "injection",
+          "contradictory_documents",
+          "near_duplicate",
+          "out_of_scope"
+        ]
+      }
+    },
+    "provenance": {
+      "description": "Labelling and generation metadata for this record.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "labeller",
+        "labelled_on",
+        "label_status",
+        "generator_seed",
+        "second_labeller_agreed"
+      ],
+      "properties": {
+        "labeller": {
+          "$ref": "#/$defs/nonBlankString"
+        },
+        "labelled_on": {
+          "description": "Calendar date on which the record was labelled.",
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "label_status": {
+          "description": "Whether a second labeller checked the record.",
+          "type": "string",
+          "enum": [
+            "gold",
+            "single"
+          ]
+        },
+        "generator_seed": {
+          "description": "Seed from which the synthetic notification can be regenerated.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "second_labeller_agreed": {
+          "description": "True for agreed gold labels; null for single-labelled records.",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "label_status": {
+                "const": "single"
+              }
+            },
+            "required": [
+              "label_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "second_labeller_agreed": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "label_status": {
+                "const": "gold"
+              }
+            },
+            "required": [
+              "label_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "second_labeller_agreed": {
+                "const": true
+              }
+            }
+          }
+        }
+      ]
+    },
+    "source_documents": {
+      "description": "Documents making up the notification; document_id uniqueness is checked in Python.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/sourceDocument"
+      }
+    },
+    "labels": {
+      "description": "Gold labels for every evaluation block; an inapplicable block is null rather than absent.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "extraction",
+        "matching",
+        "qa",
+        "triage",
+        "drafting"
+      ],
+      "properties": {
+        "extraction": {
+          "description": "Plain gold values for the 16 extraction fields, or null when extraction is not evaluated.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "cedent_name",
+            "treaty_references",
+            "date_of_loss",
+            "date_of_notification",
+            "loss_description",
+            "estimated_loss_amount",
+            "cedent_claim_reference",
+            "original_insured_name",
+            "territory_or_country",
+            "peril_or_cause",
+            "loss_location",
+            "sender_name",
+            "sender_role",
+            "cedent_notes",
+            "paid_to_date",
+            "outstanding_reserve",
+            "uncertain_fields"
+          ],
+          "properties": {
+            "cedent_name": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "treaty_references": {
+              "description": "Gold treaty references; an empty array means that no references are present.",
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/nonBlankStringArray"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "date_of_loss": {
+              "$ref": "#/$defs/nullableDate"
+            },
+            "date_of_notification": {
+              "$ref": "#/$defs/nullableDate"
+            },
+            "loss_description": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "estimated_loss_amount": {
+              "$ref": "#/$defs/nullableMoney"
+            },
+            "cedent_claim_reference": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "original_insured_name": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "territory_or_country": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "peril_or_cause": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "loss_location": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "sender_name": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "sender_role": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "cedent_notes": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "paid_to_date": {
+              "$ref": "#/$defs/nullableMoney"
+            },
+            "outstanding_reserve": {
+              "$ref": "#/$defs/nullableMoney"
+            },
+            "uncertain_fields": {
+              "description": "Extraction fields whose labels are marked certain: false.",
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/extractionFieldName"
+              }
+            }
+          }
+        },
+        "matching": {
+          "description": "Gold contract, version and layer match, or null when matching is not evaluated.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "correct_contract_id",
+            "correct_version_label",
+            "correct_layer_id",
+            "alternatives",
+            "expected_no_match"
+          ],
+          "properties": {
+            "correct_contract_id": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "correct_version_label": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "correct_layer_id": {
+              "$ref": "#/$defs/nullableNonBlankString"
+            },
+            "alternatives": {
+              "description": "Alternative contract, version and layer combinations that are also correct.",
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/matchingAlternative"
+              }
+            },
+            "expected_no_match": {
+              "description": "Whether the notification is expected to match no contract.",
+              "type": "boolean"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "expected_no_match": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "expected_no_match"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "correct_contract_id": {
+                    "type": "null"
+                  },
+                  "correct_version_label": {
+                    "type": "null"
+                  },
+                  "correct_layer_id": {
+                    "type": "null"
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "expected_no_match": {
+                    "const": false
+                  }
+                },
+                "required": [
+                  "expected_no_match"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "correct_contract_id": {
+                    "$ref": "#/$defs/nonBlankString"
+                  },
+                  "correct_version_label": {
+                    "$ref": "#/$defs/nonBlankString"
+                  },
+                  "correct_layer_id": {
+                    "$ref": "#/$defs/nonBlankString"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "qa": {
+          "description": "Gold wording questions, or null when question answering is not evaluated; question_id uniqueness is checked in Python.",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "#/$defs/qaItem"
+          }
+        },
+        "triage": {
+          "description": "Gold triage labels, or null when triage is not evaluated.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "priority",
+            "missing_information",
+            "notice_deadline_missed"
+          ],
+          "properties": {
+            "priority": {
+              "type": "string",
+              "enum": [
+                "low",
+                "medium",
+                "high",
+                "urgent"
+              ]
+            },
+            "missing_information": {
+              "$ref": "#/$defs/nonBlankStringArray"
+            },
+            "notice_deadline_missed": {
+              "description": "Null when the contract cannot determine whether the notice deadline was missed.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        },
+        "drafting": {
+          "description": "Gold drafting rubric, or null when drafting is not evaluated.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "additionalProperties": false,
+          "required": [
+            "draft_type",
+            "required_points",
+            "forbidden_claims"
+          ],
+          "properties": {
+            "draft_type": {
+              "type": "string",
+              "enum": [
+                "acknowledgement",
+                "information_request",
+                "status_update"
+              ]
+            },
+            "required_points": {
+              "description": "Points the draft must cover.",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/nonBlankString"
+              }
+            },
+            "forbidden_claims": {
+              "$ref": "#/$defs/nonBlankStringArray"
+            }
+          }
+        }
+      }
+    },
+    "label_notes": {
+      "description": "Notes for labels about which a labeller is uncertain; QA cross-references are checked in Python.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/labelNote"
+      }
+    }
+  },
+  "$defs": {
+    "nonBlankString": {
+      "description": "A string containing at least one non-whitespace character.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "nullableNonBlankString": {
+      "description": "A non-blank string or null.",
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "\\S"
+    },
+    "nullableDate": {
+      "description": "An ISO 8601 calendar date or null; format validation checks real calendar dates.",
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "nonBlankStringArray": {
+      "description": "An array of non-blank strings; it may be empty unless a using schema sets minItems.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nonBlankString"
+      }
+    },
+    "money": {
+      "description": "A non-negative decimal amount stored as a string and a three-letter uppercase currency code.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "amount",
+        "currency"
+      ],
+      "properties": {
+        "amount": {
+          "description": "Decimal amount with at most four decimal places, never a JSON number.",
+          "type": "string",
+          "pattern": "^[0-9]+(\\.[0-9]{1,4})?$"
+        },
+        "currency": {
+          "description": "Three uppercase currency-code letters.",
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        }
+      }
+    },
+    "nullableMoney": {
+      "description": "A money object or null.",
+      "type": [
+        "object",
+        "null"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "type": "object"
+          },
+          "then": {
+            "$ref": "#/$defs/money"
+          }
+        }
+      ]
+    },
+    "extractionFieldName": {
+      "description": "One of the 16 extraction fields; uncertain_fields itself is not an extraction field.",
+      "type": "string",
+      "enum": [
+        "cedent_name",
+        "treaty_references",
+        "date_of_loss",
+        "date_of_notification",
+        "loss_description",
+        "estimated_loss_amount",
+        "cedent_claim_reference",
+        "original_insured_name",
+        "territory_or_country",
+        "peril_or_cause",
+        "loss_location",
+        "sender_name",
+        "sender_role",
+        "cedent_notes",
+        "paid_to_date",
+        "outstanding_reserve"
+      ]
+    },
+    "sourceDocument": {
+      "description": "One source document and its relative corpus location.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "document_id",
+        "document_type",
+        "corpus_path"
+      ],
+      "properties": {
+        "document_id": {
+          "$ref": "#/$defs/nonBlankString"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "email",
+            "pdf",
+            "other"
+          ]
+        },
+        "corpus_path": {
+          "description": "Non-blank relative path that neither starts with a slash nor contains two consecutive dots.",
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\.)(?=.*\\S).*$"
+        }
+      }
+    },
+    "matchingAlternative": {
+      "description": "An alternative correct contract, version and layer combination.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contract_id",
+        "version_label",
+        "layer_id"
+      ],
+      "properties": {
+        "contract_id": {
+          "$ref": "#/$defs/nonBlankString"
+        },
+        "version_label": {
+          "$ref": "#/$defs/nonBlankString"
+        },
+        "layer_id": {
+          "$ref": "#/$defs/nonBlankString"
+        }
+      }
+    },
+    "qaItem": {
+      "description": "One gold wording question, its answerability, answer summary and supporting clauses.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question_id",
+        "question",
+        "answerable",
+        "expected_answer_summary",
+        "required_clause_ids"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        },
+        "question": {
+          "$ref": "#/$defs/nonBlankString"
+        },
+        "answerable": {
+          "type": "boolean"
+        },
+        "expected_answer_summary": {
+          "$ref": "#/$defs/nullableNonBlankString"
+        },
+        "required_clause_ids": {
+          "$ref": "#/$defs/nonBlankStringArray"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "answerable": {
+                "const": true
+              }
+            },
+            "required": [
+              "answerable"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected_answer_summary": {
+                "$ref": "#/$defs/nonBlankString"
+              },
+              "required_clause_ids": {
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "answerable": {
+                "const": false
+              }
+            },
+            "required": [
+              "answerable"
+            ]
+          },
+          "then": {
+            "properties": {
+              "expected_answer_summary": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "labelNote": {
+      "description": "A note attached to one labelled block, including whether the labeller was certain.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block",
+        "item_id",
+        "certain",
+        "note"
+      ],
+      "properties": {
+        "block": {
+          "type": "string",
+          "enum": [
+            "extraction",
+            "matching",
+            "qa",
+            "triage",
+            "drafting"
+          ]
+        },
+        "item_id": {
+          "description": "Extraction field, QA question_id, or the literal block name for matching, triage or drafting.",
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "certain": {
+          "type": "boolean"
+        },
+        "note": {
+          "$ref": "#/$defs/nonBlankString"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "block": {
+                "const": "extraction"
+              }
+            },
+            "required": [
+              "block"
+            ]
+          },
+          "then": {
+            "properties": {
+              "item_id": {
+                "$ref": "#/$defs/extractionFieldName"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "block": {
+                "const": "qa"
+              }
+            },
+            "required": [
+              "block"
+            ]
+          },
+          "then": {
+            "properties": {
+              "item_id": {
+                "pattern": "^Q[0-9]+$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "block": {
+                "const": "matching"
+              }
+            },
+            "required": [
+              "block"
+            ]
+          },
+          "then": {
+            "properties": {
+              "item_id": {
+                "const": "matching"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "block": {
+                "const": "triage"
+              }
+            },
+            "required": [
+              "block"
+            ]
+          },
+          "then": {
+            "properties": {
+              "item_id": {
+                "const": "triage"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "block": {
+                "const": "drafting"
+              }
+            },
+            "required": [
+              "block"
+            ]
+          },
+          "then": {
+            "properties": {
+              "item_id": {
+                "const": "drafting"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
