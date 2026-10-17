@@ -1,0 +1,276 @@
+{
+  "seed": 20261017,
+  "generator_version": "1.0.0",
+  "contracts": [
+    {
+      "contract_id": "FICT-TRT-001",
+      "cedent": "CED-A",
+      "file": "wordings/FICT-TRT-001.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A1",
+          "type": "hours_clause_conflict",
+          "location": "version 2025-01; section S2; clause C10",
+          "description": "The occurrence clause uses 72 hours while the event clause uses 48 hours.",
+          "authoritative_value": "72 hours",
+          "expected_effect": "Gold labels must flag the hours conflict instead of selecting a single occurrence period."
+        },
+        {
+          "ambiguity_id": "A2",
+          "type": "notice_term_mismatch",
+          "location": "version 2025-01; section S3; clause C20",
+          "description": "The claims cooperation clause allows 21 days while the general conditions allow 14 days.",
+          "authoritative_value": "14 days",
+          "expected_effect": "triage: notice_deadline_missed must be null when the notice period is ambiguous."
+        },
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2025-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-002",
+      "cedent": "CED-A",
+      "file": "wordings/FICT-TRT-002.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2025-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        },
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2025-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in EUR while the clause states it in USD.",
+          "authoritative_value": "USD 2000000.00",
+          "expected_effect": "Gold labels must use USD 2000000.00 as the limit and flag the schedule currency conflict."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-003",
+      "cedent": "CED-B",
+      "file": "wordings/FICT-TRT-003.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A2",
+          "type": "notice_term_mismatch",
+          "location": "version 2024-01; section S3; clause C20",
+          "description": "The claims cooperation clause allows 52 days while the general conditions allow 45 days.",
+          "authoritative_value": "45 days",
+          "expected_effect": "triage: notice_deadline_missed must be null when the notice period is ambiguous."
+        },
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2024-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        },
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2024-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in USD while the clause states it in GBP.",
+          "authoritative_value": "GBP 1000000.00",
+          "expected_effect": "Gold labels must use GBP 1000000.00 as the limit and flag the schedule currency conflict."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-004",
+      "cedent": "CED-B",
+      "file": "wordings/FICT-TRT-004.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A2",
+          "type": "notice_term_mismatch",
+          "location": "version 2024-01; section S3; clause C20",
+          "description": "The claims cooperation clause allows 37 days while the general conditions allow 30 days.",
+          "authoritative_value": "30 days",
+          "expected_effect": "triage: notice_deadline_missed must be null when the notice period is ambiguous."
+        },
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2024-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in EUR while the clause states it in USD.",
+          "authoritative_value": "USD 5000000.00",
+          "expected_effect": "Gold labels must use USD 5000000.00 as the limit and flag the schedule currency conflict."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-005",
+      "cedent": "CED-A",
+      "file": "wordings/FICT-TRT-005.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A2",
+          "type": "notice_term_mismatch",
+          "location": "version 2024-01; section S3; clause C20",
+          "description": "The claims cooperation clause allows 37 days while the general conditions allow 30 days.",
+          "authoritative_value": "30 days",
+          "expected_effect": "triage: notice_deadline_missed must be null when the notice period is ambiguous."
+        },
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2025-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-006",
+      "cedent": "CED-B",
+      "file": "wordings/FICT-TRT-006.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2024-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        },
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2024-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in EUR while the clause states it in USD.",
+          "authoritative_value": "USD 8000000.00",
+          "expected_effect": "Gold labels must use USD 8000000.00 as the limit and flag the schedule currency conflict."
+        },
+        {
+          "ambiguity_id": "A1",
+          "type": "hours_clause_conflict",
+          "location": "version 2024-01; section S2; clause C10",
+          "description": "The occurrence clause uses 72 hours while the event clause uses 48 hours.",
+          "authoritative_value": "72 hours",
+          "expected_effect": "Gold labels must flag the hours conflict instead of selecting a single occurrence period."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-007",
+      "cedent": "CED-C",
+      "file": "wordings/FICT-TRT-007.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2024-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in USD while the clause states it in GBP.",
+          "authoritative_value": "GBP 3000000.00",
+          "expected_effect": "Gold labels must use GBP 3000000.00 as the limit and flag the schedule currency conflict."
+        },
+        {
+          "ambiguity_id": "A1",
+          "type": "hours_clause_conflict",
+          "location": "version 2024-01; section S2; clause C10",
+          "description": "The occurrence clause uses 72 hours while the event clause uses 48 hours.",
+          "authoritative_value": "72 hours",
+          "expected_effect": "Gold labels must flag the hours conflict instead of selecting a single occurrence period."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-TRT-008",
+      "cedent": "CED-C",
+      "file": "wordings/FICT-TRT-008.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A1",
+          "type": "hours_clause_conflict",
+          "location": "version 2024-01; section S2; clause C10",
+          "description": "The occurrence clause uses 72 hours while the event clause uses 48 hours.",
+          "authoritative_value": "72 hours",
+          "expected_effect": "Gold labels must flag the hours conflict instead of selecting a single occurrence period."
+        },
+        {
+          "ambiguity_id": "A2",
+          "type": "notice_term_mismatch",
+          "location": "version 2024-01; section S3; clause C20",
+          "description": "The claims cooperation clause allows 67 days while the general conditions allow 60 days.",
+          "authoritative_value": "60 days",
+          "expected_effect": "triage: notice_deadline_missed must be null when the notice period is ambiguous."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-FAC-001",
+      "cedent": "CED-D",
+      "file": "wordings/FICT-FAC-001.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2024-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        },
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2024-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in EUR while the clause states it in USD.",
+          "authoritative_value": "USD 1000000.00",
+          "expected_effect": "Gold labels must use USD 1000000.00 as the limit and flag the schedule currency conflict."
+        },
+        {
+          "ambiguity_id": "A2",
+          "type": "notice_term_mismatch",
+          "location": "version 2024-01; section S3; clause C20",
+          "description": "The claims cooperation clause sets 14 days while the general conditions require prompt notice.",
+          "authoritative_value": "Prompt notice after receipt by the claims committee",
+          "expected_effect": "triage: notice_deadline_missed must be null when the notice period is ambiguous."
+        }
+      ]
+    },
+    {
+      "contract_id": "FICT-FAC-002",
+      "cedent": "CED-D",
+      "file": "wordings/FICT-FAC-002.md",
+      "ambiguities": [
+        {
+          "ambiguity_id": "A4",
+          "type": "endorsement_reversal",
+          "location": "version 2024-01; section S5; clause C41",
+          "description": "The endorsement reverses the computer-system exclusion for named offices but leaves business interruption scope unclear.",
+          "authoritative_value": "Named-office unauthorised access is covered; associated business interruption is unresolved",
+          "expected_effect": "Gold labels must mark the endorsement scope as ambiguous rather than removing the whole exclusion."
+        },
+        {
+          "ambiguity_id": "A1",
+          "type": "hours_clause_conflict",
+          "location": "version 2024-01; section S2; clause C10",
+          "description": "The occurrence clause uses 72 hours while the event clause uses 48 hours.",
+          "authoritative_value": "72 hours",
+          "expected_effect": "Gold labels must flag the hours conflict instead of selecting a single occurrence period."
+        },
+        {
+          "ambiguity_id": "A3",
+          "type": "currency_mismatch",
+          "location": "version 2024-01; section S1; schedule statement A3",
+          "description": "The schedule states the layer L1 limit in GBP while the clause states it in EUR.",
+          "authoritative_value": "EUR 4000000.00",
+          "expected_effect": "Gold labels must use EUR 4000000.00 as the limit and flag the schedule currency conflict."
+        }
+      ]
+    }
+  ]
+}
