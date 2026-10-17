@@ -23,6 +23,7 @@ from data.generators.notifications import (
     DIFFERENCE_SEED,
     EXPECTED_SPLIT_COUNTS,
     EXTRACTION_FIELDS,
+    GoldOverwriteError,
     INJECTION_TEXTS,
     LABEL_SYNONYMS,
     NON_ADVERSARIAL_COUNTS,
@@ -665,12 +666,14 @@ def document_text(record_id, document):
     return email_text(record_id) if document == "email" else attachment_text(record_id)
 
 
-def test_31_regeneration_leaves_every_gold_record_byte_identical_to_head(tmp_path):
+def test_31_regeneration_leaves_every_single_labelled_gold_record_byte_identical_to_head(tmp_path):
     generate_corpus(out=tmp_path, seed=DEFAULT_SEED)
     for index in range(SUPPORTED_COUNT):
         record_id = f"GN-{1001 + index:04d}"
         relative = f"evals/gold/records/{record_id}.json"
         expected = head_file_bytes(relative)
+        if json.loads(expected)["provenance"]["label_status"] != "single":
+            continue
         assert (ROOT / relative).read_bytes() == expected
         assert (tmp_path / relative).read_bytes() == expected
 
@@ -901,3 +904,17 @@ def test_47_runner_default_output_name_remains_baseline_regex_v1(tmp_path):
     report = load_gold(path)
     assert path.name == "baseline-regex-v1__dev.json"
     assert report["prompt_version"] == "baseline-regex-v1"
+
+
+def test_48_generator_refuses_to_overwrite_gold_record_and_preserves_bytes(tmp_path):
+    record = head_json("evals/gold/records/GN-1001.json")
+    record["provenance"]["label_status"] = "gold"
+    gold_path = tmp_path / "evals" / "gold" / "records" / "GN-1001.json"
+    gold_path.parent.mkdir(parents=True)
+    original = (json.dumps(record, indent=2, ensure_ascii=False) + "\n").encode("utf-8")
+    gold_path.write_bytes(original)
+
+    with pytest.raises(GoldOverwriteError, match="GN-1001"):
+        generate_corpus(out=tmp_path, seed=DEFAULT_SEED)
+
+    assert gold_path.read_bytes() == original

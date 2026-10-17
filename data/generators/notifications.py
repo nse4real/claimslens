@@ -1047,6 +1047,10 @@ def write_text(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8", newline="\n")
 
 
+class GoldOverwriteError(RuntimeError):
+    pass
+
+
 def generate_corpus(
     out: str | Path = ROOT,
     seed: int = DEFAULT_SEED,
@@ -1059,6 +1063,13 @@ def generate_corpus(
     output_root = Path(out)
     notifications_dir = output_root / "data" / "corpus" / "notifications"
     gold_dir = output_root / "evals" / "gold" / "records"
+    for scenario in scenarios:
+        record_id = scenario["record_id"]
+        existing_path = gold_dir / f"{record_id}.json"
+        if existing_path.is_file():
+            existing = json.loads(existing_path.read_text(encoding="utf-8"))
+            if existing.get("provenance", {}).get("label_status") == "gold":
+                raise GoldOverwriteError(f"Refusing to overwrite gold record {record_id}")
     if notifications_dir.exists():
         shutil.rmtree(notifications_dir)
     if gold_dir.exists():
