@@ -1,0 +1,124 @@
+{
+  "contract_id": "FICT-TRT-001",
+  "placement_basis": "treaty",
+  "structure_type": "excess_of_loss",
+  "cedent_name": "Example Cedent Ltd (fictional)",
+  "versions": [
+    {
+      "version_label": "2024-01",
+      "effective_from": "2024-01-01",
+      "effective_to": "2025-01-01",
+      "sections": [
+        {
+          "section_id": "S1",
+          "title": "Layer terms",
+          "clauses": [
+            {
+              "clause_id": "C1",
+              "text": "Notice of loss shall be given within 30 days.",
+              "source_document_id": "doc-w1",
+              "location": "page 2, paragraph 1"
+            }
+          ]
+        },
+        {
+          "section_id": "S2",
+          "title": "Exclusions",
+          "clauses": [
+            {
+              "clause_id": "C2",
+              "text": "War is excluded.",
+              "source_document_id": "doc-w1",
+              "location": "page 4, paragraph 1"
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "layer_id": "L1",
+          "section_id": "S1",
+          "currency": "GBP",
+          "retention": {
+            "amount": "1000000.00",
+            "currency": "GBP"
+          },
+          "limit": {
+            "amount": "5000000.00",
+            "currency": "GBP"
+          },
+          "share_percent": "100",
+          "inception": "2024-01-01",
+          "expiry": "2024-12-31"
+        },
+        {
+          "layer_id": "L2",
+          "section_id": "S1",
+          "currency": "GBP",
+          "retention": {
+            "amount": "6000000.00",
+            "currency": "GBP"
+          },
+          "limit": {
+            "amount": "10000000.00",
+            "currency": "GBP"
+          },
+          "share_percent": "100",
+          "inception": "2024-01-01",
+          "expiry": "2024-12-31"
+        }
+      ],
+      "notice_rules": [
+        {
+          "trigger": "loss_date",
+          "period_days": 30,
+          "clause_id": "C1"
+        }
+      ]
+    },
+    {
+      "version_label": "2025-01",
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "sections": [
+        {
+          "section_id": "S1",
+          "title": "Layer terms",
+          "clauses": [
+            {
+              "clause_id": "C3",
+              "text": "Notice of loss shall be given within 14 days.",
+              "source_document_id": "doc-w2",
+              "location": "page 2, paragraph 1"
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "layer_id": "L1",
+          "section_id": "S1",
+          "currency": "GBP",
+          "retention": {
+            "amount": "1000000.00",
+            "currency": "GBP"
+          },
+          "limit": {
+            "amount": "5000000.00",
+            "currency": "GBP"
+          },
+          "share_percent": "100",
+          "inception": "2025-01-01",
+          "expiry": "2025-12-31"
+        }
+      ],
+      "notice_rules": [
+        {
+          "trigger": "loss_date",
+          "period_days": 14,
+          "clause_id": "C3"
+        }
+      ]
+    }
+  ]
+}

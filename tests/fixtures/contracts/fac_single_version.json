@@ -1,0 +1,50 @@
+{
+  "contract_id": "FICT-FAC-001",
+  "placement_basis": "facultative",
+  "structure_type": "quota_share",
+  "cedent_name": "Example Cedent Two (fictional)",
+  "versions": [
+    {
+      "version_label": "single",
+      "effective_from": "2024-06-01",
+      "effective_to": null,
+      "sections": [
+        {
+          "section_id": "S1",
+          "title": "Terms",
+          "clauses": [
+            {
+              "clause_id": "C1",
+              "text": "Cession share is 40 percent.",
+              "source_document_id": "doc-f1",
+              "location": "page 1, paragraph 3"
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "layer_id": "L1",
+          "section_id": "S1",
+          "currency": "USD",
+          "retention": null,
+          "limit": {
+            "amount": "2000000.00",
+            "currency": "USD"
+          },
+          "share_percent": "40",
+          "inception": "2024-06-01",
+          "expiry": "2025-05-31"
+        }
+      ],
+      "notice_rules": [
+        {
+          "trigger": "other",
+          "trigger_description": "Notice within 7 days of knowledge, per fictional clause",
+          "period_days": null,
+          "clause_id": "C1"
+        }
+      ]
+    }
+  ]
+}
